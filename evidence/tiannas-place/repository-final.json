@@ -1,10 +1,20 @@
 {
-  "renamePerformed": false,
-  "reason": "Vercel GitHub App connection/access not verifiable with available credentials",
+  "checkedAt": "2026-09-22T00:30:18.211Z",
+  "renamePerformed": true,
+  "mutation": {
+    "command": "gh api --method PATCH repos/mchen04/flacid-75 -f name=tiannas-place",
+    "fieldsChanged": [
+      "name"
+    ],
+    "codePushed": false,
+    "hostingConfigurationChanged": false
+  },
   "repository": {
     "default_branch": "main",
-    "full_name": "mchen04/flacid-75",
+    "full_name": "mchen04/tiannas-place",
+    "has_pages": false,
     "homepage": "https://flaccid75.vercel.app",
+    "html_url": "https://github.com/mchen04/tiannas-place",
     "id": 1362066274,
     "permissions": {
       "admin": true,
@@ -15,17 +25,105 @@
     },
     "visibility": "public"
   },
-  "main": {
-    "name": "main",
-    "sha": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af"
-  },
-  "remote": "https://github.com/mchen04/flacid-75.git",
-  "remoteMain": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af\trefs/heads/main",
+  "access": [
+    {
+      "login": "mchen04",
+      "permissions": {
+        "admin": true,
+        "maintain": true,
+        "pull": true,
+        "push": true,
+        "triage": true
+      },
+      "role_name": "admin"
+    }
+  ],
+  "refs": [
+    "3206617ac2730756d778eef7518c99c7d543da68\trefs/heads/feat/flaccid75",
+    "5198e3978b610b61d653f160a9249e688cc412f5\trefs/heads/task/t_7531365d-my-wellness",
+    "53522f329d425b14487d279afe96f9493c406623\trefs/heads/task/t_6a6739e5",
+    "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af\trefs/heads/main"
+  ],
+  "oldGitURLResolvesToSameRefs": true,
+  "oldAPIResolvesToSameRepository": true,
+  "priorPR2CommitPreserved": true,
+  "localHead": "daf76d9f1a70973fc95dc4de19fdc95b1cd28d13",
+  "remote": "https://github.com/mchen04/tiannas-place.git",
+  "pushRemote": "https://github.com/mchen04/tiannas-place.git",
+  "redirects": [
+    {
+      "oldURL": "https://github.com/mchen04/flacid-75",
+      "status": 301,
+      "location": "https://github.com/mchen04/tiannas-place",
+      "finalStatus": 200
+    },
+    {
+      "oldURL": "https://github.com/mchen04/flacid-75/pull/1",
+      "status": 301,
+      "location": "https://github.com/mchen04/tiannas-place/pull/1",
+      "finalStatus": 200
+    },
+    {
+      "oldURL": "https://github.com/mchen04/flacid-75/pull/2",
+      "status": 301,
+      "location": "https://github.com/mchen04/tiannas-place/pull/2",
+      "finalStatus": 200
+    },
+    {
+      "oldURL": "https://github.com/mchen04/flacid-75/pull/3",
+      "status": 301,
+      "location": "https://github.com/mchen04/tiannas-place/pull/3",
+      "finalStatus": 200
+    },
+    {
+      "oldURL": "https://github.com/mchen04/flacid-75/commit/693ab92933f08edb6464344742b9d4f6c9e4f538",
+      "status": 301,
+      "location": "https://github.com/mchen04/tiannas-place/commit/693ab92933f08edb6464344742b9d4f6c9e4f538",
+      "finalStatus": 200
+    }
+  ],
+  "deploymentsUnchanged": true,
+  "deployments": [
+    {
+      "environment": "Production",
+      "id": 6465386163,
+      "sha": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af"
+    },
+    {
+      "environment": "Preview",
+      "id": 6465376865,
+      "sha": "c9a4032ec5e449463b67b3d8c7accf8ec0d48b8e"
+    },
+    {
+      "environment": "Production",
+      "id": 6406406982,
+      "sha": "693ab92933f08edb6464344742b9d4f6c9e4f538"
+    },
+    {
+      "environment": "Preview",
+      "id": 6406402271,
+      "sha": "53522f329d425b14487d279afe96f9493c406623"
+    },
+    {
+      "environment": "Production",
+      "id": 6387302706,
+      "sha": "48330f8d5a848b934d3e4f913eeaaafa14d25d0a"
+    }
+  ],
   "production": {
     "url": "https://flaccid75.vercel.app/",
     "status": 200,
     "title": "My Wellness",
-    "readOnly": true,
+    "htmlSHA256": "73310257bbea1ec6464183db509cc0680ec1a1c49bc54568140d45f6bdc9bd7d",
+    "serviceWorkerSHA256": "3a9d3ea79cce035852ee3a9da617559880132cedcdfe32e6e76b343dc1234cb2",
+    "publicHTMLAndServiceWorkerUnchanged": true,
     "accountRequests": 0
-  }
+  },
+  "localApp": {
+    "url": "http://localhost:3075",
+    "status": 200,
+    "title": "Tianna’s Place",
+    "existingBuildRestarted": true
+  },
+  "supervisorPostRenameVercelCheck": "Pending independent supervisor read of the stable numeric binding/live URL, as assigned by the user; no credentials requested or transferred."
 }

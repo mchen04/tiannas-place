@@ -1,0 +1,31 @@
+{
+  "renamePerformed": false,
+  "reason": "Vercel GitHub App connection/access not verifiable with available credentials",
+  "repository": {
+    "default_branch": "main",
+    "full_name": "mchen04/flacid-75",
+    "homepage": "https://flaccid75.vercel.app",
+    "id": 1362066274,
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "visibility": "public"
+  },
+  "main": {
+    "name": "main",
+    "sha": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af"
+  },
+  "remote": "https://github.com/mchen04/flacid-75.git",
+  "remoteMain": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af\trefs/heads/main",
+  "production": {
+    "url": "https://flaccid75.vercel.app/",
+    "status": 200,
+    "title": "My Wellness",
+    "readOnly": true,
+    "accountRequests": 0
+  }
+}
