@@ -31,9 +31,9 @@ function DoneCard({title, detail}: {title: string; detail: string}) {
  return <div className="card done-card"><span className="done-mark"><Icon name="check" size={22}/></span><div><strong>{title}</strong><p>{detail}</p></div></div>;
 }
 function HabitToggle({habit, finish}: {habit: 'walk' | 'workout' | 'abs' | 'floss'; finish?: () => void}) {
- const {done, change} = useApp(); const id = useId(); const labelId = id + '-label';
+ const {done, change, bump} = useApp(); const id = useId(); const labelId = id + '-label';
  const label = `${habit[0].toUpperCase()}${habit.slice(1)} complete`;
- return <div className="completion-row"><label htmlFor={id}><span id={labelId}>{label}</span></label><CompletionToggle id={id} labelledBy={labelId} label={label} checked={done[habit]} onChange={() => {if (!done[habit] && finish) finish(); else change({type: 'check', habit, value: !done[habit]});}}/></div>;
+ return <div className="completion-row"><label htmlFor={id}><span id={labelId}>{label}</span></label><CompletionToggle id={id} labelledBy={labelId} label={label} checked={done[habit]} onChange={() => {if (!done[habit] && finish) finish(); else if (change({type: 'check', habit, value: !done[habit]})) bump(habit);}}/></div>;
 }
 function WeekStrip({habit, label}: {habit: Habit | 'rest'; label: string}) {
  const {state, dayKey, today, day, done} = useApp();
@@ -58,11 +58,11 @@ export function Walk() {
   <div className={`stage walk ${done.walk ? 'is-done' : ''} ${running ? 'is-active' : ''}`}><Hills phase="day" walked={done.walk} progress={done.walk ? 1 : share}/><span className="stage-copy"><strong>{running ? 'Walking.' : timer ? 'Paused.' : done.walk ? 'Walked.' : selected ? 'A walk that day.' : 'A walk today.'}</strong><span>{entries.length ? `${Math.round(total / 60)} minutes total` : `Target: ${Math.round(target / 60)} minutes`}</span></span></div>
   <HabitToggle habit="walk" finish={timer && timer.day === dayKey ? finish : undefined}/>
   {!selected && (stale ? <StaleCard timer={timer} elapsed={elapsed} label="Walk" onFinish={finish}/> : <>
-   <div className="card timer-card"><Dial share={share}><strong className="dial-time" aria-live={running ? 'off' : 'polite'} aria-label={`Walk time ${clock(elapsed)}`}>{clock(elapsed)}</strong><span>{running ? 'walking' : timer ? 'paused' : 'ready'}</span></Dial><p className="fine-print">Counts for {dayKey === timer?.day || !timer ? 'today' : shortDate(timer.day)}. Keeps counting while locked. No chime or buzz plays while locked.{elapsed > maxSessionSeconds ? ' Sessions over 24 hours log as 24 hours.' : ''}</p></div>
    <Controls timerKey="walk" running={running} hasTimer={!!timer} onFinish={finish}/>
+   <div className="card timer-card"><Dial share={share}><strong className={`dial-time ${elapsed >= 3600 ? 'is-long' : ''}`} aria-live={running ? 'off' : 'polite'} aria-label={`Walk time ${clock(elapsed)}`}>{clock(elapsed)}</strong><span>{running ? 'walking' : timer ? 'paused' : 'ready'}</span></Dial><p className="fine-print">Counts for {dayKey === timer?.day || !timer ? 'today' : shortDate(timer.day)}. Keeps counting while locked. No chime or buzz plays while locked.{elapsed > maxSessionSeconds ? ' Sessions over 24 hours log as 24 hours.' : ''}</p></div>
   </>)}
   <form className="card list" onSubmit={e => {e.preventDefault(); const now = Date.now(); if (now - lastLog.current < 600 || minutes === '') return; if (change({type: 'session', habit: 'walk', seconds: Number(minutes) * 60, done: true})) {lastLog.current = now; setMinutes(''); bump('walk');}}}>
-   <label>Walk minutes<input ref={minuteField} type="number" min="0" max="1440" step="0.1" required value={minutes} onChange={e => setMinutes(e.target.value)}/></label><button className="primary">Log walk</button>
+   <label>Walk minutes<input ref={minuteField} type="number" inputMode="decimal" min="0" max="1440" step="0.1" required value={minutes} onChange={e => setMinutes(e.target.value)}/></label><button className="primary">Log walk</button>
   </form>
   {entries.length > 0 && <div className="card list" role="group" aria-label="Walk entries"><div className="card-head"><h2>Walks</h2><strong>{clock(total)} total</strong></div>{entries.map(([id, entry], i) => <div className="meal-row" key={id}><div><strong>Walk {i + 1}</strong><p>{clock(entry.seconds)}</p></div><button ref={el => {if (el) removeButtons.current.set(id, el); else removeButtons.current.delete(id);}} aria-label={`Remove walk ${i + 1}`} onClick={() => removeWalk(id, i)}><Icon name="close" size={16}/>Remove</button></div>)}</div>}
   <WeekStrip habit="walk" label="Walks"/>
@@ -83,12 +83,12 @@ export function Workout() {
   <HabitToggle habit="workout" finish={timer && timer.day === dayKey ? finish : undefined}/>
   {done.workout ? <DoneCard title="Workout logged" detail={session ? `${session.items?.length ? session.items.join(', ') + '. ' : ''}${session.seconds ? clock(session.seconds) : 'No timer'}.` : 'Marked done.'}/>
   : <>
+   {selected ? null : stale ? <StaleCard timer={timer} elapsed={elapsed} label="Workout" onFinish={finish}/>
+   : <Controls timerKey="workout" running={running} hasTimer={!!timer} onFinish={finish} finishLabel="Finish"/>}
    <div className="card checklist" role="group" aria-label="Workout checklist">
     <div className="card-head"><h2>{selected ? 'That day’s plan' : 'Today’s plan'}</h2><button className="text-button" onClick={() => open('plan')}><Icon name="edit" size={16}/>Edit plan</button></div>
     {plan.map(item => <label key={item} className={`check-row ${checked.has(item) ? 'is-done' : ''}`}><input type="checkbox" checked={checked.has(item)} disabled={!!selected || stale} onChange={() => toggleItem(item)}/><span className="check-box"><Icon name="check" size={14}/></span><span>{item}</span></label>)}
    </div>
-   {selected ? null : stale ? <StaleCard timer={timer} elapsed={elapsed} label="Workout" onFinish={finish}/>
-   : <Controls timerKey="workout" running={running} hasTimer={!!timer} onFinish={finish} finishLabel="Finish"/>}
   </>}
   <WeekStrip habit="workout" label="Workouts"/>
  </section>;
@@ -111,13 +111,13 @@ export function Abs() {
   {done.abs ? <DoneCard title="Abs logged" detail={session ? `${session.routine ?? 'Routine'} · ${clock(session.seconds)}.` : 'Marked done.'}/>
   : stale ? <StaleCard timer={timer} elapsed={elapsed} label="Abs" onFinish={finish}/>
   : timer ? <>
+   <Controls timerKey="abs" running={running} hasTimer onFinish={finish} finishLabel="Finish early"/>
    <div className={`card guide ${phase.interval.kind}`}>
     <Dial share={1 - phase.remaining / phase.interval.seconds} tone={phase.interval.kind === 'rest' ? 'is-rest' : ''}><strong className="dial-time" aria-label={`${Math.ceil(phase.remaining)} seconds left`}>{Math.ceil(phase.remaining)}</strong><span>{phase.interval.kind}</span></Dial>
     <div className="guide-copy"><h2>{phase.interval.kind === 'rest' ? 'Breathe.' : phase.interval.exercise.name}</h2><p>{phase.interval.kind === 'rest' ? `Up next: ${phase.interval.next?.name}. ${phase.interval.next?.cue ?? ''}` : phase.interval.exercise.cue}</p></div>
     <div className="guide-steps" aria-hidden="true">{intervals.map((iv, i) => <i key={i} className={`${iv.kind} ${i < phase.index ? 'is-past' : i === phase.index ? 'is-now' : ''}`}/>)}</div>
     <p className="fine-print">{clock(Math.max(0, total - elapsed))} left of {clock(total)}{soundOn() ? ' · sound on' : ' · sound off (Settings)'}</p>
    </div>
-   <Controls timerKey="abs" running={running} hasTimer onFinish={finish} finishLabel="Finish early"/>
    <button className="text-button" onClick={() => clearTimer('abs')}>Stop without logging</button>
   </> : <>
    <div className="card list library" role="group" aria-label="Ab routines">{routines.map(r => <button key={r.id} className="library-row" onClick={() => {if (selected) return; void prime(); startTimer('abs', dayKey, {routine: r.id}); buzz();}} disabled={!!selected}><span className="row-copy"><span className="row-title">{r.name}</span><span className="row-status">{r.note}</span><span className="row-status">{r.exercises.map(e => e.name).join(' · ')}</span></span><span className="library-time">{clock(routineSeconds(r))}<Icon name="play" size={16}/></span></button>)}</div>

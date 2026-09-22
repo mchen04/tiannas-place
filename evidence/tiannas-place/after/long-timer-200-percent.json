@@ -1,0 +1,10 @@
+{
+  "text": "26:00:01",
+  "fontSize": "52px",
+  "width": 245,
+  "scrollWidth": 245,
+  "height": 52,
+  "scrollHeight": 61,
+  "overflow": "visible",
+  "note": "Synthetic 26-hour paused timer at 200% root font size, desktop Chromium at 320 CSS pixels. Measurements before expansion. Element screenshots expand the page scroller to show the complete card, as the full scrolling captures do."
+}

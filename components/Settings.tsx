@@ -27,7 +27,7 @@ export function You({notice, failed}: {notice: string; failed: Failed[]}) {
    <p className="fine-print">A short chime marks interval changes and the end of a timer. Off by default; stored on this device only. Vibration follows the phone’s own settings. While the phone is locked or the app is closed, the count stays right but no chime or buzz can play; cues catch up when you come back.</p>
   </div>
   <div className="card list">{[['targets', 'Daily targets'], ['setup', 'Your details'], ['weight', 'Weigh in'], ['plan', 'Workout plan'], ['containers', 'Water containers'], ['treats', 'Treats'], ['about', 'How targets are set']].map(([key, label]) => <button key={key} className="setting-row" onClick={() => open(key)}><span>{label}</span><Icon name="arrow"/></button>)}<button className="setting-row" onClick={() => navigate('rules')}><span>How it works</span><Icon name="arrow"/></button><button className="setting-row" onClick={() => navigate('progress')}><span>History and progress</span><Icon name="arrow"/></button></div>
-  <div className="install-note"><Brand size={72}/><p>My Wellness · Safari: Share, then Add to Home Screen.</p></div>
+  <div className="install-note"><Brand size={72}/><p>Tianna’s Place · Safari: Share, then Add to Home Screen.</p></div>
   <button className="text-button" onClick={() => open('lock')}>Lock this device</button>
  </section>;
 }
@@ -46,7 +46,7 @@ export function Setup({initial, onSave}: {initial?: Stats & {overrides?: Partial
   const keptHeight = untouchedHeight ? initial!.height : height;
   const keptWeight = untouchedWeight ? initial!.weight : weight;
   onSave({height: keptHeight, weight: keptWeight, age: Number(f.get('age')), activity: activity as Stats['activity'], goal}, initial?.overrides ?? {}, units);}}>
- {!initial && <h1>Welcome to My Wellness.</h1>}
+ {!initial && <h1>Welcome to Tianna’s Place.</h1>}
  <div className="segmented" role="group" aria-label="Units">{([['lb', 'ftin', 'lb · ft in'], ['kg', 'cm', 'kg · cm']] as const).map(([w, h, l]) => <button type="button" key={w} className={units.weight === w ? 'active' : ''} aria-pressed={units.weight === w} onClick={() => setUnits(u => ({...u, weight: w, height: h}))}>{l}</button>)}</div>
  <div className="form-grid">
   {units.height === 'cm' ? <label>Height · cm<input key="cm" name="cm" type="number" inputMode="decimal" min="120" max="230" step="0.1" defaultValue={shown?.cm} placeholder="165" required/></label>

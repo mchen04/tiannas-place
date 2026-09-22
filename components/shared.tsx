@@ -8,7 +8,7 @@ export type Change = Operation extends infer O ? O extends Operation ? Omit<O, '
 export const todayZone = () => Intl.DateTimeFormat().resolvedOptions().timeZone;
 export const format = (n: number) => Math.round(n).toLocaleString();
 export const litres = (ml: number) => (ml / 1000).toFixed(2).replace(/\.?0+$/, '');
-export const weekInitials = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
+export const weekInitials = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
 export const longDate = (day: string) => new Intl.DateTimeFormat('en', {weekday: 'long', month: 'long', day: 'numeric', timeZone: 'UTC'}).format(new Date(day + 'T12:00:00Z'));
 export const shortDate = (day: string) => new Intl.DateTimeFormat('en', {weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC'}).format(new Date(day + 'T12:00:00Z'));
 export type Pulse = Partial<Record<Habit | 'meal' | 'rest' | 'reward' | 'meditate' | 'focus', boolean>>;

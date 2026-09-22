@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+(node:20151) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/tianna-flows.spec.ts:9:1 › Tianna acceptance journeys and measured taps (19.6s)
+
+  1 passed (20.3s)

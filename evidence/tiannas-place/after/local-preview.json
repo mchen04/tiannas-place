@@ -1,0 +1,7 @@
+{
+  "url": "http://localhost:3075/",
+  "title": "Tianna’s Place",
+  "synthetic": true,
+  "realLocalAPI": true,
+  "productionWrites": false
+}

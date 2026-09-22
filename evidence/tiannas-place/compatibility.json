@@ -1,0 +1,16 @@
+{
+  "walkingSVGUnchanged": true,
+  "walkingAnimationUnchanged": true,
+  "unchangedFiles": {
+    "lib/client-store.ts": true,
+    "lib/auth.ts": true,
+    "lib/timer.ts": true,
+    "lib/domain.ts": true,
+    "lib/db.ts": true,
+    "lib/sessions.ts": true,
+    "lib/settle.ts": true,
+    "migrations/001_initial.sql": true,
+    "vercel.json": true
+  },
+  "walkSVGHash": "c30adfbe28181483256961851ae8cde3270199a09fe859f262716f2d207f1d77"
+}

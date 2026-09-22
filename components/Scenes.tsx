@@ -100,66 +100,49 @@ export function Brand({size=512,padded=true}:{size?:number;padded?:boolean}){
  </svg>;
 }
 
-// One scene per activity page. Each is drawn on a 360×640 canvas but shown through the band y=200…640, and the stage keeps that
-// band's aspect ratio (360:440) so nothing is cropped at any width. Copy sits bottom-left and the tag bottom-right, over floor or ground;
-// the rest scene puts its copy top-left, over sky. Nothing important sits in those corners.
-// `active` runs the tap animation; `done` holds the finished pose after it ends.
-const Window=({x,y}:{x:number;y:number})=><g transform={`translate(${x} ${y})`}><rect width="104" height="120" rx="16" fill={c.skySoft}/><circle cx="70" cy="36" r="18" fill={c.butter}/><path d="M0 84c22-16 40-16 52-6s30 8 52-10v36q0 16-16 16H16Q0 120 0 104z" fill={c.sageSoft}/><rect x="48" y="0" width="8" height="120" fill={c.card} opacity=".7"/><rect x="0" y="56" width="104" height="8" fill={c.card} opacity=".7"/><rect width="104" height="120" rx="16" fill="none" stroke={c.card} strokeWidth="7"/></g>;
-const Plant=({x,y,s=1}:{x:number;y:number;s?:number})=><g transform={`translate(${x} ${y}) scale(${s})`}><path d="M0 0q-30-18-24-52 26 4 26 34" fill={c.sage}/><path d="M2 0q28-22 22-56-28 8-26 38" fill={c.sageDeep}/><path d="M-22 0h46l-6 40q-1 8-9 8h-16q-8 0-9-8z" fill={c.cocoaSoft}/></g>;
+// Compact original SVG companions use the same palette as the hills. The walk art above is unchanged.
 export function Gym({done=false,active=false}:{done?:boolean;active?:boolean}){
- return <svg className={`scene gym ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 200 360 440" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-  <rect width="360" height="640" fill={c.butterSoft}/>
-  <g className="gym-clock"><circle cx="180" cy="150" r="38" fill={c.card}/><circle cx="180" cy="150" r="38" fill="none" stroke={c.cocoaSoft} strokeWidth="7"/><path d="M180 128v24l16 10" stroke={c.ink2} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" fill="none"/></g>
-  <rect x="0" y="556" width="360" height="84" fill={c.cocoaSoft}/><rect x="0" y="556" width="360" height="8" fill={c.cocoa} opacity=".2"/>
-  <Plant x={250} y={556} s={.9}/>
-  <g opacity=".9"><rect x="288" y="524" width="54" height="12" rx="6" fill={c.cocoa} opacity=".5"/><circle cx="292" cy="530" r="14" fill={c.ink2}/><circle cx="338" cy="530" r="14" fill={c.ink2}/></g>
-  <ellipse cx="180" cy="558" rx="78" ry="11" fill={c.cocoa} opacity=".2"/>
-  <g className="lifter">
-   <g className="lift-arms"><rect x="138" y="292" width="19" height="150" rx="9" fill={c.accentDeep}/><rect x="203" y="292" width="19" height="150" rx="9" fill={c.accentDeep}/></g>
-   <rect x="148" y="452" width="22" height="106" rx="11" fill={c.ink2}/><rect x="190" y="452" width="22" height="106" rx="11" fill={c.ink2}/>
-   <rect x="146" y="368" width="68" height="118" rx="32" fill={c.accent}/>
-   <circle cx="180" cy="338" r="31" fill={c.cocoa}/>
-   <circle cx="170" cy="334" r="4" fill={c.card}/><circle cx="192" cy="334" r="4" fill={c.card}/>
-   <path d="M170 350q10 7 20 0" stroke={c.card} strokeWidth="4" strokeLinecap="round" fill="none"/>
-   <g className="barbell"><rect x="60" y="286" width="240" height="16" rx="8" fill={c.ink2}/>
-    <rect x="52" y="258" width="26" height="72" rx="11" fill={c.accentDeep}/><rect x="282" y="258" width="26" height="72" rx="11" fill={c.accentDeep}/>
-    <rect x="86" y="270" width="17" height="48" rx="8" fill={c.ink}/><rect x="257" y="270" width="17" height="48" rx="8" fill={c.ink}/></g>
+ return <svg className={`scene gym ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 0 360 160" aria-hidden="true">
+  <rect width="360" height="160" fill={c.butterSoft}/>
+  <circle cx="72" cy="48" r="23" fill={c.card} opacity=".5"/>
+  <path d="M0 136q90-20 180 0t180 0v24H0z" fill={c.cocoaSoft}/>
+  <ellipse cx="180" cy="141" rx="66" ry="8" fill={c.cocoa} opacity=".15"/>
+  <path d="M216 124q54 14 42-23" fill="none" stroke={c.accent} strokeWidth="15" strokeLinecap="round"/>
+  <ellipse cx="180" cy="106" rx="43" ry="35" fill={c.accent}/>
+  <ellipse cx="180" cy="115" rx="24" ry="22" fill={c.accentSoft}/>
+  <path d="M144 73l-2-35 25 15h26l25-15-2 35z" fill={c.accent}/>
+  <ellipse cx="180" cy="75" rx="38" ry="29" fill={c.accent}/>
+  <path d="M150 48l13 10-12 8m49-8 11-10-1 18" fill={c.roseSoft}/>
+  <circle cx="168" cy="75" r="3.5" fill={c.ink}/><circle cx="192" cy="75" r="3.5" fill={c.ink}/>
+  <path d="m176 83 4 4 4-4m-4 4q-4 7-9 1m9-1q4 7 9 1" fill="none" stroke={c.ink} strokeWidth="2.5" strokeLinecap="round"/>
+  <g className="barbell"><rect x="111" y="105" width="138" height="7" rx="3.5" fill={c.ink2}/>
+   <rect x="106" y="94" width="15" height="28" rx="6" fill={c.sageDeep}/><rect x="239" y="94" width="15" height="28" rx="6" fill={c.sageDeep}/>
+   <ellipse cx="151" cy="108" rx="11" ry="9" fill={c.accentSoft}/><ellipse cx="209" cy="108" rx="11" ry="9" fill={c.accentSoft}/>
   </g>
+  <path d="m287 47 4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill={c.butter}/>
  </svg>;
 }
 export function Mat({done=false,active=false}:{done?:boolean;active?:boolean}){
- return <svg className={`scene mat ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 200 360 440" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-  <rect width="360" height="640" fill={c.lilacSoft}/>
-  <Window x={238} y={168}/>
-  <rect x="0" y="486" width="360" height="154" fill={c.cardTint}/>
-  <Plant x={318} y={620} s={1.15}/>
-  <g><rect x="196" y="536" width="30" height="62" rx="14" fill={c.sky}/><rect x="203" y="522" width="16" height="18" rx="7" fill={c.skyDeep}/></g>
-  <ellipse cx="180" cy="492" rx="152" ry="15" fill={c.lilac} opacity=".35"/>
-  <rect x="28" y="446" width="304" height="48" rx="24" fill={c.lilac}/>
-  <rect x="28" y="446" width="304" height="15" rx="8" fill={c.card} opacity=".4"/>
-  <g className="crunch-body">
-   <path d="M212 452q48-86 94-6" stroke={c.ink2} strokeWidth="38" strokeLinecap="round" fill="none"/>
-   <rect x="286" y="388" width="32" height="62" rx="16" fill={c.ink2} transform="rotate(12 302 419)"/>
-   <g className="pose pose-rest"><g>
-    <rect x="92" y="430" width="152" height="56" rx="28" fill={c.accent}/>
-    <circle cx="82" cy="442" r="36" fill={c.cocoa}/>
-    <circle cx="70" cy="434" r="4.6" fill={c.card}/><circle cx="94" cy="434" r="4.6" fill={c.card}/>
-    <path d="M70 454q12 9 24 0" stroke={c.card} strokeWidth="4.6" strokeLinecap="round" fill="none"/>
-    <path d="M150 424q-26 8-34 26" stroke={c.accentDeep} strokeWidth="22" strokeLinecap="round" fill="none"/>
-   </g></g>
-   <g className="pose pose-up" transform="rotate(36 244 458)"><g>
-    <rect x="92" y="430" width="152" height="56" rx="28" fill={c.accent}/>
-    <circle cx="82" cy="442" r="36" fill={c.cocoa}/>
-    <circle cx="70" cy="434" r="4.6" fill={c.card}/><circle cx="94" cy="434" r="4.6" fill={c.card}/>
-    <path d="M70 454q12 9 24 0" stroke={c.card} strokeWidth="4.6" strokeLinecap="round" fill="none"/>
-    <path d="M150 424q-26 8-34 26" stroke={c.accentDeep} strokeWidth="22" strokeLinecap="round" fill="none"/>
-   </g></g>
+ return <svg className={`scene mat ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 0 360 160" aria-hidden="true">
+  <rect width="360" height="160" fill={c.lilacSoft}/>
+  <circle cx="278" cy="44" r="24" fill={c.card} opacity=".55"/>
+  <rect x="54" y="125" width="252" height="16" rx="8" fill={c.lilac}/>
+  <path d="M58 130h244" stroke={c.card} strokeWidth="3" opacity=".5"/>
+  <g className="stretch-cat">
+   <path d="M228 102q45-17 37-46" fill="none" stroke={c.accent} strokeWidth="15" strokeLinecap="round"/>
+   <path d="M134 108q65-64 97-12l5 29h-23l-16-20-37 21h-39z" fill={c.accent}/>
+   <path d="M112 108q34-3 49 9l-7 10h-57z" fill={c.accentSoft}/>
+   <path d="m100 87-1-29 24 13 24-3 17-19 9 30z" fill={c.accent}/>
+   <ellipse cx="136" cy="94" rx="40" ry="28" fill={c.accent}/>
+   <path d="M115 91q5 5 10 0m17-5q5 5 10 0" stroke={c.ink} strokeWidth="3" strokeLinecap="round" fill="none"/>
+   <path d="m129 101 5 4 4-6" fill={c.ink}/>
+   <ellipse cx="115" cy="105" rx="7" ry="4" fill={c.roseSoft}/>
   </g>
-  <g className="crunch-spark">{[[96,306],[58,350],[142,268]].map(([x,y],i)=><path key={i} d={`M${x} ${y}l6 12 12 6-12 6-6 12-6-12-12-6 12-6z`} fill={c.butter}/>)}</g>
+  <path d="m70 40 4 8 8 4-8 4-4 8-4-8-8-4 8-4z" fill={c.butter}/>
  </svg>;
 }
 export function Tooth({done=false,active=false}:{done?:boolean;active?:boolean}){
- return <svg className={`scene tooth ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 200 360 440" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+ return <svg className={`scene tooth ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 200 360 440" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
   <rect width="360" height="640" fill={c.skySoft}/>
   <circle cx="180" cy="430" r="168" fill={c.card} opacity=".45"/>
   <ellipse cx="180" cy="588" rx="104" ry="15" fill={c.skyDeep} opacity=".18"/>
@@ -174,21 +157,20 @@ export function Tooth({done=false,active=false}:{done?:boolean;active?:boolean})
  </svg>;
 }
 export function NightRest({done=false,active=false}:{done?:boolean;active?:boolean}){
- return <svg className={`scene night ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 200 360 440" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-  <rect width="360" height="640" fill={c.night}/>
-  {[[54,214],[104,184],[158,230],[228,194],[292,240],[322,190],[196,270],[76,294],[268,308],[130,330],[40,352]].map(([x,y],i)=><circle key={i} className={`star st${i%4}`} cx={x} cy={y} r={i%3?2.4:3.4} fill={c.card} opacity=".85"/>)}
-  <g className="moon"><circle cx="250" cy="226" r="56" fill={c.butter} opacity=".14"/><circle cx="250" cy="226" r="36" fill={c.butterSoft}/><circle cx="265" cy="213" r="30" fill={c.night}/></g>
-  <path d="M0 470C70 438 140 434 210 448S330 446 360 430V640H0z" fill={c.nightSoft} opacity=".35"/>
-  <path d="M0 536C80 512 150 510 220 522S330 518 360 508V640H0z" fill={c.nightSoft} opacity=".65"/>
+ return <svg className={`scene night ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 0 360 160" aria-hidden="true">
+  <rect width="360" height="160" fill={c.night}/>
+  {[[38,34],[78,62],[140,26],[236,34],[314,78],[280,115]].map(([x,y],i)=><circle key={i} className={`star st${i%4}`} cx={x} cy={y} r="2" fill={c.card}/>)}
+  <circle cx="282" cy="43" r="24" fill={c.butterSoft}/><circle cx="292" cy="35" r="22" fill={c.night}/>
+  <path d="M0 137q90-22 180 0t180 0v23H0z" fill={c.nightSoft} opacity=".5"/>
+  <ellipse cx="178" cy="138" rx="84" ry="12" fill={c.lilac}/>
   <g className="sleeper">
-   <ellipse cx="184" cy="598" rx="110" ry="15" fill={c.night} opacity=".45"/>
-   <rect x="72" y="548" width="76" height="34" rx="17" fill={c.card} opacity=".85"/>
-   <path d="M140 582h124q34 0 34-22t-34-22H140z" fill={c.lilac}/>
-   <path d="M140 542h124q22 0 30 10H140z" fill={c.lilacSoft} opacity=".8"/>
-   <circle cx="116" cy="538" r="31" fill={c.cardTint}/>
-   <path d="M104 532q11 9 22 0" stroke={c.ink2} strokeWidth="4" strokeLinecap="round" fill="none"/>
-   <circle cx="140" cy="548" r="7" fill={c.rose} opacity=".45"/>
+   <ellipse cx="193" cy="111" rx="53" ry="28" fill={c.accent}/>
+   <path d="m114 105-2-32 25 14 22-3 20-20 4 42z" fill={c.accentSoft}/>
+   <ellipse cx="146" cy="109" rx="35" ry="27" fill={c.accentSoft}/>
+   <path d="M125 108q6 7 12 0m15-2q6 7 12 0" stroke={c.ink2} strokeWidth="3" strokeLinecap="round" fill="none"/>
+   <path d="m139 118 5 4 5-4" fill={c.cocoa}/>
+   <path d="M233 112q-7 30-62 15" stroke={c.accentDeep} strokeWidth="14" strokeLinecap="round" fill="none"/>
   </g>
-  <g className="zzz" fill={c.card}><text x="158" y="504" fontSize="26" fontWeight="700">z</text><text x="182" y="470" fontSize="32" fontWeight="700">z</text><text x="212" y="432" fontSize="40" fontWeight="700">z</text></g>
+  <g className="zzz" fill={c.card}><text x="176" y="77" fontSize="17" fontWeight="700">z</text><text x="198" y="58" fontSize="22" fontWeight="700">z</text></g>
  </svg>;
 }

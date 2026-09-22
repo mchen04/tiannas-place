@@ -1,0 +1,17 @@
+{
+  installabilityErrors: [],
+  manifest: {
+    id: '/',
+    name: 'Tianna’s Place',
+    short_name: 'Tianna’s Place',
+    description: 'A little care, every day. Made for Tianna.',
+    start_url: '/',
+    scope: '/',
+    display: 'standalone',
+    background_color: '#f4eee6',
+    theme_color: '#f4eee6',
+    orientation: 'portrait',
+    icons: [ [Object], [Object], [Object] ]
+  },
+  physicalInstallVerified: false
+}

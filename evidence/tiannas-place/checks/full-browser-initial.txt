@@ -1,0 +1,563 @@
+
+Running 297 tests using 1 worker
+
+(node:26977) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    1 [chromium] › tests/e2e/app.spec.ts:9:1 › gate rejects wrong passphrase and protects every write path (122ms)
+  ✓    2 [chromium] › tests/e2e/app.spec.ts:10:1 › onboarding in pounds and feet-inches, all seven one-tap habits from the dashboard, celebration, correction and calendar (5.4s)
+  ✓    3 [chromium] › tests/e2e/app.spec.ts:35:1 › offline optimistic writes, reconnect deduplication and manual fallback when the estimate fails (2.3s)
+  ✓    4 [chromium] › tests/e2e/camera.chromium.spec.ts:4:1 › camera capture reaches a correctable estimate in four actions without storing the image (1.2s)
+  ✓    5 [chromium] › tests/e2e/daily-logs-extra.spec.ts:5:1 › logged walks append to legacy time, rapid submissions add once, and completion preserves all entries (439ms)
+  ✓    6 [chromium] › tests/e2e/daily-logs-extra.spec.ts:20:1 › manual and legacy meals keep distinct descriptions, totals and edits after reload (797ms)
+  ✓    7 [chromium] › tests/e2e/daily-logs-extra.spec.ts:34:1 › every activity and rest completion control works with Enter and Space across reloads (1.8s)
+  ✓    8 [chromium] › tests/e2e/daily-logs-extra.spec.ts:48:30 › affected screens and full meal details fit a 320px mobile viewport (621ms)
+  ✓    9 [chromium] › tests/e2e/daily-logs-extra.spec.ts:48:30 › affected screens and full meal details fit a 375px mobile viewport (443ms)
+  ✓   10 [chromium] › tests/e2e/daily-logs-extra.spec.ts:64:1 › requested filler is absent while optional meditation and focus do not affect streaks (106ms)
+  ✓   11 [chromium] › tests/e2e/daily-logs-extra.spec.ts:74:1 › account key reordering cannot swap walks or meal edit targets after reload (342ms)
+  ✓   12 [chromium] › tests/e2e/daily-logs.spec.ts:4:1 › multiple walks keep earlier times after reload and allow another timer (466ms)
+  ✓   13 [chromium] › tests/e2e/daily-logs.spec.ts:22:1 › meal descriptions and item details survive creation, individual editing and reload (584ms)
+  ✓   14 [chromium] › tests/e2e/daily-logs.spec.ts:46:1 › completion has a stable checked control in both directions after reload (221ms)
+  ✓   15 [chromium] › tests/e2e/gamify.spec.ts:7:1 › a tap changes state in under 100 ms and shifts no layout, with every habit animated distinctly (164ms)
+  ✓   16 [chromium] › tests/e2e/gamify.spec.ts:22:1 › walking moves the marker along the hero path and eating animates the bowl (2.3s)
+  ✓   17 [chromium] › tests/e2e/gamify.spec.ts:29:1 › reduced motion disables every animation and transition on every page (1.1s)
+  ✓   18 [chromium] › tests/e2e/history.spec.ts:4:1 › rest in one tap with undo, two per week, planned ahead; backfill, rescue, targets and trends (1.3s)
+  ✓   19 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 390x844; vertical scroll only inside the page (9.6s)
+  ✓   20 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 375x640; vertical scroll only inside the page (9.3s)
+  ✓   21 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 1280x900; vertical scroll only inside the page (14.2s)
+  ✓   22 [chromium] › tests/e2e/review-r1.spec.ts:5:38 › R1 remove walks preserves independent completion true, totals and reload (346ms)
+  ✓   23 [chromium] › tests/e2e/review-r1.spec.ts:5:38 › R1 remove walks preserves independent completion false, totals and reload (322ms)
+  ✓   24 [chromium] › tests/e2e/review-r1.spec.ts:31:1 › R1 positive portion changes scale nutrition and persist details without changing other meals (241ms)
+  ✓   25 [chromium] › tests/e2e/review-r1.spec.ts:48:1 › R1 removing individual and last meal items clears details and totals across reload at 320 px (442ms)
+  ✓   26 [chromium] › tests/e2e/review-r1.spec.ts:68:1 › R1 zero portions remain finite, clear-and-type keeps the density, and saved zero can be corrected (357ms)
+  ✓   27 [chromium] › tests/e2e/review-r1.spec.ts:86:1 › R1 removal of a zero-valued last item clears legacy total overrides (228ms)
+  ✓   28 [chromium] › tests/e2e/review-r1.spec.ts:94:1 › R1 legacy walk removal keeps completion checked and a new entry does not resurrect it (312ms)
+  ✓   29 [chromium] › tests/e2e/review-r2.spec.ts:9:1 › R2 empty portion and blur preserve nutrition, then a new amount scales and survives reload (370ms)
+  ✓   30 [chromium] › tests/e2e/review-r2.spec.ts:23:1 › R2 editing a detailed meal focuses its description and keyboard reaches the first item (141ms)
+(node:27506) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   31 [chromium] › tests/e2e/review-r2.spec.ts:29:1 › R2 malformed model item text is grounded into a saveable meal without user repair (588ms)
+  ✓   32 [chromium] › tests/e2e/review-r2.spec.ts:42:1 › R2 malformed meal text reports a text error and can be corrected without losing nutrition (331ms)
+  ✓   33 [chromium] › tests/e2e/review-r2.spec.ts:51:1 › R2 a new estimate preserves blank portions and removal keeps the remaining item editable (452ms)
+  ✓   34 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 saved meal grams accepts decimal keystrokes and persists the exact item (335ms)
+  ✓   35 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 saved meal calories accepts decimal keystrokes and persists the exact item (286ms)
+  ✓   36 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 saved meal protein accepts decimal keystrokes and persists the exact item (306ms)
+  ✓   37 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 new meal grams accepts decimal keystrokes and persists the exact item (412ms)
+  ✓   38 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 new meal calories accepts decimal keystrokes and persists the exact item (398ms)
+  ✓   39 [chromium] › tests/e2e/review-r3.spec.ts:7:2 › R3 new meal protein accepts decimal keystrokes and persists the exact item (356ms)
+  ✓   40 [chromium] › tests/e2e/review-r3.spec.ts:25:1 › R3 numeric drafts survive decimal corrections, blank blur, and item removal (363ms)
+  ✓   41 [chromium] › tests/e2e/review-r3.spec.ts:37:1 › R3 numeric drafts retain immediate bounds in every item field (288ms)
+  ✓   42 [chromium] › tests/e2e/review-r3.spec.ts:45:1 › R3 meditation omits empty fine print but retains optional semantics and logged minutes (286ms)
+  ✘   43 [chromium] › tests/e2e/review-r3.spec.ts:54:1 › R3 estimate rejects an overlong description with a length error and keeps input guards (2.7s)
+(node:27553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   44 [chromium] › tests/e2e/review-r4.spec.ts:7:72 › R4 saved description shows exactly what saves at the ASCII limit (665ms)
+  ✓   45 [chromium] › tests/e2e/review-r4.spec.ts:7:72 › R4 saved description shows exactly what saves at the emoji limit (686ms)
+  ✓   46 [chromium] › tests/e2e/review-r4.spec.ts:7:72 › R4 manual description shows exactly what saves at the ASCII limit (795ms)
+  ✓   47 [chromium] › tests/e2e/review-r4.spec.ts:7:72 › R4 manual description shows exactly what saves at the emoji limit (938ms)
+  ✓   48 [chromium] › tests/e2e/review-r4.spec.ts:19:43 › R4 calories edits that cancel out retire the older total correction (439ms)
+  ✓   49 [chromium] › tests/e2e/review-r4.spec.ts:19:43 › R4 protein edits that cancel out retire the older total correction (480ms)
+  ✓   50 [chromium] › tests/e2e/review-r4.spec.ts:27:1 › R4 description-only and blank numeric drafts keep older total corrections (279ms)
+  ✓   51 [chromium] › tests/e2e/review-r4.spec.ts:33:1 › R4 item fieldsets name their controls through rename, removal and reload at 320px (600ms)
+  ✓   52 [chromium] › tests/e2e/review-r5.spec.ts:6:67 › R5 saved x description refuses middle overflow and preserves replacement undo (795ms)
+  ✓   53 [chromium] › tests/e2e/review-r5.spec.ts:6:67 › R5 saved 🍚 description refuses middle overflow and preserves replacement undo (799ms)
+  ✓   54 [chromium] › tests/e2e/review-r5.spec.ts:6:67 › R5 manual x description refuses middle overflow and preserves replacement undo (841ms)
+  ✓   55 [chromium] › tests/e2e/review-r5.spec.ts:6:67 › R5 manual 🍚 description refuses middle overflow and preserves replacement undo (780ms)
+  ✓   56 [chromium] › tests/e2e/review-r5.spec.ts:16:61 › R5 item removal by keyboard keeps identity and moves focus safely (686ms)
+  ✓   57 [chromium] › tests/e2e/review-r5.spec.ts:16:61 › R5 item removal by double click keeps identity and moves focus safely (552ms)
+  ✓   58 [chromium] › tests/e2e/review-r5.spec.ts:16:61 › R5 item removal by double tap keeps identity and moves focus safely (710ms)
+  ✓   59 [chromium] › tests/e2e/review-r5.spec.ts:23:1 › R5 zero portion warning clears on that item correction and Not this (479ms)
+  ✓   60 [chromium] › tests/e2e/review-r5.spec.ts:28:1 › R5 walk removal retains order, completion and keyboard focus through reload (362ms)
+  ✓   61 [chromium] › tests/e2e/review-r5.spec.ts:32:53 › R5 walk completion text activates one named checkbox in both directions (423ms)
+  ✓   62 [chromium] › tests/e2e/review-r5.spec.ts:32:53 › R5 workout completion text activates one named checkbox in both directions (563ms)
+  ✓   63 [chromium] › tests/e2e/review-r5.spec.ts:32:53 › R5 abs completion text activates one named checkbox in both directions (432ms)
+  ✓   64 [chromium] › tests/e2e/review-r5.spec.ts:32:53 › R5 floss completion text activates one named checkbox in both directions (500ms)
+  ✓   65 [chromium] › tests/e2e/review-r5.spec.ts:35:1 › R5 completed floss has no empty stage subtitle (87ms)
+  ✓   66 [chromium] › tests/e2e/review164.spec.ts:11:1 › R164-1: a change acknowledged during another tab's stale view is counted once on the account, on the device and on both screens, including after an undo and a later sync (8.7s)
+  ✓   67 [chromium] › tests/e2e/review164.spec.ts:33:1 › R164-2: an account read that began before another tab's change was acknowledged is not installed; the device keeps the acknowledged state, offline and after a reload (1.7s)
+  ✓   68 [chromium] › tests/e2e/review164.spec.ts:52:1 › R164-2b: a write answer that arrives after a newer answer was saved does not install its older state; the read that follows restores the newest (3.0s)
+  ✓   69 [chromium] › tests/e2e/review164.spec.ts:65:1 › R164-3: a refusal answered while the snapshot cannot be saved is kept (journaled and shown) until the save succeeds, then set aside durably across a reload (946ms)
+  ✓   70 [chromium] › tests/e2e/review164.spec.ts:84:1 › R164-4: lock and clear reaches every open tab, and neither a stale tab nor its late account answer can restore the cleared device (4.0s)
+  ✓   71 [chromium] › tests/e2e/review164.spec.ts:100:1 › R164-5: the water meter fills exactly at the goal, proportionally below it and no further above it; the calorie band keeps its headroom (382ms)
+  ✓   72 [chromium] › tests/e2e/review164.spec.ts:116:1 › R164-6: the abs caption does not name a direction, and a past week's strip is named by its week rather than "This week" (250ms)
+  ✓   73 [chromium] › tests/e2e/review165.spec.ts:26:1 › R165-1: a read that already contains another tab's applied change, answered before that tab's own acknowledgement, counts the change once on the device and both screens, in both answer orders, for a pour and an undo, and after an offline reload (3.1s)
+  ✓   74 [chromium] › tests/e2e/review165.spec.ts:51:1 › R165-2: lock and clear empties the device before the account is asked, even when that request never answers; the request is retried when the locked app reopens (1.2s)
+  ✓   75 [chromium] › tests/e2e/review165.spec.ts:68:1 › R165-3: a tab that received no storage events reconciles the lock when it is shown again (page shown from cache, made visible, back online) and writes nothing (1.2s)
+  ✓   76 [chromium] › tests/e2e/review165.spec.ts:84:1 › R165-4: when the lock marker cannot be written until the clear frees space, the device is still cleared and fenced, and another tab's in-flight answer writes nothing; unparsable journal keys are cleared too (4.0s)
+  ✓   77 [chromium] › tests/e2e/review165.spec.ts:100:1 › C2: a refused batch sets its first change aside, a read follows at once so the refused effect leaves the screen, and the rest of the queue is retried within a second (883ms)
+  ✓   78 [chromium] › tests/e2e/review165.spec.ts:112:1 › C4: the saved epoch advances on every saved answer even when this tab's memory lags behind the device (2.3s)
+  ✓   79 [chromium] › tests/e2e/review165.spec.ts:125:1 › R165-5: a full receipt that no longer lists an older applied change this tab still holds does not count it twice; the change is presented once more and settled exactly (1.7s)
+  ✓   80 [chromium] › tests/e2e/review165.spec.ts:146:1 › R165-6: a change that has never been sent is always shown, even when a late read arrives with a full receipt, and it survives going offline (1.2s)
+  ✓   81 [chromium] › tests/e2e/review165.spec.ts:165:1 › R165-7: unlocking with a held change the account has already applied counts it once (702ms)
+  ✓   82 [chromium] › tests/e2e/review165.spec.ts:175:1 › R165-8: a write refused at the door (401) leaves no sent mark, so an unlock against a full receipt still shows the pour; it stays through a temporary failure, offline and a reload, and lands once when the account takes it (427ms)
+  ✓   83 [chromium] › tests/e2e/review165.spec.ts:194:1 › R165-9: a tab frozen across a lock-and-clear and a new unlock cannot merge its old refusal (or anything else) into the new generation; it adopts the new store (1.4s)
+  ✓   84 [chromium] › tests/e2e/review165.spec.ts:211:1 › R165-10: an account answer that started before a lock-and-clear and a new unlock is dropped when it lands, whether it is an error or a result; the tab adopts the new generation (4.1s)
+  ✓   85 [chromium] › tests/e2e/review165.spec.ts:229:1 › R165-11: an unlock that was in flight when the device was locked and cleared again is dropped and the tab stays on the gate (3.8s)
+  ✓   86 [chromium] › tests/e2e/review165.spec.ts:245:1 › R165-12: a large valid offline backlog drains in byte-bounded batches: every change reaches the account once, no answer is 413, nothing is dropped (990ms)
+  ✓   87 [chromium] › tests/e2e/review165.spec.ts:258:1 › R165-13: an answer whose write waits on the device lock while another tab locks, clears and unlocks is dropped inside the write itself; the tab adopts the new generation (1.6s)
+  ✓   88 [chromium] › tests/e2e/review171.spec.ts:10:1 › R171-1: a plan line of 59 characters and an emoji saves whole and syncs; a line that would cut an emoji is clipped before it, never split; the move is usable in a workout (562ms)
+  ✓   89 [chromium] › tests/e2e/review171.spec.ts:19:1 › R171-2: a poisoned journal entry (a split emoji written by an older build) is refused by id with a reason and set aside, while a valid change in the same batch syncs; the device recovers and can lock (185ms)
+  ✓   90 [chromium] › tests/e2e/review171.spec.ts:30:1 › R171-3: a temporary account failure shows a notice and keeps the change; it lands once when the account recovers (282ms)
+  ✓   91 [chromium] › tests/e2e/review171.spec.ts:42:1 › R171-4: sixteen quarter-Stanley pours meet a 120 oz target exactly on screen and in completion; one short does not (1.0s)
+  ✓   92 [chromium] › tests/e2e/review171.spec.ts:55:1 › R171-5: "3/4 of the Stanley" proposes one three-quarter pour; "1/2 Stanley" proposes half (276ms)
+  ✓   93 [chromium] › tests/e2e/review171.spec.ts:62:1 › R171-6: an edited water target is checked against the canonical millilitre limits in her unit, with a reason on the sheet; the largest allowed value saves; nothing is set aside later (862ms)
+  ✓   94 [chromium] › tests/e2e/review171.spec.ts:74:1 › R173-1: a stored boundary water target (6000 ml or 500 ml) stays exact across unit toggles and unrelated edits; only a genuinely edited out-of-range value is refused (1.1s)
+  ✓   95 [chromium] › tests/e2e/review171.spec.ts:97:1 › R171-7: a targets save queued while another device added a treat and a plan does not hide or delete them once this device catches up (466ms)
+  ✓   96 [chromium] › tests/e2e/review171.spec.ts:115:1 › R171-8: the in-app privacy copy names both sends (meals and unread water notes) and promises nothing about third-party retention (166ms)
+  ✓   97 [chromium] › tests/e2e/review171.spec.ts:123:1 › W172: typed symbol shares and mixed numbers propose the right pour on screen (439ms)
+  ✓   98 [chromium] › tests/e2e/tianna-accessibility.spec.ts:5:1 › Tianna small screens, enlarged text, targets and reduced motion (8.2s)
+  ✓   99 [chromium] › tests/e2e/tianna-accessibility.spec.ts:49:1 › Tianna keyboard, sheets, short viewport and safe area padding (676ms)
+  ✓  100 [chromium] › tests/e2e/tianna-flows.spec.ts:9:1 › Tianna acceptance journeys and measured taps (5.3s)
+  ✓  101 [chromium] › tests/e2e/v3.spec.ts:7:1 › water goes down by one tap with no dialog, and never below zero (259ms)
+  ✓  102 [chromium] › tests/e2e/v3.spec.ts:15:1 › nothing transient appears and nothing shifts on a habit tap, a pour, a meal or a removal (3.4s)
+  ✓  103 [chromium] › tests/e2e/v3.spec.ts:30:1 › the served manifest, icons and splash carry the Tianna’s Place name and the brand art (249ms)
+  ✓  104 [chromium] › tests/e2e/wellness.spec.ts:11:1 › every page is one tap from the dashboard, has an obvious Home, and the browser back button works (1.6s)
+  ✘  105 [chromium] › tests/e2e/wellness.spec.ts:20:1 › the walk timer starts, pauses, survives a reload and a long sleep, finishes into a logged session, and undoes (23.1s)
+
+
+  1) [chromium] › tests/e2e/review-r3.spec.ts:54:1 › R3 estimate rejects an overlong description with a length error and keeps input guards
+
+    Error: expect(received).toBeTruthy()
+
+    Received: undefined
+
+      53 |
+      54 | test('R3 estimate rejects an overlong description with a length error and keeps input guards',async({request,baseURL})=>{
+    > 55 |  test.skip(virtual,'requires the local API server');expect(process.env.APP_PASSPHRASE).toBeTruthy();
+         |                                                                                        ^
+      56 |  const login=await request.post('/api/auth',{headers:{Origin:baseURL!},data:{passphrase:process.env.APP_PASSPHRASE}});expect(login.status()).toBe(200);
+      57 |  for(const text of ['x'.repeat(1001),'🍚'.repeat(1001)]){const response=await request.post('/api/estimate',{headers:{Origin:baseURL!},data:{text}});expect(response.status()).toBe(400);expect((await response.json()).error).toContain('too long');}
+      58 |  for(const data of [{text:''},{text:'Rice',image:'not an image'}]){const response=await request.post('/api/estimate',{headers:{Origin:baseURL!},data});expect(response.status()).toBe(400);expect((await response.json()).error).toBe('Describe the meal or add a clear photo.');}
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/review-r3.spec.ts:55:88
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-23.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-32.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-36.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-20.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-16.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-35.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #8: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #9: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-27.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #10: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-26.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #11: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #12: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-37.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #13: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-34.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #14: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-13.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #15: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-21.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #16: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-40.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #17: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-25.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #18: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-30.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #19: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-19.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #20: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-29.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #21: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-10.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #22: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-8.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #23: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-33.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #24: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-22.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #25: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-24.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #26: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-38.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #27: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-31.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #28: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-28.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #29: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-9.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #30: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-7.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #31: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-14.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #32: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-12.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #33: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-15.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #34: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #35: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-39.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #36: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-18.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #37: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-17.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #38: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-11.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #39: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #40: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/review-r3-R3-estimate-reje-2ae6b-rror-and-keeps-input-guards-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/wellness.spec.ts:20:1 › the walk timer starts, pauses, survives a reload and a long sleep, finishes into a logged session, and undoes
+
+    Test was interrupted.
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: locator('.dial-time')
+    Expected pattern: /^10:[0-2]\d$/
+    Received string:  ""
+
+
+      21 |  slowClock();
+      22 |  const today=todayIn();const box=await openAt(page,seed(3),at(today,'10:00:00'),'walk');
+    > 23 |  await page.getByRole('button',{name:'Start'}).click();await page.clock.runFor(10*60*1000);await expect(page.locator('.dial-time')).toHaveText(/^10:[0-2]\d$/);
+         |                                                                                                                                     ^
+      24 |  await page.getByRole('button',{name:'Pause'}).click();const paused=await page.locator('.dial-time').innerText();await page.clock.runFor(60*1000);await expect(page.locator('.dial-time')).toHaveText(paused);
+      25 |  // Reload: the paused timer is still there with the same count.
+      26 |  await page.reload();await page.locator('.app-shell').waitFor();await expect(page.locator('.dial-time')).toHaveText(paused);await expect(page.getByRole('button',{name:'Resume'})).toBeVisible();
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/wellness.spec.ts:23:133
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-19.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-9.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #8: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #9: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-37.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #10: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-41.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #11: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-52.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #12: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-26.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #13: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-17.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #14: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-38.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #15: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-23.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #16: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-50.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #17: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-25.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #18: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-11.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #19: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-15.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #20: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-46.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #21: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-33.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #22: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-24.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #23: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-35.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #24: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-32.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #25: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-42.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #26: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-54.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #27: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-28.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #28: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-30.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #29: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-7.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #30: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-29.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #31: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-8.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #32: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-20.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #33: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-18.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #34: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-31.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #35: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-27.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #36: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-10.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #37: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-12.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #38: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-48.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #39: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-49.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #40: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-13.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #41: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-59.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #42: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-43.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #43: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-21.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #44: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-40.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #45: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-56.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #46: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-34.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #47: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-39.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #48: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-22.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #49: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-47.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #50: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-53.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #51: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-14.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #52: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-44.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #53: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-36.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #54: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-51.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #55: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-61.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #56: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-55.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #57: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-16.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #58: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-58.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #59: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-45.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #60: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-60.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #61: screenshot (image/png) ─────────────────────────────────────────────────────────
+    test-results/wellness-the-walk-timer-st-c1640-a-logged-session-and-undoes-chromium/test-failed-57.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [chromium] › tests/e2e/review-r3.spec.ts:54:1 › R3 estimate rejects an overlong description with a length error and keeps input guards
+  1 interrupted
+    [chromium] › tests/e2e/wellness.spec.ts:20:1 › the walk timer starts, pauses, survives a reload and a long sleep, finishes into a logged session, and undoes
+  192 did not run
+  103 passed (2.9m)

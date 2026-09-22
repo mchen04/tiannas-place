@@ -37,7 +37,7 @@ export function Home({hour, stumbled}: {hour: number; stumbled: boolean}) {
   <button className={`hero ${done.walk ? 'is-done' : ''} ${pulse.walk ? 'moving' : ''} ${complete ? 'is-complete' : ''}`} aria-label={`Open ${heroName}. ${count} of ${habits.length} habits done today`} onClick={() => navigate(heroPage)}>
    <Hills phase={day.rest ? 'night' : phase} walked={done.walk} progress={count / habits.length} celebrate={complete && !selected}/>
    <span className="hero-overlay"><span className="hero-top"><span className="hero-copy"><strong>{complete && !selected ? 'Every one.' : day.rest ? 'Resting today.' : stumbled ? 'A fresh start.' : next ? `Next: ${names[next].toLowerCase()}.` : 'Today.'}</strong><span>{complete ? `All ${habits.length} habits` : day.rest ? 'The streak stays.' : `${count} of ${habits.length} ${dayWord}`}</span></span>
-   <span className="hero-tag">{done.walk ? <><Icon name="check" size={14}/>Walked</> : <><Icon name="arrow" size={14}/>Open {heroName}</>}</span></span>
+   <span className="hero-tag">{done.walk ? <><Icon name="check" size={14}/>Walked</> : <><Icon name="arrow" size={14}/>Open</>}</span></span>
    {nextMilestone && streak.current > 0 && !complete && <span className="hero-progress">{nextMilestone - streak.current} day{nextMilestone - streak.current === 1 ? '' : 's'} to {nextMilestone}</span>}
    {complete && !selected && <span className="hero-progress">+{format(habits.length * 10 + 30)} points</span>}</span>
   </button>

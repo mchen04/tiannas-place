@@ -17,7 +17,7 @@ type Content=string|({type:'text';text:string}|{type:'image_url';image_url:{url:
 export function requestBody(model:string,content:Content,instructions=system){if(!isFree(model))throw new Error('paid model refused');return {model,provider:freeOnly,max_tokens:600,temperature:0.2,response_format:{type:'json_object'},messages:[{role:'system',content:instructions},{role:'user',content}]};}
 async function ask(model:string,content:Content,signal:AbortSignal,instructions=system){
  const body=JSON.stringify(requestBody(model,content,instructions));
- const res=await fetch('https://openrouter.ai/api/v1/chat/completions',{method:'POST',signal,headers:{Authorization:'Bearer '+process.env.OPENROUTER_API_KEY,'Content-Type':'application/json','X-Title':'My Wellness'},body});
+ const res=await fetch('https://openrouter.ai/api/v1/chat/completions',{method:'POST',signal,headers:{Authorization:'Bearer '+process.env.OPENROUTER_API_KEY,'Content-Type':'application/json','X-Title':"Tianna's Place"},body});
  if(!res.ok)throw new Error('status '+res.status);
  const data=await res.json();const text:string=data.choices?.[0]?.message?.content??'';
  const start=text.indexOf('{');if(start<0)throw new Error('no json');let depth=0;for(let i=start;i<text.length;i++){if(text[i]==='{')depth++;else if(text[i]==='}'&&--depth===0)return JSON.parse(text.slice(start,i+1)) as {items?:unknown};}

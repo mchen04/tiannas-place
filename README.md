@@ -1,7 +1,13 @@
-# My Wellness
+# Tianna’s Place
 
-A private wellness companion for one person, as a PWA. Formerly Flaccid75; the account, history, streaks and storage key are unchanged.
-Open the [live app](https://flaccid75-preview.vercel.app) in Safari.
+A private daily wellness companion made for Tianna. Formerly Flaccid75 / My Wellness; account data, history, streaks, storage keys, and the installed app identity are preserved.
+Open the [existing live app](https://flaccid75.vercel.app) in Safari. This revamp is **local only**, not deployed.
+
+Card t_051720cf runs on mbp-old. The local app is at http://localhost:3075 with an isolated synthetic PostgreSQL database. Start it with `npm run start -- --hostname 127.0.0.1 --port 3075` after `npm run build`. This card authorizes local commits only: no push, PR, merge, deployment, or production writes. Historical release permissions below do not apply to this card.
+
+The current changes retain the cream/apricot/sage homepage, the unchanged walking animation, and all logging flows. Larger relative text and touch controls, shorter activity scenes, consistent spacing, keyboard focus, and original cat artwork make daily use easier on small screens. [Design and sources](evidence/tiannas-place/DESIGN.md) · [Proof report](evidence/tiannas-place/PROOF.md).
+
+The GitHub repository rename is authorized separately, but is pending verification of the existing Vercel GitHub App connection/access. The hosting project, domain, and origin remain unchanged.
 The passphrase stays in the owner's private installation note, outside this repository.
 
 ## Version 4 · My Wellness

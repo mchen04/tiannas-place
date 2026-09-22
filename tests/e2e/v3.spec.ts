@@ -27,12 +27,12 @@ test('nothing transient appears and nothing shifts on a habit tap, a pour, a mea
  expect(churn.removed.filter(n=>!n.startsWith('DIALOG')),JSON.stringify(churn)).toEqual([]);
  await writeFile(`evidence/my-wellness/transient-check-${test.info().project.name}.json`,JSON.stringify({rectsUnchanged:true,statusOrAlertNodes:0,addedOutsideHeroRowsAndSheet:churn.added,removedOutsideHeroRowsAndSheet:churn.removed},null,2));
 });
-test('the served manifest, icons and splash carry the My Wellness name and the brand art',async({page})=>{
+test('the served manifest, icons and splash carry the Tianna’s Place name and the brand art',async({page})=>{
  await open(page,seed());
  const fetchBytes=(path:string)=>page.evaluate(async p=>{const b=new Uint8Array(await (await fetch(p)).arrayBuffer());return btoa(String.fromCharCode(...b));},path).then(b64=>Buffer.from(b64,'base64'));
  const manifest=JSON.parse((await fetchBytes('/manifest.webmanifest')).toString('utf8'));
- expect(manifest.name).toBe('My Wellness');expect(manifest.short_name).toBe('My Wellness');expect(manifest.theme_color).toBe('#f4eee6');
- const html=(await fetchBytes('/')).toString('utf8');expect(html).toContain('<title>My Wellness</title>');expect(html).toContain('content="My Wellness"');expect(html).not.toMatch(/Flaccid/);
+ expect(manifest.name).toBe('Tianna’s Place');expect(manifest.short_name).toBe('Tianna’s Place');expect(manifest.theme_color).toBe('#f4eee6');
+ const html=(await fetchBytes('/')).toString('utf8');expect(html).toContain('<title>Tianna’s Place</title>');expect(html).toContain('content="Tianna’s Place"');expect(html).not.toMatch(/Flaccid/);
  const hashes:Record<string,string>={};
  for(const path of [...manifest.icons.map((i:{src:string})=>i.src),'/apple-touch-icon.png','/splash-1170x2532.png','/icon.svg']){const body=await fetchBytes(path);hashes[path]=createHash('sha256').update(body).digest('hex');expect(body.equals(await readFile('public'+path)),path).toBe(true);}
  await writeFile('evidence/my-wellness/brand-served.json',JSON.stringify({manifestName:manifest.name,served:hashes},null,2));

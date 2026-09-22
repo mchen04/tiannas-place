@@ -1,0 +1,324 @@
+{
+  "method": "Control activations counted as taps; typed fields reported separately. Keyboard keystrokes, auto-completion waits, reloads, and returning home between independent journeys excluded. Entry point is stated per flow.",
+  "flows": [
+    {
+      "flow": "Walk: complete from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Walk: undo completion from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Workout: complete from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Workout: undo completion from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Abs: complete from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Abs: undo completion from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Floss: complete from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Floss: undo completion from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Walk: log minutes from home",
+      "before": {
+        "taps": 2,
+        "fields": 1
+      },
+      "after": {
+        "taps": 2,
+        "fields": 1
+      }
+    },
+    {
+      "flow": "Walk: another timed walk from activity",
+      "before": {
+        "taps": 4,
+        "fields": 0
+      },
+      "after": {
+        "taps": 4,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Walk: remove one entry",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Workout: edit plan and log from home",
+      "before": {
+        "taps": 6,
+        "fields": 1
+      },
+      "after": {
+        "taps": 6,
+        "fields": 1
+      }
+    },
+    {
+      "flow": "Abs: guided routine from home",
+      "before": {
+        "taps": 2,
+        "fields": 0
+      },
+      "after": {
+        "taps": 2,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Floss: complete from activity",
+      "before": {
+        "taps": 2,
+        "fields": 0
+      },
+      "after": {
+        "taps": 2,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Water: full container from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Water: half container from home",
+      "before": {
+        "taps": 2,
+        "fields": 0
+      },
+      "after": {
+        "taps": 2,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Water: phrase and confirm",
+      "before": {
+        "taps": 2,
+        "fields": 1
+      },
+      "after": {
+        "taps": 2,
+        "fields": 1
+      }
+    },
+    {
+      "flow": "Water: undo last pour",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Food: manual meal from home",
+      "before": {
+        "taps": 3,
+        "fields": 3
+      },
+      "after": {
+        "taps": 3,
+        "fields": 3
+      }
+    },
+    {
+      "flow": "Food: edit manual meal from home",
+      "before": {
+        "taps": 3,
+        "fields": 2
+      },
+      "after": {
+        "taps": 3,
+        "fields": 2
+      }
+    },
+    {
+      "flow": "Food: estimated meal from food page",
+      "before": {
+        "taps": 3,
+        "fields": 2
+      },
+      "after": {
+        "taps": 3,
+        "fields": 2
+      }
+    },
+    {
+      "flow": "Food: edit saved item",
+      "before": {
+        "taps": 2,
+        "fields": 2
+      },
+      "after": {
+        "taps": 2,
+        "fields": 2
+      }
+    },
+    {
+      "flow": "Food: remove meal",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Rest: toggle from home",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Meditate: default session from home",
+      "before": {
+        "taps": 2,
+        "fields": 0
+      },
+      "after": {
+        "taps": 2,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Focus: default work block from home",
+      "before": {
+        "taps": 3,
+        "fields": 0
+      },
+      "after": {
+        "taps": 3,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "Treats: create and redeem from home",
+      "before": {
+        "taps": 5,
+        "fields": 2
+      },
+      "after": {
+        "taps": 5,
+        "fields": 2
+      }
+    },
+    {
+      "flow": "Treats: undo redemption",
+      "before": {
+        "taps": 1,
+        "fields": 0
+      },
+      "after": {
+        "taps": 1,
+        "fields": 0
+      }
+    },
+    {
+      "flow": "History: open month from home",
+      "before": {
+        "taps": 2,
+        "fields": 0
+      },
+      "after": {
+        "taps": 2,
+        "fields": 0
+      }
+    }
+  ]
+}
