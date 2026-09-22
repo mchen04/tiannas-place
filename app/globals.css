@@ -137,9 +137,6 @@ h1,h2,h3,p{margin:0}h1{font-size:var(--t-xxl);font-weight:700;line-height:1.1;le
 .night.is-done .zzz text:nth-child(2){animation-delay:.5s}.night.is-done .zzz text:nth-child(3){animation-delay:1s}
 .night .sleeper{transition:transform .4s cubic-bezier(.34,1.3,.64,1)}.night.is-done .sleeper{transform:translateY(var(--z-restSink))}
 .night .star{animation:twinkle 3s ease-in-out infinite}.night .st1{animation-delay:.6s}.night .st2{animation-delay:1.2s}.night .st3{animation-delay:1.8s}
-@keyframes press{0%,100%{transform:translateY(-56px)}50%{transform:translateY(0)}}
-@keyframes pose-up{0%,100%{opacity:1}50%{opacity:0}}
-@keyframes pose-down{0%,100%{opacity:0}50%{opacity:1}}
 @keyframes floss-run{0%,100%{transform:translateY(128px)}50%{transform:translateY(52px)}}
 @keyframes twinkle{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
 @keyframes drift{0%{transform:translateY(6px);opacity:.2}50%{opacity:1}100%{transform:translateY(-10px);opacity:0}}
@@ -183,7 +180,7 @@ summary{min-height:var(--z-tap);padding:var(--s-3) 0;font-size:var(--t-sm)}
 .progress-hero{min-height:var(--z-sceneShort);height:auto}.progress-hero .big-number{position:relative;left:auto;top:auto;padding:var(--s-4);width:fit-content;background:var(--c-cardTint);border-radius:var(--r-md);margin:var(--s-3)}
 .points-card>div{min-width:0;overflow-wrap:anywhere}
 @media(max-width:359px){.topbar{gap:var(--s-1)}.streak-badge{width:var(--z-tap);height:auto;min-height:var(--z-tap);padding:var(--s-1)}.topbar h1{font-size:var(--t-xl)}.row-open{gap:var(--s-2);padding-left:var(--s-2)}.row-art{width:var(--z-listArt);height:var(--z-listArt)}.row-action{padding:var(--s-2);margin-right:var(--s-2)}.row-actions{gap:0;margin-right:var(--s-2)}.list,.streak-card,.medals,.checklist{padding-left:var(--s-3);padding-right:var(--s-3)}.fractions{grid-template-columns:repeat(2,minmax(0,1fr))}.form-grid,.treat-add{grid-template-columns:minmax(0,1fr)}}
-@media(max-height:500px){.app-shell{overflow-y:auto;max-height:none}.page{overflow:visible;flex:none}.gate{justify-content:flex-start}.topbar{flex-wrap:wrap}.sheet{max-height:100dvh}}
+@media(max-height:500px){.app-shell{overflow-y:auto;max-height:none}.page{overflow:visible;flex:none}.gate{justify-content:flex-start}.sheet{max-height:100dvh}}
 
 /* The streak badge grows with text; the header can wrap without splitting its label. */
 .topbar{flex-wrap:wrap}.topbar-copy{flex-basis:calc(var(--t-md) * 9)}
