@@ -1,0 +1,198 @@
+{
+  "restoredHistoricalFiles": [
+    {
+      "historicalFile": "evidence/local-followup/meal-edit-320-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/local-followup/meal-edit-320-chromium.png",
+      "originalSHA256": "a6713a3438cab0962d841d2dce37a3d4eba99dffd4285fb9ad9e9becd63f6ff4"
+    },
+    {
+      "historicalFile": "evidence/local-followup/meal-edit-320-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/local-followup/meal-edit-320-webkit.png",
+      "originalSHA256": "f223015a2d3b785af98350fb7e46eeac7267a7edffafe7f9280786c6d28d9e0e"
+    },
+    {
+      "historicalFile": "evidence/local-followup/meal-edit-375-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/local-followup/meal-edit-375-chromium.png",
+      "originalSHA256": "e172f01ca100c11154a810b37dee67d7eaecaba344697134482a157eeb6829b3"
+    },
+    {
+      "historicalFile": "evidence/local-followup/meal-edit-375-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/local-followup/meal-edit-375-webkit.png",
+      "originalSHA256": "1f02fb6be099fe2bb1f5b26be0dd15e55d112b83844f3b593b721aeb413cccb8"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/ai-unavailable-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/ai-unavailable-chromium.png",
+      "originalSHA256": "6700ce271c3f64e2a50adb87b70d292e85232d8037e2672a2b0eedd9ac39055e"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/ai-unavailable-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/ai-unavailable-webkit.png",
+      "originalSHA256": "25df3882476ee153591aba0d4c92975120b94bd51236544802cd0d83dc5695e2"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/brand-served.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/brand-served.json",
+      "originalSHA256": "d0d36890c4d1f875d3b1c566df10034570048b9540706f5d9f4f34f976c2660b"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/camera-actions.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/camera-actions.json",
+      "originalSHA256": "5106d71deafe33ae4da4dd07d05a48d14166d11be2f484dc10cc7ac2a73b1b52"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/camera-estimate.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/camera-estimate.png",
+      "originalSHA256": "b621bf86d0966dc8f062b3955dc1592eb8266bd5e45e2e19ca92c8d169b3d985"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/celebration-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/celebration-chromium.png",
+      "originalSHA256": "a5b9090e07041f478a7377be5e14443135453593ba7fe7af3b1a4f23c7922f6f"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/celebration-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/celebration-webkit.png",
+      "originalSHA256": "28f5b5a2b2e352a88a9895373ccf5b2a07f58e0b39710cf3ea37a92f26164067"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/horizontal-audit-1280x900.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/horizontal-audit-1280x900.json",
+      "originalSHA256": "af86ea4bdcc5bd411c6631fa44cb8a2616dcdf7ea62528d98ad5cff71fd5f3a3"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/horizontal-audit-375x640.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/horizontal-audit-375x640.json",
+      "originalSHA256": "1bb9e49ad24262a35295db73adcf7cec5a61094af9395dbb39a997bfa9c45d9f"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/live-controls-viewport.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/live-controls-viewport.json",
+      "originalSHA256": "1b945779ac4e83f4ebec0a40101108a0e607d95cfe9d8e729e99dd720c9373b0"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/month-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/month-chromium.png",
+      "originalSHA256": "d2b3f926cbac06d32a9d1913c5a1d44583d936f4dc94f14088b93e4819f86e74"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/month-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/month-webkit.png",
+      "originalSHA256": "d5c5539a20b625fec5da3379174894028c7e7e7e5ec52d9fd567af1254d3673c"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/offline-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/offline-chromium.png",
+      "originalSHA256": "4d7b1a3e6c55200e746c4a084eb0abc46c8f1143de70938e6a44a42ce04b2b9b"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/offline-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/offline-webkit.png",
+      "originalSHA256": "464a22408ecfe8c091a9c09b8374d6a798c85441a9b135e4430eaaa37bf6dc60"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/rest-planned-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/rest-planned-chromium.png",
+      "originalSHA256": "500e7de7d13734b349a4e8018d77f3bf60a22e9637aa685d9c717026517e3fb4"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/rest-planned-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/rest-planned-webkit.png",
+      "originalSHA256": "5e0b3e2712fbf154b4999581f8b7d279a082cd67bf82d5ddc5b7dda5119e9665"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/stale-timer-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/stale-timer-chromium.png",
+      "originalSHA256": "2a248a8933e0920c14138d005c86bb191e19feea72e1d3eb3c68f2f2ddbbc094"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/tap-latency-chromium.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/tap-latency-chromium.json",
+      "originalSHA256": "ec540fef75a568af02ce0539caaf6afef0f977b0b9b80f4abdcc193eb397b1fe"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/tap-latency-webkit.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/tap-latency-webkit.json",
+      "originalSHA256": "4e0a9bc4c068da0220443796f2c67fba41d356c73ee7103fc98bab0ab071b35e"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/trends-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/trends-chromium.png",
+      "originalSHA256": "e26a8a7cf22ccc28dda9831870dfd3d3328ec88e90dc636c04309fbf07773b6d"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/trends-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/trends-webkit.png",
+      "originalSHA256": "adf36c0da837c97dce9bfd7c95c8d165fcbd11ef6186a94d38289737c5356ea0"
+    },
+    {
+      "historicalFile": "evidence/my-wellness/water-stanley-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/my-wellness/water-stanley-chromium.png",
+      "originalSHA256": "a93c933c11a8356509803db44f5f76715b75d47ef800484fd10786667a75bf2c"
+    },
+    {
+      "historicalFile": "evidence/pwa.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/pwa.json",
+      "originalSHA256": "1323b7b75f708d7816e6de6e864d1d5c6889573f93c6dd94c22e338d671f107a"
+    },
+    {
+      "historicalFile": "evidence/review-r1/items-320-chromium.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r1/items-320-chromium.png",
+      "originalSHA256": "0674cf93a413d6896b99f540d6ca17ea9436420f07b5d7d72fe31bd9080bab9b"
+    },
+    {
+      "historicalFile": "evidence/review-r1/items-320-webkit.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r1/items-320-webkit.png",
+      "originalSHA256": "fc5a6db77f897f72bb92d3bdccfded50bdcb28d4df1e64e1aff22d885f876725"
+    },
+    {
+      "historicalFile": "evidence/review-r2/portion-chromium-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r2/portion-chromium-320.png",
+      "originalSHA256": "8378ff80b4245df8949a4534dbc01519c757ae38f642ea59826306730721f310"
+    },
+    {
+      "historicalFile": "evidence/review-r2/portion-webkit-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r2/portion-webkit-320.png",
+      "originalSHA256": "407ad2ce8c11983402bd68ba9a169608fc5a5de179a70eb62084dc0486e98893"
+    },
+    {
+      "historicalFile": "evidence/review-r3/decimal-chromium-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r3/decimal-chromium-320.png",
+      "originalSHA256": "1e177e0194b2866a17dea2eb49387367a35bbbf5a2916dcf60efaa40294818f5"
+    },
+    {
+      "historicalFile": "evidence/review-r3/decimal-webkit-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r3/decimal-webkit-320.png",
+      "originalSHA256": "9f92c858a52dfee32fbdd4f28dc4493e7b2e06c6668ed08ba6af6c060e65ba50"
+    },
+    {
+      "historicalFile": "evidence/review-r4/fieldset-chromium-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r4/fieldset-chromium-320.png",
+      "originalSHA256": "f5e6ef9208739b696c07c509d8d24f3c4e91ac9014d2e20b5d3bf094a6da4614"
+    },
+    {
+      "historicalFile": "evidence/review-r4/fieldset-webkit-320.png",
+      "currentRun": "evidence/tiannas-place/after/regressions/review-r4/fieldset-webkit-320.png",
+      "originalSHA256": "fa6742e69db477a04e21a26aad281baf296495356691a1ec8e6542caf29befc2"
+    },
+    {
+      "historicalFile": "evidence/secret-check.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/secret-check.json",
+      "originalSHA256": "23e48f90def9fdad87b4026fd325e657cc18a39e1a1b0a68ed0cffdddc4bc360"
+    },
+    {
+      "historicalFile": "evidence/v3/mascot-scan.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/v3/mascot-scan.json",
+      "originalSHA256": "8ba68159c2764f4bd56e5ee2314f85ce832594750222935a276eae8a9203c278"
+    },
+    {
+      "historicalFile": "evidence/v3/token-scan.json",
+      "currentRun": "evidence/tiannas-place/after/regressions/v3/token-scan.json",
+      "originalSHA256": "6e0ebf884a0ef428a93f3e88d5618eb97cb91733328d46c25e99b4013c2e4aaf"
+    }
+  ],
+  "movedNewRegressionFiles": [
+    "evidence/my-wellness/stale-timer-webkit.png",
+    "evidence/my-wellness/water-stanley-webkit.png"
+  ]
+}

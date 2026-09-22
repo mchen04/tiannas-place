@@ -1,0 +1,16 @@
+[
+  {
+    "path": "evidence/v3/token-scan.json",
+    "historicalSHA256": "6e0ebf884a0ef428a93f3e88d5618eb97cb91733328d46c25e99b4013c2e4aaf",
+    "currentSHA256": "4ac9383bef01340e554ad874a96e398f411070e2b0b583c91af334ae8fd75a51",
+    "historicalRestored": true,
+    "freshOutput": "evidence/tiannas-place/review-polish/scans/token-scan.json"
+  },
+  {
+    "path": "evidence/v3/mascot-scan.json",
+    "historicalSHA256": "8ba68159c2764f4bd56e5ee2314f85ce832594750222935a276eae8a9203c278",
+    "currentSHA256": "6f737dff7c271a0bc0ef87912fd69a3f9bce8486c1c1c5159d2503dff453a663",
+    "historicalRestored": true,
+    "freshOutput": "evidence/tiannas-place/review-polish/scans/mascot-scan.json"
+  }
+]

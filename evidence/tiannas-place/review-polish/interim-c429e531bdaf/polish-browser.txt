@@ -1,0 +1,15 @@
+
+Running 6 tests using 1 worker
+
+(node:57254) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [chromium] › tests/e2e/tianna-polish.spec.ts:27:1 › Tianna hills keep the whole cloud and cat stages fill without cropping at each phone width (5.5s)
+  ✓  2 [chromium] › tests/e2e/tianna-polish.spec.ts:61:1 › Tianna pressed row corners stay rounded and keyboard focus remains visible when rows wrap (7.0s)
+  ✓  3 [chromium] › tests/e2e/tianna-polish.spec.ts:91:1 › Tianna visible greeting follows time and completion while the brand and date remain (2.4s)
+(node:57365) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 [webkit] › tests/e2e/tianna-polish.spec.ts:27:1 › Tianna hills keep the whole cloud and cat stages fill without cropping at each phone width (3.0s)
+  ✓  5 [webkit] › tests/e2e/tianna-polish.spec.ts:61:1 › Tianna pressed row corners stay rounded and keyboard focus remains visible when rows wrap (1.7s)
+  ✓  6 [webkit] › tests/e2e/tianna-polish.spec.ts:91:1 › Tianna visible greeting follows time and completion while the brand and date remain (830ms)
+
+  6 passed (23.1s)

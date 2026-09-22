@@ -1,0 +1,14 @@
+{
+ "out": "evidence/tiannas-place/review-polish/capture",
+ "unreached": [],
+ "failures": [
+  "phone/home: sideways: button.hero 360>358",
+  "phone/home-complete: sideways: button.hero.is-done.is-complete 360>358",
+  "phone/home-rest-day: sideways: button.hero 360>358",
+  "phone/home-empty: sideways: button.hero 360>358",
+  "phone/backfill-home: sideways: button.hero 360>358",
+  "extras/timezone-banner-phone: sideways: button.hero 360>358",
+  "extras/reduced-motion-home-phone: sideways: button.hero 360>358",
+  "extras/short-home: sideways: button.hero 360>343"
+ ]
+}

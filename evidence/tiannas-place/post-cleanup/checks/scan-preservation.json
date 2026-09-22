@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "evidence/v3/token-scan.json",
+      "historicalSource": "e829e424624d8bdd8348d3f1ac4193a4294aae4a (also identical to task baseline 58e8e08)",
+      "historicalSHA256": "6e0ebf884a0ef428a93f3e88d5618eb97cb91733328d46c25e99b4013c2e4aaf",
+      "cleanupScanSHA256": "4ac9383bef01340e554ad874a96e398f411070e2b0b583c91af334ae8fd75a51",
+      "latestScanSHA256": "4ac9383bef01340e554ad874a96e398f411070e2b0b583c91af334ae8fd75a51",
+      "restoredSHA256": "6e0ebf884a0ef428a93f3e88d5618eb97cb91733328d46c25e99b4013c2e4aaf"
+    },
+    {
+      "path": "evidence/v3/mascot-scan.json",
+      "historicalSource": "e829e424624d8bdd8348d3f1ac4193a4294aae4a (also identical to task baseline 58e8e08)",
+      "historicalSHA256": "8ba68159c2764f4bd56e5ee2314f85ce832594750222935a276eae8a9203c278",
+      "cleanupScanSHA256": "6f737dff7c271a0bc0ef87912fd69a3f9bce8486c1c1c5159d2503dff453a663",
+      "latestScanSHA256": "6f737dff7c271a0bc0ef87912fd69a3f9bce8486c1c1c5159d2503dff453a663",
+      "restoredSHA256": "8ba68159c2764f4bd56e5ee2314f85ce832594750222935a276eae8a9203c278"
+    }
+  ],
+  "cleanupCodeReverted": false,
+  "currentResultsStoredUnderCard": true
+}

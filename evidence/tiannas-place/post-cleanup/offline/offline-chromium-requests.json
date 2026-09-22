@@ -1,0 +1,389 @@
+[
+  {
+    "path": "/",
+    "type": "document",
+    "event": "start"
+  },
+  {
+    "path": "/assets/app-KO7APVFW.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-FXKS56RJ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BYO2AFIZ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UG7OTARB.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-XJ3NB7XH.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/",
+    "event": "done"
+  },
+  {
+    "path": "/assets/app-KO7APVFW.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-UG7OTARB.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BYO2AFIZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-XJ3NB7XH.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-FXKS56RJ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "event": "done"
+  },
+  {
+    "path": "/api/auth",
+    "type": "fetch",
+    "event": "start"
+  },
+  {
+    "path": "/api/auth",
+    "event": "done"
+  },
+  {
+    "path": "/api/state",
+    "type": "fetch",
+    "event": "start"
+  },
+  {
+    "path": "/api/state",
+    "event": "done"
+  },
+  {
+    "path": "/api/state",
+    "type": "fetch",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "event": "done"
+  },
+  {
+    "path": "/api/state",
+    "event": "done"
+  },
+  {
+    "path": "/api/sync",
+    "type": "fetch",
+    "event": "start"
+  },
+  {
+    "path": "/api/sync",
+    "event": "done"
+  },
+  {
+    "path": "/api/sync",
+    "type": "fetch",
+    "event": "start"
+  },
+  {
+    "path": "/api/sync",
+    "event": "done"
+  },
+  {
+    "path": "/",
+    "type": "document",
+    "event": "start"
+  },
+  {
+    "path": "/assets/app-KO7APVFW.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-FXKS56RJ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BYO2AFIZ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UG7OTARB.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-XJ3NB7XH.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "type": "other",
+    "event": "start"
+  },
+  {
+    "path": "/assets/app-KO7APVFW.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-FXKS56RJ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "type": "script",
+    "event": "start"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BYO2AFIZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-UG7OTARB.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-XJ3NB7XH.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-UDWUG3BT.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-SH2YFG7M.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-BKFAAR5Y.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-LOP2GK3N.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-QMDUQZHZ.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-TX3EC334.js",
+    "event": "done"
+  },
+  {
+    "path": "/assets/chunk-2FYTCFDO.js",
+    "event": "done"
+  }
+]

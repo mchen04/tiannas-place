@@ -1,0 +1,630 @@
+{
+  "sourceFilesHashVerified": 45,
+  "cleanupApplicationAndTestSourceUnchanged": true,
+  "historicalFilesRestoredAndVerified": 136,
+  "v3OriginalSnapshotsMatchBothPriorImplementationAndBaseline": true,
+  "cardJSONFilesParsed": 80,
+  "relativeLinksVerified": 153,
+  "checks": [
+    "SHA-256 against tested-build provenance",
+    "git diff HEAD -- app components lib tests scripts package.json package-lock.json",
+    "historical artifact byte equality with HEAD",
+    "v3 artifact byte equality with e829e42 and 58e8e08",
+    "parse card JSON files",
+    "resolve relative links in changed documentation and gallery"
+  ],
+  "links": [
+    {
+      "source": "CLEANUP.md",
+      "target": "evidence/tiannas-place/post-cleanup/PROOF.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/tiannas-place/DESIGN.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/tiannas-place/PROOF.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/tiannas-place/RENAME.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/tiannas-place/post-cleanup/PROOF.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/my-wellness/RULES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/my-wellness/ACCEPTANCE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/my-wellness/DESIGN.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/ACCEPTANCE-V3.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/blind/v3/rounds.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/blind/v2/rounds.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/ACCEPTANCE-V2.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/LEDGER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/ACCEPTANCE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/my-wellness/ACCEPTANCE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "vercel.json"
+    },
+    {
+      "source": "README.md",
+      "target": ".env.example"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/ACCEPTANCE.md#privacy-and-credential-limits"
+    },
+    {
+      "source": "README.md",
+      "target": "evidence/LEDGER.md#target-calculations"
+    },
+    {
+      "source": "README.md",
+      "target": "components/Scenes.tsx"
+    },
+    {
+      "source": "README.md",
+      "target": "components/Icon.tsx"
+    },
+    {
+      "source": "README.md",
+      "target": "scripts/art.tsx"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "post-cleanup/PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "compatibility.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "DESIGN.md"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "before/published-gate.png"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "before/phone/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/phone/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "index.html"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/fit.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/small/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/desktop/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/accessibility-chromium/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/accessibility-webkit/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/acceptance-summary.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/long-timer-200-percent.png"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "before/flows-chromium/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/flows-chromium/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "TAPS.md"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/real-db/results.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/offline-integration.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "scroll-comparison.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/regressions/"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/historical-evidence-preserved.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/dependency-compatibility.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/lint.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/typecheck.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/unit.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/scan.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/build.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/db-integration.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/full-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/real-db-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/offline-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/pwa.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/after-capture.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/secret-scan.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/dependency-audit.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "repository-rename-preflight.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "repository-before.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "RENAME.md"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "repository-final.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "repository-before-supervisor-confirmation.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "checks/build-provenance.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "after/served-brand.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "post-cleanup/checks/build-provenance.json"
+    },
+    {
+      "source": "evidence/tiannas-place/PROOF.md",
+      "target": "post-cleanup/PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "repository-final.json"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "repository-rename-preflight.json"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "checks/rename-secret-scan.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "checks/rename-secret-scan.json"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "repository-final.json"
+    },
+    {
+      "source": "evidence/tiannas-place/RENAME.md",
+      "target": "post-cleanup/PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "handoff-input.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/build.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/build-provenance.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/served-build.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "incoming-service-worker.js"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/focused-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/focused-layout-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/capture.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "capture/fit.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/offline-browser.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "offline/offline-integration.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/scan.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "scan-latest/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/secret-scan.txt"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/secret-scan.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "../PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "../index.html"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "capture/phone/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/layout-comparison.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "acceptance/flows-chromium/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "acceptance/flows-webkit/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "acceptance/accessibility-chromium/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "acceptance/accessibility-webkit/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "regressions/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/summary.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "scan-from-cleanup/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "scan-latest/"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/scan-preservation.json"
+    },
+    {
+      "source": "evidence/tiannas-place/post-cleanup/PROOF.md",
+      "target": "checks/artifact-preservation.json"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/PROOF.md"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "TAPS.md"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "DESIGN.md"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/home.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/home.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/home.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/home.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/workout.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/workout.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/workout.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/workout.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/abs-library.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/abs-library.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/abs-library.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/abs-library.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/rest.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/rest.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/rest.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/rest.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/floss.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/floss.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/floss.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/floss.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/walk.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/walk.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/walk.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/walk.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/water.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/water.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/water.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/water.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/food.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/food.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/food.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/food.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/meal-numbers.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/meal-numbers.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/meal-numbers.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/meal-numbers.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/progress-month.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/progress-month.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/progress-month.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/progress-month.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/settings.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "before/phone/settings.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/settings.png"
+    },
+    {
+      "source": "evidence/tiannas-place/index.html",
+      "target": "post-cleanup/capture/phone/settings.png"
+    }
+  ]
+}

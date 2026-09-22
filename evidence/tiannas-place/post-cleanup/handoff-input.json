@@ -1,0 +1,28 @@
+{
+  "recordedAt": "2026-09-22T00:47:42.236Z",
+  "source": "Supervisor user message; coordinator logs not independently read by this implementer",
+  "head": "2701886f704054a548b0f012097dfbd5efe9f835",
+  "cleanupCommit": "cead42f0bd4878693a0e327481de63b8f8ac4527",
+  "coordinatorGate": "FAILED",
+  "reason": "Postcheck build refreshed tracked public/sw.js; baseline build also refreshed generated artifacts.",
+  "coordinatorChecks": {
+    "install": "passed",
+    "unit": "passed",
+    "lint": "passed",
+    "build": "passed",
+    "typecheck": "passed",
+    "scan": "passed"
+  },
+  "onlyIncomingDirtyFile": "public/sw.js",
+  "vercelPostRename": {
+    "independentlyConfirmedBySupervisor": true,
+    "projectName": "flaccid75",
+    "repoId": 1362066274,
+    "displayRepo": "flacid-75",
+    "productionSHA": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af",
+    "aliasesUnchanged": true,
+    "httpStatus": 200,
+    "futureDeployTriggerTested": false
+  },
+  "constraints": "Preserve cleanup code. No hosting/integration change, deployment, push, PR, merge, agent, goal or production writes."
+}

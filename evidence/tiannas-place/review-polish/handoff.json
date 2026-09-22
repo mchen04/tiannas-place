@@ -1,0 +1,9 @@
+{
+  "baseCommit": "0d67f289368124b8e8c24711ca462e68607ad520",
+  "reviewVerdict": "APPROVE with six findings F1\u2013F6",
+  "reviewSource": "../tiannas-review/REVIEW.md (read only; preserved copy here)",
+  "scope": "F1\u2013F6 requested by supervisor; no publication or other checkout edits",
+  "coordinatorRerun": "pending after this follow-up",
+  "reviewerFinalVerification": "pending after this follow-up",
+  "physicalDevice": false
+}

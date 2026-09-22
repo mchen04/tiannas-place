@@ -1,0 +1,190 @@
+{
+  "counts": {
+    "info": 0,
+    "low": 0,
+    "moderate": 16,
+    "high": 5,
+    "critical": 0,
+    "total": 21
+  },
+  "packages": [
+    {
+      "name": "@opentelemetry/core",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/instrumentation-amqplib",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/instrumentation-connect",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-express",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-fs",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/instrumentation-hapi",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-http",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/instrumentation-koa",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mongoose",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-mysql2",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/instrumentation-pg",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/instrumentation-undici",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@opentelemetry/resources",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/sdk-trace-base",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": true
+    },
+    {
+      "name": "@opentelemetry/sql-common",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@puppeteer/browsers",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "@sentry/node",
+      "severity": "moderate",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "extract-zip",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "lighthouse",
+      "severity": "high",
+      "isDirect": true,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "puppeteer-core",
+      "severity": "high",
+      "isDirect": false,
+      "fixAvailable": {
+        "name": "lighthouse",
+        "version": "13.5.0",
+        "isSemVerMajor": true
+      }
+    },
+    {
+      "name": "sharp",
+      "severity": "high",
+      "isDirect": true,
+      "fixAvailable": {
+        "name": "sharp",
+        "version": "0.35.4",
+        "isSemVerMajor": true
+      }
+    }
+  ]
+}

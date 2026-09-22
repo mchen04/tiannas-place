@@ -1,0 +1,14 @@
+{
+  "focus": {
+    "top": 226.203125,
+    "bottom": 282.203125,
+    "height": 350,
+    "outline": "solid"
+  },
+  "safe": {
+    "top": "59px",
+    "bottom": "66px",
+    "left": "20px"
+  },
+  "physicalDevice": false
+}

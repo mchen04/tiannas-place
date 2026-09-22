@@ -1,0 +1,287 @@
+[
+  {
+    "screen": "home",
+    "before": 1328,
+    "after": 1342
+  },
+  {
+    "screen": "home-complete",
+    "before": 1328,
+    "after": 1342
+  },
+  {
+    "screen": "home-rest-day",
+    "before": 1335,
+    "after": 1342
+  },
+  {
+    "screen": "home-empty",
+    "before": 1328,
+    "after": 1342
+  },
+  {
+    "screen": "walk",
+    "before": 1101,
+    "after": 1037
+  },
+  {
+    "screen": "walk-running",
+    "before": 1101,
+    "after": 1037
+  },
+  {
+    "screen": "walk-paused",
+    "before": 1101,
+    "after": 1037
+  },
+  {
+    "screen": "walk-done",
+    "before": 1233,
+    "after": 1175
+  },
+  {
+    "screen": "workout",
+    "before": 1106,
+    "after": 925
+  },
+  {
+    "screen": "workout-ticked",
+    "before": 1106,
+    "after": 925
+  },
+  {
+    "screen": "workout-done",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "abs-library",
+    "before": 1083,
+    "after": 1021
+  },
+  {
+    "screen": "abs-guided",
+    "before": 1188,
+    "after": 954
+  },
+  {
+    "screen": "abs-done",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "floss",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "floss-done",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "water",
+    "before": 878,
+    "after": 943
+  },
+  {
+    "screen": "water-confirm",
+    "before": 998,
+    "after": 1064
+  },
+  {
+    "screen": "water-ask",
+    "before": 1029,
+    "after": 1105
+  },
+  {
+    "screen": "containers-sheet",
+    "before": 878,
+    "after": 943
+  },
+  {
+    "screen": "food",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "food-empty",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-sheet",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-estimate",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-numbers",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-loading",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-error",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meal-not-food",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "camera-failed",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "camera-sheet",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "rest",
+    "before": 1029,
+    "after": 855
+  },
+  {
+    "screen": "rest-planned",
+    "before": 1029,
+    "after": 855
+  },
+  {
+    "screen": "rest-none-left",
+    "before": 1029,
+    "after": 855
+  },
+  {
+    "screen": "meditate",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "meditate-running",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "focus",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "focus-running",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "rewards",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "rewards-empty",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "rewards-redeemed",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "treats-sheet",
+    "before": 773,
+    "after": 774
+  },
+  {
+    "screen": "progress",
+    "before": 865,
+    "after": 929
+  },
+  {
+    "screen": "progress-month",
+    "before": 976,
+    "after": 1084
+  },
+  {
+    "screen": "trends",
+    "before": 997,
+    "after": 1085
+  },
+  {
+    "screen": "progress-missed-day",
+    "before": 865,
+    "after": 929
+  },
+  {
+    "screen": "rescue-sheet",
+    "before": 865,
+    "after": 929
+  },
+  {
+    "screen": "backfill-home",
+    "before": 1328,
+    "after": 1342
+  },
+  {
+    "screen": "backfill-walk",
+    "before": 723,
+    "after": 714
+  },
+  {
+    "screen": "backfill-workout",
+    "before": 1038,
+    "after": 857
+  },
+  {
+    "screen": "settings",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "targets-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "details-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "weigh-in-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "plan-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "lock-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "about-sheet",
+    "before": 1367,
+    "after": 1446
+  },
+  {
+    "screen": "rules",
+    "before": 1338,
+    "after": 1460
+  }
+]

@@ -15,7 +15,7 @@ export const color={
 } as const;
 export const radius={sm:'12px',md:'18px',lg:'24px',xl:'32px',pill:'999px'} as const;
 export const space={0:'0px',1:'4px',2:'8px',3:'12px',4:'16px',5:'20px',6:'24px',7:'32px',8:'40px',9:'56px'} as const;
-export const text={xs:'11px',sm:'13px',md:'15px',lg:'17px',xl:'22px',xxl:'28px',hero:'64px',dial:'52px'} as const;
+export const text={xs:'.8125rem',sm:'.875rem',md:'1rem',lg:'1.125rem',xl:'1.375rem',xxl:'1.625rem',hero:'4rem',dial:'2rem'} as const;
 export const track={tight:'-.03em',snug:'-.02em',normal:'-.01em'} as const;
 export const shadow={card:`0 2px 10px ${color.shadow}`,float:`0 10px 28px ${color.shadowDeep}`,sheet:`0 -8px 60px ${color.shadowDeep}`} as const;
 export const font={sans:"ui-rounded,'SF Pro Rounded','Avenir Next','Nunito','Segoe UI',system-ui,sans-serif"} as const;

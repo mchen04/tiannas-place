@@ -1,0 +1,384 @@
+{
+  "results": [
+    {
+      "mode": "320",
+      "route": "home",
+      "problems": [],
+      "pageHeight": 1361,
+      "viewportHeight": 500,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "walk",
+      "problems": [],
+      "pageHeight": 1060,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": 32
+    },
+    {
+      "mode": "320",
+      "route": "workout",
+      "problems": [],
+      "pageHeight": 925,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "abs",
+      "problems": [],
+      "pageHeight": 1040,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "floss",
+      "problems": [],
+      "pageHeight": 468,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "water",
+      "problems": [],
+      "pageHeight": 867,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "food",
+      "problems": [],
+      "pageHeight": 520,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "rest",
+      "problems": [],
+      "pageHeight": 911,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "meditate",
+      "problems": [],
+      "pageHeight": 452,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": 32
+    },
+    {
+      "mode": "320",
+      "route": "focus",
+      "problems": [],
+      "pageHeight": 519,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": 32
+    },
+    {
+      "mode": "320",
+      "route": "rewards",
+      "problems": [],
+      "pageHeight": 452,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "progress",
+      "problems": [],
+      "pageHeight": 958,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "you",
+      "problems": [],
+      "pageHeight": 1535,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "320",
+      "route": "rules",
+      "problems": [],
+      "pageHeight": 1785,
+      "viewportHeight": 452,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "home",
+      "problems": [],
+      "pageHeight": 1342,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "walk",
+      "problems": [],
+      "pageHeight": 1037,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": 32
+    },
+    {
+      "mode": "375",
+      "route": "workout",
+      "problems": [],
+      "pageHeight": 925,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "abs",
+      "problems": [],
+      "pageHeight": 1021,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "floss",
+      "problems": [],
+      "pageHeight": 597,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "water",
+      "problems": [],
+      "pageHeight": 785,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "food",
+      "problems": [],
+      "pageHeight": 597,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "rest",
+      "problems": [],
+      "pageHeight": 855,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "meditate",
+      "problems": [],
+      "pageHeight": 597,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": 32
+    },
+    {
+      "mode": "375",
+      "route": "focus",
+      "problems": [],
+      "pageHeight": 597,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": 32
+    },
+    {
+      "mode": "375",
+      "route": "rewards",
+      "problems": [],
+      "pageHeight": 597,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "progress",
+      "problems": [],
+      "pageHeight": 902,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "you",
+      "problems": [],
+      "pageHeight": 1513,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "375",
+      "route": "rules",
+      "problems": [],
+      "pageHeight": 1568,
+      "viewportHeight": 597,
+      "documentWidth": 375,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "home",
+      "problems": [],
+      "pageHeight": 2986,
+      "viewportHeight": 324,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "walk",
+      "problems": [],
+      "pageHeight": 1613,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": 64
+    },
+    {
+      "mode": "200-percent",
+      "route": "workout",
+      "problems": [],
+      "pageHeight": 1420,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "abs",
+      "problems": [],
+      "pageHeight": 2570,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "floss",
+      "problems": [],
+      "pageHeight": 791,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "water",
+      "problems": [],
+      "pageHeight": 1637,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "food",
+      "problems": [],
+      "pageHeight": 1233,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "rest",
+      "problems": [],
+      "pageHeight": 1787,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "meditate",
+      "problems": [],
+      "pageHeight": 748,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": 64
+    },
+    {
+      "mode": "200-percent",
+      "route": "focus",
+      "problems": [],
+      "pageHeight": 836,
+      "viewportHeight": 276,
+      "documentWidth": 320,
+      "timerFont": 64
+    },
+    {
+      "mode": "200-percent",
+      "route": "rewards",
+      "problems": [],
+      "pageHeight": 726,
+      "viewportHeight": 320,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "progress",
+      "problems": [],
+      "pageHeight": 1763,
+      "viewportHeight": 320,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "you",
+      "problems": [],
+      "pageHeight": 2999,
+      "viewportHeight": 320,
+      "documentWidth": 320,
+      "timerFont": null
+    },
+    {
+      "mode": "200-percent",
+      "route": "rules",
+      "problems": [],
+      "pageHeight": 6102,
+      "viewportHeight": 320,
+      "documentWidth": 320,
+      "timerFont": null
+    }
+  ],
+  "reducedMotionActiveAnimations": 0,
+  "notes": "Desktop engines, emulated mobile viewports. 200% root font size exercises relative type tokens; not physical iOS Dynamic Type. Calendar and weekly chart controls use WCAG 24px minimum at narrow widths."
+}

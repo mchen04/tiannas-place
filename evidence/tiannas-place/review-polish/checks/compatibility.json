@@ -1,0 +1,27 @@
+{
+  "baselineWalkingSource": "58e8e08",
+  "hillsPathAndPointsByteIdentical": true,
+  "walkerHopAndPulseCSSByteIdentical": true,
+  "hillsSHA256": "c30adfbe28181483256961851ae8cde3270199a09fe859f262716f2d207f1d77",
+  "unchangedFromReviewedCommit": "0d67f28",
+  "unchangedPaths": [
+    "lib/client-store.ts",
+    "lib/auth.ts",
+    "lib/timer.ts",
+    "lib/domain.ts",
+    "lib/db.ts",
+    "lib/sessions.ts",
+    "lib/settle.ts",
+    "migrations",
+    "vercel.json",
+    "app/api",
+    "lib/tokens.ts",
+    "app/tokens.css",
+    "package.json",
+    "package-lock.json"
+  ],
+  "singleDialSizingRule": true,
+  "orphanThirdZzzRuleAbsent": true,
+  "scannersUnchanged": true,
+  "tokenCatalogueIntentionallyRetained": true
+}

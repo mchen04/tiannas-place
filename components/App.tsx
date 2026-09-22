@@ -30,7 +30,7 @@ export default function App() {
  const done = completion(day); const count = Object.values(done).filter(Boolean).length; const streak = streaks(state, today);
  useEffect(() => {startStore(); const timer = setInterval(() => setNow(new Date()), 15000); const resume = () => setNow(new Date()); window.addEventListener('pageshow', resume); document.addEventListener('visibilitychange', resume); return () => {clearInterval(timer); window.removeEventListener('pageshow', resume); document.removeEventListener('visibilitychange', resume);};}, []);
  // Every page starts at the top and moves focus to its heading, so keyboard and screen-reader users land where the page begins.
- useEffect(() => {document.querySelector('.page')?.scrollTo?.(0, 0); const h = document.querySelector<HTMLElement>('.topbar h1'); if (h && page) {h.setAttribute('tabindex', '-1'); h.focus({preventScroll: true});}}, [page]);
+ useEffect(() => {document.querySelector('.page')?.scrollTo?.(0, 0); const h = document.querySelector<HTMLElement>('.topbar h1'); if (h) {h.setAttribute('tabindex', '-1'); h.focus({preventScroll: true});}}, [page]);
  function change(payload: Change, date = selected ?? dayAt(state.clock, new Date(), todayZone()), id = crypto.randomUUID()) {const at = new Date().toISOString(); return dispatch({...payload, id, at, day: date, zone: todayZone()} as Operation);}
  // Settle finished timers wherever the app is: a finished routine, meditation or focus block logs itself once (lib/settle.ts).
  useSettle((op, id) => {const ok = change(op as Change, op.day, id); if (ok && (op.type === 'session' || op.type === 'meditate' || op.type === 'focus')) bump(op.type === 'session' ? 'abs' : op.type); return ok;}, store.ready && store.unlocked && !!state.profile);
@@ -45,7 +45,7 @@ export default function App() {
  const yesterday = state.days[addDays(today, -1)]; const stumbled = !selected && count === 0 && !!yesterday && !isKept(yesterday) && addDays(today, -1) >= profile.startDay;
  const complete = count === habits.length;
  const headline = selected ? 'Past day' : day.rest ? 'Rest day.' : complete ? 'Every one.' : count >= 5 ? 'Nearly there.' : count > 0 ? 'Good going.' : stumbled ? 'A new day.' : morning ? 'Good morning.' : hour < 17 ? 'Good afternoon.' : 'Good evening.';
- const title = page ? titles[page] ?? 'My Wellness' : headline === 'Every one.' ? 'All done.' : headline;
+ const title = page ? titles[page] ?? 'Tianna’s Place' : selected ? 'Past day' : 'Tianna’s Place';
  const ctx = {state, today, dayKey, selected, day, done, units: unitsOf(state), pulse, notice: store.notice, change, navigate, open, select: setSelected, bump};
  const showWeight = morning && !state.weights[today] && !selected && !page;
  const activity = ['walk', 'workout', 'abs', 'floss', 'water', 'rest', 'meditate', 'focus'] as const; type Activity = typeof activity[number];
@@ -53,7 +53,7 @@ export default function App() {
  return <AppContext.Provider value={ctx}><main className="app-shell">
   <header className="topbar">
    {page && <button className="icon-button home" aria-label="Home" onClick={() => navigate('')}><Icon name="home"/></button>}
-   <div className="topbar-copy"><h1>{title}</h1><p className="date">{page === 'progress' ? `Since ${new Intl.DateTimeFormat('en', {month: 'long', day: 'numeric', timeZone: 'UTC'}).format(new Date(profile.startDay + 'T12:00:00Z'))}` : page === 'rules' || page === 'you' || page === 'rewards' ? 'My Wellness' : longDate(dayKey)}</p></div>
+   <div className="topbar-copy"><h1>{title}</h1><p className="date">{!page && !selected && <><span className="greeting">{headline}</span>{' '}</>}{page === 'progress' ? `Since ${new Intl.DateTimeFormat('en', {month: 'long', day: 'numeric', timeZone: 'UTC'}).format(new Date(profile.startDay + 'T12:00:00Z'))}` : page === 'rules' || page === 'you' || page === 'rewards' ? 'Tianna’s Place' : longDate(dayKey)}</p></div>
    <button className={`streak-badge ${page === 'progress' ? 'active' : ''}`} onClick={() => {navigate('progress'); setSelected(null);}} aria-label={`${streak.current} day streak. Open progress`} aria-current={page === 'progress' ? 'page' : undefined}><strong>{streak.current}</strong><span>day{streak.current === 1 ? '' : 's'}</span></button>
    <button className={`icon-button gear ${page === 'you' ? 'active' : ''}`} aria-label="Settings" aria-current={page === 'you' ? 'page' : undefined} onClick={() => {navigate('you'); setSelected(null);}}><Icon name="settings"/></button>
   </header>
@@ -62,7 +62,7 @@ export default function App() {
   {selected && <div className="past-row"><span>Editing {longDate(selected)}</span><button className="text-button" onClick={() => setSelected(null)}>Back to today</button></div>}
   {store.notice && page !== 'you' && page !== 'water' && <p className="notice-row" role="status">{store.notice}</p>}
   <div className="page" key={page}><Suspense fallback={<p className="fine-print">Loading…</p>}>{body}</Suspense></div>
-  <input className="sr-only" ref={file} aria-label="Photograph a meal" type="file" accept="image/*" capture="environment" onChange={e => {const f = e.target.files?.[0]; if (f) {setPhoto(f); setEditMeal(null); open('meal');} e.target.value = '';}}/>
+  <input className="sr-only" tabIndex={-1} ref={file} aria-label="Photograph a meal" type="file" accept="image/*" capture="environment" onChange={e => {const f = e.target.files?.[0]; if (f) {setPhoto(f); setEditMeal(null); open('meal');} e.target.value = '';}}/>
   {sheet && <Sheet title={sheet === 'camera' ? 'Photo' : sheet === 'meal' ? (editMeal ? 'Correct this meal' : 'Log a meal') : sheet === 'rescue' ? 'Rescue this day' : sheet === 'weight' ? 'Weigh in' : sheet === 'targets' ? 'Daily targets' : sheet === 'setup' ? 'Your details' : sheet === 'zone' ? 'Timezone' : sheet === 'lock' ? 'Lock this device?' : sheet === 'treats' ? 'Your treats' : sheet === 'plan' ? 'Workout plan' : sheet === 'containers' ? 'Water containers' : 'How targets are set'} onClose={() => open(null)}><Suspense fallback={<p className="fine-print">Loading…</p>}>
    {sheet === 'camera' ? <Camera onCapture={p => {setPhoto(p); setEditMeal(null); open('meal');}} onChoose={() => file.current?.click()} onText={() => {setPhoto(null); setEditMeal(null); open('meal');}}/>
    : sheet === 'meal' ? <FoodChunk kind="meal" photo={photo} initial={editMeal ? foodDay.meals[editMeal] : undefined} count={Object.keys(foodDay.meals).length} day={foodDayKey} today={today} onPhotoConsumed={() => setPhoto(null)} onCamera={() => open('camera')} onList={() => {open(null); navigate('food');}} onSave={meal => {const mealId = editMeal ?? crypto.randomUUID(); if (change({type: 'meal', mealId, ...meal}, foodDayKey)) {open(null); bump('meal', 6000); return true;} return false;}}/>
@@ -79,4 +79,4 @@ export default function App() {
   </Suspense></Sheet>}
  </main></AppContext.Provider>;
 }
-function Gate({notice}: {notice: string}) {const [error, setError] = useState(''); const [busy, setBusy] = useState(false); return <main className="gate"><Hills className="gate-scene"/><form onSubmit={async e => {e.preventDefault(); setBusy(true); setError(await unlock(String(new FormData(e.currentTarget).get('passphrase')))); setBusy(false);}}><h1 className="gate-title">My Wellness</h1><label>Passphrase<input name="passphrase" type="password" autoComplete="current-password" required/></label><button className="primary" disabled={busy}>{busy ? 'Opening…' : 'Open'}</button>{(error || notice) && <p role="alert">{error || notice}</p>}</form></main>;}
+function Gate({notice}: {notice: string}) {const [error, setError] = useState(''); const [busy, setBusy] = useState(false); return <main className="gate"><Hills className="gate-scene"/><form onSubmit={async e => {e.preventDefault(); setBusy(true); setError(await unlock(String(new FormData(e.currentTarget).get('passphrase')))); setBusy(false);}}><h1 className="gate-title">Tianna’s Place</h1><label>Passphrase<input name="passphrase" type="password" autoComplete="current-password" required/></label><button className="primary" disabled={busy}>{busy ? 'Opening…' : 'Open'}</button>{(error || notice) && <p role="alert">{error || notice}</p>}</form></main>;}

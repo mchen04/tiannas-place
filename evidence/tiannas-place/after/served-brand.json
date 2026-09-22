@@ -1,0 +1,14 @@
+{
+  "url": "http://localhost:3075",
+  "status": 200,
+  "title": "Tianna’s Place",
+  "manifest": {
+    "id": "/",
+    "name": "Tianna’s Place",
+    "short_name": "Tianna’s Place",
+    "start_url": "/",
+    "scope": "/"
+  },
+  "serviceWorkerVersion": "flaccid75-shell-b97880054fb0",
+  "productionRequests": 0
+}

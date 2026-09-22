@@ -1,0 +1,34 @@
+[
+  {
+    "engine": "chromium",
+    "realHTTP": true,
+    "realPostgres": true,
+    "legacyWalkConverted": true,
+    "walksPreservedAfterToggle": true,
+    "remainingWalks": 3,
+    "legacyMealEdited": true,
+    "itemPortionPersisted": 150,
+    "mealRemovePersisted": true,
+    "weightsAndProfilePreserved": true,
+    "completionAndRestReloaded": true,
+    "storedOperationRows": 14,
+    "externalRequests": [],
+    "physicalDevice": false
+  },
+  {
+    "engine": "webkit",
+    "realHTTP": true,
+    "realPostgres": true,
+    "legacyWalkConverted": true,
+    "walksPreservedAfterToggle": true,
+    "remainingWalks": 3,
+    "legacyMealEdited": true,
+    "itemPortionPersisted": 150,
+    "mealRemovePersisted": true,
+    "weightsAndProfilePreserved": true,
+    "completionAndRestReloaded": true,
+    "storedOperationRows": 14,
+    "externalRequests": [],
+    "physicalDevice": false
+  }
+]

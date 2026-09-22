@@ -1,0 +1,14 @@
+{
+  "browserTests": 299,
+  "engines": {
+    "chromium": 150,
+    "webkit": 149
+  },
+  "passed": true,
+  "failures": 0,
+  "physicalDevice": false,
+  "unitTests": 73,
+  "postgresIntegrationOperations": 274,
+  "realHTTPDatabaseEngines": 2,
+  "offlineDatabaseEngines": 2
+}

@@ -1,0 +1,24 @@
+{
+  "base": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af",
+  "node": "v26.3.1",
+  "playwright": "1.63.0",
+  "serviceWorkerVersion": "flaccid75-shell-b97880054fb0",
+  "sourceSHA256": {
+    "app/globals.css": "ec7018c1a8e03b81b1b973049954a7df2088e6b64dc468b089f28ff231e86a7e",
+    "app/layout.tsx": "7eccc0c22f81d75a5b325dc2b3331568d2804fae2d0c12e2b4b21a3490a7aa96",
+    "app/manifest.ts": "8ecc9e98e4ade95a50fba775a86d858fa15db45488899ac97376d3eb382e786b",
+    "app/route.ts": "290fbc96d49deb03e160f468f7cd8d964e235eb3e8f5a5a6a8c7e97157b3c364",
+    "app/tokens.css": "a1b910f3dae627baee86702e454dfd5ea57f4e499b3e5a8cd5387c49ad96d91f",
+    "components/Activities.tsx": "8bc45dea475a038b4544ec2fc045384f6b458e8ed2722ab6e53b509063c3e40f",
+    "components/App.tsx": "1e28fd53d3da9a908dc46eda567a805be693286edfad8f850d38070a2a69cf38",
+    "components/Home.tsx": "7b0c92310ca3893ad59f0100b297f6948d15c161ccaa3a8873f12aa8f7b040de",
+    "components/Scenes.tsx": "d8fa64781f5c8320d95773b196ecd32bd62733513940e2d3b9a7b6d772033c0b",
+    "components/Settings.tsx": "bf7b98b8e6d0302a2c5f7c2decbe6794f6a4466d09297dfdcc7e2c14d29d9098",
+    "components/shared.tsx": "52d738a96255dde1bf060e3d293e5c4fe53e4fd2729553293035485459f31f8d",
+    "lib/estimate.ts": "73a97768d2c74899d82accfa82c2afc94759cc7a38b2e6811c653b0b70e92956",
+    "lib/tokens.ts": "dfa08324f54fb11d23b545df44fce80b0aa926801784e217a33bf6847f27f16f",
+    "package-lock.json": "ae0690f8e5f643b6278e693083a21b8fc3dfb7a629a8086b6583895ec500d618",
+    "package.json": "509f20112269f6e3857a16c78dd22e6e29957c0f39bee85fa398f1f5f3f5c7cd",
+    "public/sw.js": "3741682d296920f7d00156971eb7c821d3228a4599810a02fb03e72afbeb1ab3"
+  }
+}

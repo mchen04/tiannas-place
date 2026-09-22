@@ -1,0 +1,19 @@
+{
+  "journeys": 29,
+  "engineActionCountsEqual": true,
+  "layout": {
+    "chromium": {
+      "routeConfigurations": 42,
+      "sheets": 8,
+      "layoutProblems": 0,
+      "reducedMotionActiveAnimations": 0
+    },
+    "webkit": {
+      "routeConfigurations": 42,
+      "sheets": 8,
+      "layoutProblems": 0,
+      "reducedMotionActiveAnimations": 0
+    }
+  },
+  "physicalDevice": false
+}

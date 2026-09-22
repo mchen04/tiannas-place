@@ -1,0 +1,43 @@
+{
+  "sourceCommit": "7a13b7693de043608717921ab3841ed1abcda03a",
+  "workerVersion": "81b6aa368b2a",
+  "unitTestsPassed": 73,
+  "focusedBrowserTestsPassed": 44,
+  "layoutBrowserTestsPassed": 12,
+  "totalBrowserTestsPassed": 56,
+  "newTestsIncluded": 6,
+  "engines": [
+    "chromium",
+    "webkit"
+  ],
+  "routeLayoutConfigurations": 84,
+  "enlargedTextSheets": 16,
+  "journeysPerEngine": 29,
+  "journeyCountsUnchanged": true,
+  "phoneStates": 57,
+  "extraStates": 10,
+  "captureFailures": 0,
+  "geometry": [
+    {
+      "engine": "chromium",
+      "scenes": 30,
+      "minimumCloudClearancePx": 10.499305725097656,
+      "maximumCatEdgeErrorPx": 0.015625,
+      "negativeControlsDetected": true
+    },
+    {
+      "engine": "webkit",
+      "scenes": 30,
+      "minimumCloudClearancePx": 10.499305725097656,
+      "maximumCatEdgeErrorPx": 0.015625,
+      "negativeControlsDetected": true
+    }
+  ],
+  "realOfflineEngines": 2,
+  "historicalFilesPreserved": 136,
+  "v3HistoricalSnapshotsPreserved": true,
+  "physicalDevice": false,
+  "fullSlowSuiteRerun": false,
+  "nextBoundedCleanup": "pending",
+  "sameIndependentReviewerFinalVerification": "pending"
+}

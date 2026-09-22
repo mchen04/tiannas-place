@@ -1,0 +1,29 @@
+{
+  "timeOfDay": [
+    {
+      "left": 16,
+      "right": 304,
+      "viewport": 320,
+      "visibleText": "Good morning."
+    },
+    {
+      "left": 16,
+      "right": 304,
+      "viewport": 320,
+      "visibleText": "Good afternoon."
+    },
+    {
+      "left": 16,
+      "right": 304,
+      "viewport": 320,
+      "visibleText": "Good evening."
+    }
+  ],
+  "completion": [
+    "Good going.",
+    "Nearly there.",
+    "Rest day."
+  ],
+  "nearlyTherePersistsOnReload": true,
+  "physicalDevice": false
+}

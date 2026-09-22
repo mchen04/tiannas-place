@@ -1,0 +1,50 @@
+[
+  {
+    "sheet": "Daily targets",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Your details",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Weigh in",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Workout plan",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Water containers",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Treats",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "How targets are set",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  },
+  {
+    "sheet": "Lock this device",
+    "width": 320,
+    "scrollWidth": 320,
+    "children": []
+  }
+]
