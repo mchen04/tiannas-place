@@ -46,4 +46,6 @@ Active README repository/PR links now use the new path. Historical evidence and 
 
 ## Handoff
 
-The supervisor’s independent post-rename Vercel binding/live-URL reread remains assigned to the supervisor and is not claimed here. Hosting project/domain/storage/auth names remain unchanged. No code push, PR, merge, deployment, production-data write, cleanup agent, independent reviewer, or board completion action was performed. Edits pause after the local proof commit for the requested cleanup and read-only Opus review.
+The supervisor subsequently confirmed the post-rename Vercel binding and live URL, and updated/read back the original mbp-main checkout’s remote. Project name `flaccid75`, numeric repo ID 1362066274, production SHA `58e8e08…` and aliases remain unchanged; HTTP 200 was confirmed. Vercel’s `link.repo` display string still reads `flacid-75`. **Future deploy-trigger behavior is untested.** No integration setting was altered and no deployment was triggered to test it. This remains supervisor-provided Vercel evidence, not an API read by this implementer. [Recorded confirmation](repository-final.json).
+
+Hosting project/domain/storage/auth names remain unchanged. No code push, PR, merge, deployment or production-data write was performed by this implementer. The supervisor’s separate cleanup pass and failed coordinator gate are recorded in [the cleanup follow-up](post-cleanup/PROOF.md); a passed helper report is not a passed coordinator gate. Edits pause again at the next clean handoff for bounded cleanup and independent read-only review.

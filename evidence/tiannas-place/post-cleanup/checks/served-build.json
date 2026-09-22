@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-09-22T01:00:52.486Z",
+  "baseURL": "http://127.0.0.1:3075",
+  "rootStatus": 200,
+  "title": "Tianna’s Place",
+  "manifestName": "Tianna’s Place",
+  "serviceWorkerStatus": 200,
+  "serviceWorkerVersion": "16716bb1cb83",
+  "servedWorkerMatchesTrackedFile": true,
+  "workerMatchesTemplate": true,
+  "assets": [
+    {
+      "path": "/assets/app-KO7APVFW.js",
+      "status": 200,
+      "sha256": "982bcb997f3519c07f7434d6a35987e26c8c57346824ae982f1da7bad539c109"
+    },
+    {
+      "path": "/assets/chunk-FXKS56RJ.js",
+      "status": 200,
+      "sha256": "741566a393cad5777cd241978e980681d165b57433b580f347b41ce476924113"
+    },
+    {
+      "path": "/assets/chunk-TX3EC334.js",
+      "status": 200,
+      "sha256": "27e9b8e5fbbdcc98ee4346a9d2f7185b233d5016cde91c2cf79d2182e5a39d8c"
+    },
+    {
+      "path": "/assets/chunk-BYO2AFIZ.js",
+      "status": 200,
+      "sha256": "2b5caa9f2c091694fbd34e4c029b0bb30ad10c922eca2c5f14a9440b9b631af8"
+    },
+    {
+      "path": "/assets/chunk-UG7OTARB.js",
+      "status": 200,
+      "sha256": "3b934141a0ff16a53dd2545bdf3a057b2a43614d61f121658d6cf2857e9fd4b8"
+    },
+    {
+      "path": "/assets/chunk-XJ3NB7XH.js",
+      "status": 200,
+      "sha256": "3e419b999224054e9c9f5a1f31c7d673802b3cd2a14121cbce560f2d3b17e931"
+    },
+    {
+      "path": "/assets/chunk-UDWUG3BT.js",
+      "status": 200,
+      "sha256": "7654f94521e315de3207e5361267506c3a62e88e6af43ac192df9c2778d6627e"
+    },
+    {
+      "path": "/assets/chunk-QMDUQZHZ.js",
+      "status": 200,
+      "sha256": "770e03c92210c89b0e7b73f0796a50660b1c449ca71ca12acd8326e45283e1e5"
+    },
+    {
+      "path": "/assets/chunk-SH2YFG7M.js",
+      "status": 200,
+      "sha256": "dc2aa117a856d86278f5673263f0efab26dc7c94445099762ea9b3eca811e95c"
+    },
+    {
+      "path": "/assets/chunk-LOP2GK3N.js",
+      "status": 200,
+      "sha256": "a48abb3f6ee0088e3ad3b3c540d904f3c4dccb66e6fbe37a353929392582ca50"
+    },
+    {
+      "path": "/assets/chunk-BKFAAR5Y.js",
+      "status": 200,
+      "sha256": "9daf85c6129ccdb9dcf099fd7040bef0bfc3978d8602b1b6564b92d19c5c56b8"
+    },
+    {
+      "path": "/assets/chunk-2FYTCFDO.js",
+      "status": 200,
+      "sha256": "5411c5878e3343c7b67593a51f03e8002a38bc1685256edc8da646566f0f02ea"
+    }
+  ],
+  "syntheticLocalOnly": true
+}

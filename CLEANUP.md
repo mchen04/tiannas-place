@@ -1,8 +1,10 @@
 # Cleanup gate
 
 Run ID: 2f788e10598544fa807608bfc1717dcf
-Status: complete
+Status: helper pass complete; coordinator gate FAILED
 Scope: the diff against 58e8e082d01a0b7e555a5b58bce98ab6fbefd0af. No unrelated code touched.
+
+Supervisor-reported coordinator outcome: all planned pre/post checks passed, but the gate failed because the build refreshed tracked `public/sw.js` after the cleanup commit; the baseline build also refreshed generated artifacts. The helper report alone is not a passed gate. The implementer is preserving the cleanup code, correcting generated/evidence artifacts, and returning for a bounded coordinator rerun with non-mutating checks and independent review. [Follow-up proof](evidence/tiannas-place/post-cleanup/PROOF.md).
 
 ## Passes
 
@@ -42,12 +44,12 @@ Bounded plan, six per side: `npm ci --ignore-scripts`, `npm run lint`, `npm run 
 
 Coordinator prechecks ran synchronously before this pass; receipts in `cleanup-evidence-r2/`. Raw exit codes, base worktree then current: install 0/0, lint 0/0, typecheck 0/0, unit 0/0, build 0/0, scan 0/0. Raw green both sides, not a diagnostic delta. No historical diagnostic was waived; nothing here claims the wider repository green beyond these six.
 
-Postchecks have not run: the coordinator runs the planned verification after this pass exits. This pass started no lint, typecheck or full-suite job of its own.
+At helper-report time, postchecks had not run. The supervisor subsequently confirmed green install/unit/lint/build/type/scan postchecks and the failed clean-worktree gate described above. This helper pass started no lint, typecheck or full-suite job of its own.
 
 ## Commits
 
 - `cead42f` cleanup: drop dead chevron markup, duplicate CSS and stale comments
-- `docs: add cleanup gate report` — this file, the tip commit.
+- `2701886` docs: add cleanup gate report — the original helper report.
 
 ## Reverted
 

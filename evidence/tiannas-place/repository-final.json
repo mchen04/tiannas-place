@@ -125,5 +125,17 @@
     "title": "Tianna’s Place",
     "existingBuildRestarted": true
   },
-  "supervisorPostRenameVercelCheck": "Pending independent supervisor read of the stable numeric binding/live URL, as assigned by the user; no credentials requested or transferred."
+  "supervisorPostRenameVercelCheck": {
+    "source": "Supervisor user message following independent post-rename reread on mbp-main; not a Vercel API call by this implementer",
+    "confirmed": true,
+    "originalMbpMainRemoteUpdated": true,
+    "projectName": "flaccid75",
+    "repoId": 1362066274,
+    "displayRepo": "flacid-75",
+    "productionSHA": "58e8e082d01a0b7e555a5b58bce98ab6fbefd0af",
+    "aliasesUnchanged": true,
+    "httpStatus": 200,
+    "futureDeployTriggerTested": false,
+    "integrationAlteredByImplementer": false
+  }
 }

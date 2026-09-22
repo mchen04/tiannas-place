@@ -1,0 +1,21 @@
+{
+  "focusedBrowserPassed": 38,
+  "layoutBrowserPassed": 12,
+  "totalBrowserPassed": 50,
+  "engines": [
+    "chromium",
+    "webkit"
+  ],
+  "acceptanceJourneysPerEngine": 29,
+  "tapRecordsEqualToPrevious": true,
+  "routeConfigurations": 84,
+  "enlargedTextSheets": 16,
+  "phoneCaptureStates": 57,
+  "extraCaptureStates": 10,
+  "phonePageHeightChanges": 0,
+  "realOfflineEngines": 2,
+  "historicalFilesRestored": 136,
+  "physicalDevice": false,
+  "coordinatorGate": "FAILED pending independent rerun",
+  "fullRegressionRerun": false
+}

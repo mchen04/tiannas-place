@@ -1,0 +1,292 @@
+{
+  "phoneStates": 57,
+  "extras": 10,
+  "pageHeightChanges": [],
+  "heights": [
+    {
+      "screen": "home",
+      "previous": 1342,
+      "current": 1342
+    },
+    {
+      "screen": "home-complete",
+      "previous": 1342,
+      "current": 1342
+    },
+    {
+      "screen": "home-rest-day",
+      "previous": 1342,
+      "current": 1342
+    },
+    {
+      "screen": "home-empty",
+      "previous": 1342,
+      "current": 1342
+    },
+    {
+      "screen": "walk",
+      "previous": 1037,
+      "current": 1037
+    },
+    {
+      "screen": "walk-running",
+      "previous": 1037,
+      "current": 1037
+    },
+    {
+      "screen": "walk-paused",
+      "previous": 1037,
+      "current": 1037
+    },
+    {
+      "screen": "walk-done",
+      "previous": 1175,
+      "current": 1175
+    },
+    {
+      "screen": "workout",
+      "previous": 925,
+      "current": 925
+    },
+    {
+      "screen": "workout-ticked",
+      "previous": 925,
+      "current": 925
+    },
+    {
+      "screen": "workout-done",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "abs-library",
+      "previous": 1021,
+      "current": 1021
+    },
+    {
+      "screen": "abs-guided",
+      "previous": 954,
+      "current": 954
+    },
+    {
+      "screen": "abs-done",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "floss",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "floss-done",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "water",
+      "previous": 943,
+      "current": 943
+    },
+    {
+      "screen": "water-confirm",
+      "previous": 1064,
+      "current": 1064
+    },
+    {
+      "screen": "water-ask",
+      "previous": 1105,
+      "current": 1105
+    },
+    {
+      "screen": "containers-sheet",
+      "previous": 943,
+      "current": 943
+    },
+    {
+      "screen": "food",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "food-empty",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-sheet",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-estimate",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-numbers",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-loading",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-error",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meal-not-food",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "camera-failed",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "camera-sheet",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "rest",
+      "previous": 855,
+      "current": 855
+    },
+    {
+      "screen": "rest-planned",
+      "previous": 855,
+      "current": 855
+    },
+    {
+      "screen": "rest-none-left",
+      "previous": 855,
+      "current": 855
+    },
+    {
+      "screen": "meditate",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "meditate-running",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "focus",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "focus-running",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "rewards",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "rewards-empty",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "rewards-redeemed",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "treats-sheet",
+      "previous": 774,
+      "current": 774
+    },
+    {
+      "screen": "progress",
+      "previous": 929,
+      "current": 929
+    },
+    {
+      "screen": "progress-month",
+      "previous": 1084,
+      "current": 1084
+    },
+    {
+      "screen": "trends",
+      "previous": 1085,
+      "current": 1085
+    },
+    {
+      "screen": "progress-missed-day",
+      "previous": 929,
+      "current": 929
+    },
+    {
+      "screen": "rescue-sheet",
+      "previous": 929,
+      "current": 929
+    },
+    {
+      "screen": "backfill-home",
+      "previous": 1342,
+      "current": 1342
+    },
+    {
+      "screen": "backfill-walk",
+      "previous": 714,
+      "current": 714
+    },
+    {
+      "screen": "backfill-workout",
+      "previous": 857,
+      "current": 857
+    },
+    {
+      "screen": "settings",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "targets-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "details-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "weigh-in-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "plan-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "lock-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "about-sheet",
+      "previous": 1446,
+      "current": 1446
+    },
+    {
+      "screen": "rules",
+      "previous": 1460,
+      "current": 1460
+    }
+  ]
+}

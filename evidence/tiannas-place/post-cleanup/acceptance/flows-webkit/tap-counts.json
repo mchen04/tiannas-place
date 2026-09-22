@@ -1,0 +1,281 @@
+{
+  "phase": "post-cleanup/acceptance",
+  "engine": "webkit",
+  "method": "Control activations counted as taps; typed fields reported separately. Keyboard keystrokes, auto-completion waits, reloads, and returning home between independent journeys excluded. Entry point is stated per flow.",
+  "records": [
+    {
+      "flow": "Walk: complete from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Complete"
+      ]
+    },
+    {
+      "flow": "Walk: undo completion from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Uncheck"
+      ]
+    },
+    {
+      "flow": "Workout: complete from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Complete"
+      ]
+    },
+    {
+      "flow": "Workout: undo completion from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Uncheck"
+      ]
+    },
+    {
+      "flow": "Abs: complete from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Complete"
+      ]
+    },
+    {
+      "flow": "Abs: undo completion from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Uncheck"
+      ]
+    },
+    {
+      "flow": "Floss: complete from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Complete"
+      ]
+    },
+    {
+      "flow": "Floss: undo completion from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Uncheck"
+      ]
+    },
+    {
+      "flow": "Walk: log minutes from home",
+      "taps": 2,
+      "fields": 1,
+      "steps": [
+        "Open walk",
+        "Enter Walk minutes",
+        "Log walk"
+      ]
+    },
+    {
+      "flow": "Walk: another timed walk from activity",
+      "taps": 4,
+      "fields": 0,
+      "steps": [
+        "Start",
+        "Pause",
+        "Resume",
+        "Finish"
+      ]
+    },
+    {
+      "flow": "Walk: remove one entry",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Remove first walk"
+      ]
+    },
+    {
+      "flow": "Workout: edit plan and log from home",
+      "taps": 6,
+      "fields": 1,
+      "steps": [
+        "Open workout",
+        "Edit plan",
+        "Enter One move per line",
+        "Save plan",
+        "Check Squats",
+        "Check Rows",
+        "Finish"
+      ]
+    },
+    {
+      "flow": "Abs: guided routine from home",
+      "taps": 2,
+      "fields": 0,
+      "steps": [
+        "Open abs",
+        "Start routine"
+      ]
+    },
+    {
+      "flow": "Floss: complete from activity",
+      "taps": 2,
+      "fields": 0,
+      "steps": [
+        "Open floss",
+        "Complete"
+      ]
+    },
+    {
+      "flow": "Water: full container from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Add full container"
+      ]
+    },
+    {
+      "flow": "Water: half container from home",
+      "taps": 2,
+      "fields": 0,
+      "steps": [
+        "Open water",
+        "Log half"
+      ]
+    },
+    {
+      "flow": "Water: phrase and confirm",
+      "taps": 2,
+      "fields": 1,
+      "steps": [
+        "Enter Or say it",
+        "Read it",
+        "Confirm pour"
+      ]
+    },
+    {
+      "flow": "Water: undo last pour",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Remove last pour"
+      ]
+    },
+    {
+      "flow": "Food: manual meal from home",
+      "taps": 3,
+      "fields": 3,
+      "steps": [
+        "Log a meal",
+        "Enter numbers",
+        "Enter Description",
+        "Enter Calories · kcal",
+        "Enter Protein · g",
+        "Add to today"
+      ]
+    },
+    {
+      "flow": "Food: edit manual meal from home",
+      "taps": 3,
+      "fields": 2,
+      "steps": [
+        "Open food",
+        "Edit meal",
+        "Enter Description",
+        "Enter Calories · kcal",
+        "Save"
+      ]
+    },
+    {
+      "flow": "Food: estimated meal from food page",
+      "taps": 3,
+      "fields": 2,
+      "steps": [
+        "Log a meal",
+        "Enter What did you eat?",
+        "Look it up",
+        "Enter Portion · g",
+        "Add to today"
+      ]
+    },
+    {
+      "flow": "Food: edit saved item",
+      "taps": 2,
+      "fields": 2,
+      "steps": [
+        "Edit meal",
+        "Enter Item name",
+        "Enter Portion · g",
+        "Save"
+      ]
+    },
+    {
+      "flow": "Food: remove meal",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Remove meal"
+      ]
+    },
+    {
+      "flow": "Rest: toggle from home",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Rest day"
+      ]
+    },
+    {
+      "flow": "Meditate: default session from home",
+      "taps": 2,
+      "fields": 0,
+      "steps": [
+        "Open meditate",
+        "Start"
+      ]
+    },
+    {
+      "flow": "Focus: default work block from home",
+      "taps": 3,
+      "fields": 0,
+      "steps": [
+        "Open focus",
+        "Start",
+        "End session"
+      ]
+    },
+    {
+      "flow": "Treats: create and redeem from home",
+      "taps": 5,
+      "fields": 2,
+      "steps": [
+        "Open treats",
+        "Edit treats",
+        "Enter Treat",
+        "Enter Points",
+        "Add treat",
+        "Save",
+        "Redeem"
+      ]
+    },
+    {
+      "flow": "Treats: undo redemption",
+      "taps": 1,
+      "fields": 0,
+      "steps": [
+        "Remove redemption"
+      ]
+    },
+    {
+      "flow": "History: open month from home",
+      "taps": 2,
+      "fields": 0,
+      "steps": [
+        "Open progress",
+        "Month"
+      ]
+    }
+  ]
+}

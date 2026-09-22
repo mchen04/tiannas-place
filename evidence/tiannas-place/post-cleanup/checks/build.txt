@@ -1,0 +1,42 @@
+
+> tiannas-place@4.0.0 build
+> npm run tokens && node scripts/build-client.mjs && next build && node scripts/budget.mjs && node scripts/chunk-check.mjs
+
+
+> tiannas-place@4.0.0 tokens
+> node --import tsx scripts/tokens.ts
+
+wrote app/tokens.css
+Built phone renderer 16716bb1cb83 18115 bytes entry, 11 chunk(s)
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 87ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 374ms
+  Running TypeScript ...
+  Finished TypeScript in 1046ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9)
+  Generating static pages using 7 workers (4/9)
+  Generating static pages using 7 workers (6/9)
+✓ Generating static pages using 7 workers (9/9) in 139ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/auth
+├ ƒ /api/estimate
+├ ƒ /api/state
+├ ƒ /api/sync
+├ ƒ /api/water
+└ ○ /manifest.webmanifest
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+{"gzipJavaScriptBytes":35421,"budgetBytes":40960,"pass":true,"criticalPath":["/assets/app-KO7APVFW.js","/assets/chunk-TX3EC334.js","/assets/chunk-QMDUQZHZ.js","/assets/chunk-LOP2GK3N.js","/assets/chunk-BKFAAR5Y.js","/assets/chunk-2FYTCFDO.js"],"lazyChunkGzipBytes":{"/assets/chunk-FXKS56RJ.js":7389,"/assets/chunk-BYO2AFIZ.js":3913,"/assets/chunk-UG7OTARB.js":2804,"/assets/chunk-XJ3NB7XH.js":1489,"/assets/chunk-UDWUG3BT.js":5682,"/assets/chunk-SH2YFG7M.js":519},"totalGzipJavaScriptBytes":57217,"totalBudgetBytes":65536}
+{"shellPrefetches":12,"chunks":11,"version":"16716bb1cb83","allCached":true}

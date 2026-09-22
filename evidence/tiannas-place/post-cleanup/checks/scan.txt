@@ -1,0 +1,6 @@
+
+> tiannas-place@4.0.0 scan
+> node scripts/token-scan.mjs && node scripts/mascot-scan.mjs
+
+{"scanned":35,"findings":0}
+{"scanned":136,"hits":0}
