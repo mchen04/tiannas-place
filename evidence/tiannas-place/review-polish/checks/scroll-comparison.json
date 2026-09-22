@@ -1,0 +1,405 @@
+{
+  "viewport": "390x844",
+  "note": "Content scroll heights exclude fixed topbar; the restored greeting adds a text line there. Proportional cats can grow or shrink with viewport width.",
+  "rows": [
+    {
+      "state": "home",
+      "originalBefore": 1328,
+      "priorAfter": 1342,
+      "finalAfter": 1362,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "home-complete",
+      "originalBefore": 1328,
+      "priorAfter": 1342,
+      "finalAfter": 1362,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "home-rest-day",
+      "originalBefore": 1335,
+      "priorAfter": 1342,
+      "finalAfter": 1362,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "home-empty",
+      "originalBefore": 1328,
+      "priorAfter": 1342,
+      "finalAfter": 1362,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "walk",
+      "originalBefore": 1101,
+      "priorAfter": 1037,
+      "finalAfter": 1057,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "walk-running",
+      "originalBefore": 1101,
+      "priorAfter": 1037,
+      "finalAfter": 1057,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "walk-paused",
+      "originalBefore": 1101,
+      "priorAfter": 1037,
+      "finalAfter": 1057,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "walk-done",
+      "originalBefore": 1233,
+      "priorAfter": 1175,
+      "finalAfter": 1195,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "workout",
+      "originalBefore": 1106,
+      "priorAfter": 925,
+      "finalAfter": 934,
+      "deltaFromPrior": 9
+    },
+    {
+      "state": "workout-ticked",
+      "originalBefore": 1106,
+      "priorAfter": 925,
+      "finalAfter": 934,
+      "deltaFromPrior": 9
+    },
+    {
+      "state": "workout-done",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "abs-library",
+      "originalBefore": 1083,
+      "priorAfter": 1021,
+      "finalAfter": 1030,
+      "deltaFromPrior": 9
+    },
+    {
+      "state": "abs-guided",
+      "originalBefore": 1188,
+      "priorAfter": 954,
+      "finalAfter": 963,
+      "deltaFromPrior": 9
+    },
+    {
+      "state": "abs-done",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "floss",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "floss-done",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "water",
+      "originalBefore": 878,
+      "priorAfter": 943,
+      "finalAfter": 943,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "water-confirm",
+      "originalBefore": 998,
+      "priorAfter": 1064,
+      "finalAfter": 1064,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "water-ask",
+      "originalBefore": 1029,
+      "priorAfter": 1105,
+      "finalAfter": 1105,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "containers-sheet",
+      "originalBefore": 878,
+      "priorAfter": 943,
+      "finalAfter": 943,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "food",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "food-empty",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-sheet",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-estimate",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-numbers",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-loading",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-error",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meal-not-food",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "camera-failed",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "camera-sheet",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rest",
+      "originalBefore": 1029,
+      "priorAfter": 855,
+      "finalAfter": 865,
+      "deltaFromPrior": 10
+    },
+    {
+      "state": "rest-planned",
+      "originalBefore": 1029,
+      "priorAfter": 855,
+      "finalAfter": 865,
+      "deltaFromPrior": 10
+    },
+    {
+      "state": "rest-none-left",
+      "originalBefore": 1029,
+      "priorAfter": 855,
+      "finalAfter": 865,
+      "deltaFromPrior": 10
+    },
+    {
+      "state": "meditate",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "meditate-running",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "focus",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "focus-running",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rewards",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rewards-empty",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rewards-redeemed",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "treats-sheet",
+      "originalBefore": 773,
+      "priorAfter": 774,
+      "finalAfter": 774,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "progress",
+      "originalBefore": 865,
+      "priorAfter": 929,
+      "finalAfter": 929,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "progress-month",
+      "originalBefore": 976,
+      "priorAfter": 1084,
+      "finalAfter": 1084,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "trends",
+      "originalBefore": 997,
+      "priorAfter": 1085,
+      "finalAfter": 1085,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "progress-missed-day",
+      "originalBefore": 865,
+      "priorAfter": 929,
+      "finalAfter": 929,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rescue-sheet",
+      "originalBefore": 865,
+      "priorAfter": 929,
+      "finalAfter": 929,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "backfill-home",
+      "originalBefore": 1328,
+      "priorAfter": 1342,
+      "finalAfter": 1362,
+      "deltaFromPrior": 20
+    },
+    {
+      "state": "backfill-walk",
+      "originalBefore": 723,
+      "priorAfter": 714,
+      "finalAfter": 717,
+      "deltaFromPrior": 3
+    },
+    {
+      "state": "backfill-workout",
+      "originalBefore": 1038,
+      "priorAfter": 857,
+      "finalAfter": 866,
+      "deltaFromPrior": 9
+    },
+    {
+      "state": "settings",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "targets-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "details-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "weigh-in-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "plan-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "lock-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "about-sheet",
+      "originalBefore": 1367,
+      "priorAfter": 1446,
+      "finalAfter": 1446,
+      "deltaFromPrior": 0
+    },
+    {
+      "state": "rules",
+      "originalBefore": 1338,
+      "priorAfter": 1460,
+      "finalAfter": 1460,
+      "deltaFromPrior": 0
+    }
+  ]
+}

@@ -1,0 +1,958 @@
+{
+  "originalSource": "0d67f28 (also unchanged in 7a13b76)",
+  "count": 136,
+  "files": [
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-abs.png",
+      "freshSHA256": "96677fc9547a0622fe91d58d26c10708165eb443380c927e3886066d6a32566a",
+      "historicalSHA256": "cb6cb4e776f0ceded1e365ed49c58aae6c885363aa2838874486f392cfcc4ecb",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-floss.png",
+      "freshSHA256": "365dee7506bba7e25bb344c06f8340b31a693e2e6fb2cf3649e7b620aad50d2b",
+      "historicalSHA256": "365dee7506bba7e25bb344c06f8340b31a693e2e6fb2cf3649e7b620aad50d2b",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-focus.png",
+      "freshSHA256": "2b93e40b8de6e2c93bd2a02fa95ab76e90ce143a42ae92cdee5f2e3297a4c180",
+      "historicalSHA256": "2b93e40b8de6e2c93bd2a02fa95ab76e90ce143a42ae92cdee5f2e3297a4c180",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-food.png",
+      "freshSHA256": "f722c99d78b298eea8d53724a778734c65c64d0f64fbecf467fd88f90aa9cbc5",
+      "historicalSHA256": "f722c99d78b298eea8d53724a778734c65c64d0f64fbecf467fd88f90aa9cbc5",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-home.png",
+      "freshSHA256": "2b4a1665cd8787624a9acdef17de9108e87181e4f2fc994938d76c493d7ad2c2",
+      "historicalSHA256": "833965726b1b2211483d988a81de8af68548378de8c06dd8a11e6887b9b7663c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-meditate.png",
+      "freshSHA256": "3ca6a37380302ac15259b1e7ddab5c3cb6ed726d1dd51124be2ca814a0d47ce4",
+      "historicalSHA256": "3ca6a37380302ac15259b1e7ddab5c3cb6ed726d1dd51124be2ca814a0d47ce4",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-progress.png",
+      "freshSHA256": "47f97fd6a3c18c10c25dc4ca8609814185b3309b71080a624ece7869cf654a67",
+      "historicalSHA256": "1dba1d609785ff90de5c447d600eefacd9b9d03f2a0e6e80e44793650f6f2ed1",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-rest.png",
+      "freshSHA256": "921e5d4a31105b7481d99ac4c136f0d364cf360558a46d68e2470f79c6079e4c",
+      "historicalSHA256": "db2156672a8d90428c8309e5282550cd2fe990e669ba97667ef99d92c1f72842",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-rewards.png",
+      "freshSHA256": "e3c721af27e9a204836b43aeb4d1919a9827fe65c40ed1e7f74ea60bd88b2653",
+      "historicalSHA256": "e3c721af27e9a204836b43aeb4d1919a9827fe65c40ed1e7f74ea60bd88b2653",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-rules.png",
+      "freshSHA256": "5630cfba120c4358d9e2990e6035ad169d223a9349f77980995b05a692c97475",
+      "historicalSHA256": "5630cfba120c4358d9e2990e6035ad169d223a9349f77980995b05a692c97475",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-daily-targets.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-daily-targets.png",
+      "freshSHA256": "767d3eb81bd170a4074c5dec85a11f88306586f997ff2dd38de7c39ced4e7889",
+      "historicalSHA256": "767d3eb81bd170a4074c5dec85a11f88306586f997ff2dd38de7c39ced4e7889",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-how-targets-are-set.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-how-targets-are-set.png",
+      "freshSHA256": "4b1e6e5679813319c5ca194192ddec3d91241574a1e5aabc162906c324fce9e9",
+      "historicalSHA256": "4b1e6e5679813319c5ca194192ddec3d91241574a1e5aabc162906c324fce9e9",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-lock-this-device.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-lock-this-device.png",
+      "freshSHA256": "0e020e1e9491d234ed29951e4423e3b34593403e00049f7f905b301536da080a",
+      "historicalSHA256": "0e020e1e9491d234ed29951e4423e3b34593403e00049f7f905b301536da080a",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-treats.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-treats.png",
+      "freshSHA256": "11c06a7ca0715ce928ee9d3ff5428a2323139220a3f8f5e9754ab91c61db82fa",
+      "historicalSHA256": "11c06a7ca0715ce928ee9d3ff5428a2323139220a3f8f5e9754ab91c61db82fa",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-water-containers.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-water-containers.png",
+      "freshSHA256": "da9fc4a1f6f97c8c910edffea40d4d2353eb80bcf65e3b3790b530834587b422",
+      "historicalSHA256": "da9fc4a1f6f97c8c910edffea40d4d2353eb80bcf65e3b3790b530834587b422",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-weigh-in.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-weigh-in.png",
+      "freshSHA256": "54ac38c6d7ae4688225d07fed49d2e661ffde87fa853e48312133b7155356d7c",
+      "historicalSHA256": "54ac38c6d7ae4688225d07fed49d2e661ffde87fa853e48312133b7155356d7c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-workout-plan.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-workout-plan.png",
+      "freshSHA256": "3ae1795f73fd5f7900441a2e24bc9daca90e9d3be181f384ba896f22d5ea486c",
+      "historicalSHA256": "3ae1795f73fd5f7900441a2e24bc9daca90e9d3be181f384ba896f22d5ea486c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-sheet-your-details.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-sheet-your-details.png",
+      "freshSHA256": "007556addee8bd32c10ad0729871d632df42b969745db4357c27b50dc2d0c615",
+      "historicalSHA256": "007556addee8bd32c10ad0729871d632df42b969745db4357c27b50dc2d0c615",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-walk.png",
+      "freshSHA256": "0cc3549477753a0b23290e44d886df79c401660b22a889abcb9eb752a2bf6950",
+      "historicalSHA256": "f6c0e1876636b21f84b9ff951d1bd0e469f03b15004c5c087202381f56df2deb",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-water.png",
+      "freshSHA256": "9064c519c748d353c0145bd8b6569e932c64b954d5bb605eccc8da4063437ed3",
+      "historicalSHA256": "9064c519c748d353c0145bd8b6569e932c64b954d5bb605eccc8da4063437ed3",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-workout.png",
+      "freshSHA256": "61b79ffdd799b5694acc043eb7277bb55a657f1b79a55269875829abbe229883",
+      "historicalSHA256": "34ca5321870a1cc2b82c83f7c3076cbbd12bdd82f2f0696c37a91d016f076348",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/200-percent-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/200-percent-you.png",
+      "freshSHA256": "9b0f5dce13d265583f497d0ca40b043715383a131dc09eb8b7a845ab61d3bee5",
+      "historicalSHA256": "9b0f5dce13d265583f497d0ca40b043715383a131dc09eb8b7a845ab61d3bee5",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-abs.png",
+      "freshSHA256": "55c68af80af183a1e0182154b155fc2d9d4b716464a303323348e0244dd2c7f2",
+      "historicalSHA256": "ee821c0203271ea90bedd216dfb3311b56464d5201c22a79da63a34bff704e05",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-floss.png",
+      "freshSHA256": "166848034e6d1e27a429df95d798cf3426665f7e1343a5e81cf6f1dff34c1853",
+      "historicalSHA256": "166848034e6d1e27a429df95d798cf3426665f7e1343a5e81cf6f1dff34c1853",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-focus.png",
+      "freshSHA256": "0af7baaf2fe67071bb5ba1bec00a18ae0c8ca8de47721227e693c2b867ddeadf",
+      "historicalSHA256": "0af7baaf2fe67071bb5ba1bec00a18ae0c8ca8de47721227e693c2b867ddeadf",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-food.png",
+      "freshSHA256": "1aa55f83bc21dbf15563bb74f4ce46ec798acb4b2bc1e6f2849d853a12408b86",
+      "historicalSHA256": "1aa55f83bc21dbf15563bb74f4ce46ec798acb4b2bc1e6f2849d853a12408b86",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-home.png",
+      "freshSHA256": "0f05c8c34eb1878b55751cb5b78cb8b15eb9fd1364739165a99510c85dd68f27",
+      "historicalSHA256": "7057376f27ede8376f5c35f7c328043cf19a89add1a58b9046c214d84a5db851",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-meditate.png",
+      "freshSHA256": "2f266e5e1e486c632c352da903d5e5f76068d4feb2b40ade70f3131ef3956d4e",
+      "historicalSHA256": "2f266e5e1e486c632c352da903d5e5f76068d4feb2b40ade70f3131ef3956d4e",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-progress.png",
+      "freshSHA256": "fc16d4cbb054eb3df6f38d697467edf0c1efbdb5f28b792b9070536dd7c34278",
+      "historicalSHA256": "155c1145153189fe6458998ce2b4ff21eaad78450a126a47cb58cb22450d4a8e",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-rest.png",
+      "freshSHA256": "52ae2ff1ba0d250370dd463197c69125eee4564954573c5dca746394e7a7b948",
+      "historicalSHA256": "41c24191c16915f8680aa32966ef79b68b23a2855385d239ea66f2a9d90a9198",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-rewards.png",
+      "freshSHA256": "c36d4a79f1a2684f793f2d9267cd13fd429e2b69f07ebe74274bc008e943ca1d",
+      "historicalSHA256": "c36d4a79f1a2684f793f2d9267cd13fd429e2b69f07ebe74274bc008e943ca1d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-rules.png",
+      "freshSHA256": "c12942696aa94f6fd0bb1ffe8e6dbe0249117f4856c1cfbe98dd7e57fd5517b4",
+      "historicalSHA256": "c12942696aa94f6fd0bb1ffe8e6dbe0249117f4856c1cfbe98dd7e57fd5517b4",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-walk.png",
+      "freshSHA256": "3fae9a7f864da898a60c71950707b645d9f175b9b45a00cc8ecbc6d35133ffd5",
+      "historicalSHA256": "cffb5ad387f8a11d9930cf4de682187cddbcb3bd29f6edd6327ec8e0b2157b22",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-water.png",
+      "freshSHA256": "1a0357ddabbf6cf9d3e4b80d65c85fd4ac0a3f5e29a6ba93830d6d02d2aaadc7",
+      "historicalSHA256": "1a0357ddabbf6cf9d3e4b80d65c85fd4ac0a3f5e29a6ba93830d6d02d2aaadc7",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-workout.png",
+      "freshSHA256": "5d58d02624fe55fc38798a38560e3aff5aaa07d55cedd2560da9e56ba673cf0b",
+      "historicalSHA256": "806000f4d23f3d5474515fd8a7b5ff74d95cf34c91c78874db25446e5ac08c71",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/320-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/320-you.png",
+      "freshSHA256": "62dffaf95a944650bf5db1462a46043a9b7a84feb519987aa9015b2931f321bb",
+      "historicalSHA256": "62dffaf95a944650bf5db1462a46043a9b7a84feb519987aa9015b2931f321bb",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-abs.png",
+      "freshSHA256": "e9412f64f4371392ec039ab3d5366344fea06642220d69ba0d9fbb0e69d46577",
+      "historicalSHA256": "b8d3de3b14492750faf2e3428cb59f88ed8c496395cee9dc16d5a57b30128692",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-floss.png",
+      "freshSHA256": "8e7aa1c34524ffa97e7b0ef939618fe0fafa93bcf2c761bbda2e750bdd626cac",
+      "historicalSHA256": "8e7aa1c34524ffa97e7b0ef939618fe0fafa93bcf2c761bbda2e750bdd626cac",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-focus.png",
+      "freshSHA256": "c00df5d22abfa588bb6c526dddeb54adc3e96474e26eeafb0ee96a4cec7d991b",
+      "historicalSHA256": "c00df5d22abfa588bb6c526dddeb54adc3e96474e26eeafb0ee96a4cec7d991b",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-food.png",
+      "freshSHA256": "9a35c5a2bb7dcbc9e9e01d73c8e1be680d05b963063ccf44292936727dba4292",
+      "historicalSHA256": "9a35c5a2bb7dcbc9e9e01d73c8e1be680d05b963063ccf44292936727dba4292",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-home.png",
+      "freshSHA256": "c65304585c6e4faef5363fa481541d52dc682019f5812c7155cefd5c17f4d06a",
+      "historicalSHA256": "28d0af57036b15b5a152aa55a95f6c2bbded1f476452e340ae71776bf5263d92",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-meditate.png",
+      "freshSHA256": "41a1b581f6d529457003b14872cf6910765d7c0ac53735624db431a694703a13",
+      "historicalSHA256": "41a1b581f6d529457003b14872cf6910765d7c0ac53735624db431a694703a13",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-progress.png",
+      "freshSHA256": "d81b817d4218ac80ee021de43061c5f9c75e5d99e95083ac0688874631feda6a",
+      "historicalSHA256": "7f51b01f992fbe968fc59d833715e87028af0fd5df7f7c5f3bff7fe20b268a90",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-rest.png",
+      "freshSHA256": "f228868b461919c62dfc1e2424935408f6a20364612bb80f5e57f669da425340",
+      "historicalSHA256": "b83beba577eeef8cd08df3b7c6f00e6712f9a020c7de9019367f52deaa15efb7",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-rewards.png",
+      "freshSHA256": "59743e94411a4e7eb11c2f3c523900889cd8d5d039feda89e14906aca5c6a28c",
+      "historicalSHA256": "59743e94411a4e7eb11c2f3c523900889cd8d5d039feda89e14906aca5c6a28c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-rules.png",
+      "freshSHA256": "3fab5cc2478e6836448b959ce6b0cd02434b152ab1c5208f9f871c54dcf48664",
+      "historicalSHA256": "3fab5cc2478e6836448b959ce6b0cd02434b152ab1c5208f9f871c54dcf48664",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-walk.png",
+      "freshSHA256": "a0c3dff600f2e2a55ea31d5ee7d44cabb3f6a6bade6f0f4b684c8f75c2fa0b96",
+      "historicalSHA256": "08abe604dc4d7ba96d6b4ba8cd23b82a49d3c76c9f1bbf2a6471494c9d72b2ef",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-water.png",
+      "freshSHA256": "6971f549ef631ae1ddd158cef872a910b6f93acdc9a6a6094eabf7a1c3bd8814",
+      "historicalSHA256": "6971f549ef631ae1ddd158cef872a910b6f93acdc9a6a6094eabf7a1c3bd8814",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-workout.png",
+      "freshSHA256": "849c2a9a5ee2ce1f80b020f979b70bab96ed77868040721aff5833e2a0a33513",
+      "historicalSHA256": "182cc93a79701c6ab894f1c1e1063c2e1ab8d210ca87f515d60c20c73eeace94",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/375-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/375-you.png",
+      "freshSHA256": "f4028fdadc6f16e00f874601c0ed40954f726313be35e85d4bf598f798464824",
+      "historicalSHA256": "f4028fdadc6f16e00f874601c0ed40954f726313be35e85d4bf598f798464824",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/keyboard-safe-area.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/keyboard-safe-area.json",
+      "freshSHA256": "809d7cb85dfa387817b10a82c10f1209307379190534598223d0da9467be8e56",
+      "historicalSHA256": "809d7cb85dfa387817b10a82c10f1209307379190534598223d0da9467be8e56",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/keyboard-short-viewport.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/keyboard-short-viewport.png",
+      "freshSHA256": "5e045315e3288ab52cad0ffc4305e4b81330291d27bdc0177b1bd9dfb8591c20",
+      "historicalSHA256": "5e045315e3288ab52cad0ffc4305e4b81330291d27bdc0177b1bd9dfb8591c20",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/layout.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/layout.json",
+      "freshSHA256": "a6edf4f3569a7b6bf271fe275b454dfd34134ec6b07c0b8e49e8ad640595deac",
+      "historicalSHA256": "e1bbbd51b392b3fc0787c7b821263c8f289732a93d35afe87de987f9a3f5633c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/safe-area-insets.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/safe-area-insets.png",
+      "freshSHA256": "a1e895c87c6604ead419080b69c871dd5efa3ed92c18939bbf0ccdf78bbb6f76",
+      "historicalSHA256": "d41ebd3284acf657648ff1ae567ec0e9949d9806614098b1f3cc9335c6c2468c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-chromium/sheets.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-chromium/sheets.json",
+      "freshSHA256": "8e11e784cc5376d2aad7be7882bcf0d0800a860c42d7118e2a3f9a7c20ad2386",
+      "historicalSHA256": "8e11e784cc5376d2aad7be7882bcf0d0800a860c42d7118e2a3f9a7c20ad2386",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-abs.png",
+      "freshSHA256": "21ff31b9dbdf720e1fef0fccbf2aa1ff7c118f7f40180ee860b24eac88380de1",
+      "historicalSHA256": "7da7356edf57497cc38e14fd070fee319eebe9f30f0f695097f26377c8f39df7",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-floss.png",
+      "freshSHA256": "dacd9225ebe57e7a5a6b356a426005fd2b507a4a946355344f899fe45c70ac78",
+      "historicalSHA256": "dacd9225ebe57e7a5a6b356a426005fd2b507a4a946355344f899fe45c70ac78",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-focus.png",
+      "freshSHA256": "152347c4bd55407adc755c64d434a93c0122ffc42b7a0d95a82f4a9889cf66a7",
+      "historicalSHA256": "152347c4bd55407adc755c64d434a93c0122ffc42b7a0d95a82f4a9889cf66a7",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-food.png",
+      "freshSHA256": "55dac5d10b94fbb25179ae9b57776c047153a961f2179d55ea33f872edd48081",
+      "historicalSHA256": "55dac5d10b94fbb25179ae9b57776c047153a961f2179d55ea33f872edd48081",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-home.png",
+      "freshSHA256": "1ae8742ff532ad65d30f5dcaea9970591450136c9968bdc96e8d7846817a2f43",
+      "historicalSHA256": "9bdd30dd6e65d960149dd8c73390ba848ebfd863478c4563e961019a5d90103b",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-meditate.png",
+      "freshSHA256": "7276c134703fa54502d6fd976a709550350b8645c9157bfc9677322de388743d",
+      "historicalSHA256": "7276c134703fa54502d6fd976a709550350b8645c9157bfc9677322de388743d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-progress.png",
+      "freshSHA256": "21dc59054af4b3bfc4b07b8e1b6fe244ddad3c1581a96981a659d89bf6bc88ec",
+      "historicalSHA256": "b2eef5faab217a646173aefb85d0f4a903cd26338c67eea8a833fd3bfdd3bb5e",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-rest.png",
+      "freshSHA256": "7410d068e9d31a6bb84f3e6e4fa1f7fc81e8a80bc379f1972644af8b3c662f14",
+      "historicalSHA256": "d8f396a0d477e325dae9bfa743af16f23f9f3e9bfaac1756277fdce91d18e069",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-rewards.png",
+      "freshSHA256": "db81f5659974f900d1f8b2d6083aac2ed7ce301d08da765ece798e1ae5c57677",
+      "historicalSHA256": "db81f5659974f900d1f8b2d6083aac2ed7ce301d08da765ece798e1ae5c57677",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-rules.png",
+      "freshSHA256": "05778c6d8a12bfeadcf319657531d73a24e2ce0ff9eb4ce78cc347d76fe8e6db",
+      "historicalSHA256": "05778c6d8a12bfeadcf319657531d73a24e2ce0ff9eb4ce78cc347d76fe8e6db",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-daily-targets.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-daily-targets.png",
+      "freshSHA256": "13d3951260a4179f31ddfc957a4d5616673d09c1de8977e6f6460a6b1cee2233",
+      "historicalSHA256": "13d3951260a4179f31ddfc957a4d5616673d09c1de8977e6f6460a6b1cee2233",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-how-targets-are-set.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-how-targets-are-set.png",
+      "freshSHA256": "bcb625ba62bd001e164a2c7115a86a402f71166928039309c92c6d742bffc3cc",
+      "historicalSHA256": "bcb625ba62bd001e164a2c7115a86a402f71166928039309c92c6d742bffc3cc",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-lock-this-device.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-lock-this-device.png",
+      "freshSHA256": "0e8b0e5907eaf4c2fa6663a1fc6245ec85ff39ea7b4de7f02434e6a961e93f8f",
+      "historicalSHA256": "0e8b0e5907eaf4c2fa6663a1fc6245ec85ff39ea7b4de7f02434e6a961e93f8f",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-treats.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-treats.png",
+      "freshSHA256": "a6aec591fdbd0c6c0f7e06a7b95b77d6ff008acd6f46cb9cb62f5649ac3e62c1",
+      "historicalSHA256": "a6aec591fdbd0c6c0f7e06a7b95b77d6ff008acd6f46cb9cb62f5649ac3e62c1",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-water-containers.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-water-containers.png",
+      "freshSHA256": "25176d7692ed9f1d5cb2fddc9c4ad1077ffef78938cb38eddbaac2ee592eeaaa",
+      "historicalSHA256": "25176d7692ed9f1d5cb2fddc9c4ad1077ffef78938cb38eddbaac2ee592eeaaa",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-weigh-in.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-weigh-in.png",
+      "freshSHA256": "b3edaa0edf032944562141b54af1b511f8116b43e485c15ddb4f43ec8eded5b2",
+      "historicalSHA256": "b3edaa0edf032944562141b54af1b511f8116b43e485c15ddb4f43ec8eded5b2",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-workout-plan.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-workout-plan.png",
+      "freshSHA256": "66001b919a840ea488671a86cdd891a410a31f14c8528c972e2f4372389cb4af",
+      "historicalSHA256": "66001b919a840ea488671a86cdd891a410a31f14c8528c972e2f4372389cb4af",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-sheet-your-details.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-sheet-your-details.png",
+      "freshSHA256": "5f32da26ae3a0c68e3d1398c6e790aae45856089bb031c2407638961a589e1dd",
+      "historicalSHA256": "5f32da26ae3a0c68e3d1398c6e790aae45856089bb031c2407638961a589e1dd",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-walk.png",
+      "freshSHA256": "074153effba290d6841f2ad202abc3ecd9e68196f2d6a1f229387851fb10131a",
+      "historicalSHA256": "784b18bfe6fd63b989cc04d1c4a10e2102c25ef6aa4bb55985d65001cedf6660",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-water.png",
+      "freshSHA256": "5d563b7aace96639f6dbc0e96ac918640cb89330ffb7a0ff6515b1993bedff68",
+      "historicalSHA256": "5d563b7aace96639f6dbc0e96ac918640cb89330ffb7a0ff6515b1993bedff68",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-workout.png",
+      "freshSHA256": "77fb2a06f7212f8b43a530cfc41efcdc7b2653dd3d2c4f66cac0abc594da3bbf",
+      "historicalSHA256": "ecf467f993371b56957502bedc52001a5d7f7a06d03ed64ce05c654e7664423d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/200-percent-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/200-percent-you.png",
+      "freshSHA256": "ed70c90adb5d83533c59cfa06e7c344dd872ebb6571e6e8eac6c9654864fe81a",
+      "historicalSHA256": "ed70c90adb5d83533c59cfa06e7c344dd872ebb6571e6e8eac6c9654864fe81a",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-abs.png",
+      "freshSHA256": "a0ae3323556aaa10c3f17090f919dbc85bf6f437ec9cdace54fd24392dd74bf7",
+      "historicalSHA256": "f164a94ec058016a3060f395143a8ff485317c500bd88415bd46157da3528635",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-floss.png",
+      "freshSHA256": "5a12630a3f45878c8dccd1dda8bdf91633b5e2b81dcf5c96b993b4adf335f8ed",
+      "historicalSHA256": "5a12630a3f45878c8dccd1dda8bdf91633b5e2b81dcf5c96b993b4adf335f8ed",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-focus.png",
+      "freshSHA256": "4fea5e8af25077e83f449a22ffcc0ffd58d709dad2380fbeea6735a14ae63154",
+      "historicalSHA256": "4fea5e8af25077e83f449a22ffcc0ffd58d709dad2380fbeea6735a14ae63154",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-food.png",
+      "freshSHA256": "28fbc5f1ba765734c7b7a971d3aac0e2ea6a898e93bcbfb4489978e0f787771f",
+      "historicalSHA256": "28fbc5f1ba765734c7b7a971d3aac0e2ea6a898e93bcbfb4489978e0f787771f",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-home.png",
+      "freshSHA256": "d8ed4f31e623bafc84d2a5bf75e123a6aecb65c5a591f6f1228f1fcd8e9defd6",
+      "historicalSHA256": "3754886ab0cd083fcec76081302eefcda2c8b789e89d18b0665c99ce37cebb84",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-meditate.png",
+      "freshSHA256": "a64465f609c9de305aabf63cd620de87ed70a017718b25727045799359573821",
+      "historicalSHA256": "a64465f609c9de305aabf63cd620de87ed70a017718b25727045799359573821",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-progress.png",
+      "freshSHA256": "caffd60c591e20fa4c1bd495b9f30ec18be417832264735ad3f1c5f0ce1a60de",
+      "historicalSHA256": "552cd029100fb1274c2d2e5ef342d9fdeceada990488c644a8f2d86c81ae572c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-rest.png",
+      "freshSHA256": "45f012005a0b30ee937969590e9b0a9aab7f9f6b442d282073121d61fd8c0fe5",
+      "historicalSHA256": "43f50fc7d3d99e721e50c9107cd88e9600b2af174f91798bb1e2c70885239d1d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-rewards.png",
+      "freshSHA256": "ad6c7a3e70b57fe8a7b3e32d1977e8255c6650c6d17caee4bae67d49882c47b3",
+      "historicalSHA256": "ad6c7a3e70b57fe8a7b3e32d1977e8255c6650c6d17caee4bae67d49882c47b3",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-rules.png",
+      "freshSHA256": "623fd861e357d0c9f093c9fa4fe014233224014022910ccc7b2e0d2a2bc41b6a",
+      "historicalSHA256": "623fd861e357d0c9f093c9fa4fe014233224014022910ccc7b2e0d2a2bc41b6a",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-walk.png",
+      "freshSHA256": "58a2f50d903d5289ee384e38180e96478db79cd63463142170fa2267dd94ca11",
+      "historicalSHA256": "fc2f789d9b528815719b93bdf9e06a390d37e318e2fc67639104c973582c739d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-water.png",
+      "freshSHA256": "e08f96e98d73ea9e28735eb1cc4b88b9a854ee71dd13ce7071e2fcf919252c6d",
+      "historicalSHA256": "e08f96e98d73ea9e28735eb1cc4b88b9a854ee71dd13ce7071e2fcf919252c6d",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-workout.png",
+      "freshSHA256": "f3a083e699e8ac02dde828e4a1be41f6e2b955df7906b681655f870831430f7b",
+      "historicalSHA256": "5cc43f52a5e685097650075b44684bffe313a2ea814c83322ae26c2848046b91",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/320-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/320-you.png",
+      "freshSHA256": "42c2164bc5c4a379bce07d8402b31d404055468212070037edb012df04f5bae5",
+      "historicalSHA256": "42c2164bc5c4a379bce07d8402b31d404055468212070037edb012df04f5bae5",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-abs.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-abs.png",
+      "freshSHA256": "007d54af91395709054aa4acd7a3df88c0eda3e756dadf9a1d2f4f4c9ff34392",
+      "historicalSHA256": "c896d1871980c1ef567c6f0b8d3d0fad3b0ca0d0207198bf793f957744fa390a",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-floss.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-floss.png",
+      "freshSHA256": "2b6648a5d11cbdd6e9a252091f9ccf7c20a19ef88774a9388bf29080337fb989",
+      "historicalSHA256": "2b6648a5d11cbdd6e9a252091f9ccf7c20a19ef88774a9388bf29080337fb989",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-focus.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-focus.png",
+      "freshSHA256": "4d511c0bc7fff6eddea0c34fb59981af247333413d445eff514d9619a2e8226a",
+      "historicalSHA256": "4d511c0bc7fff6eddea0c34fb59981af247333413d445eff514d9619a2e8226a",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-food.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-food.png",
+      "freshSHA256": "c51360962fa7a8eacd1f7748d0e088cdc4a1635fdb289df1a5f8340abc892b09",
+      "historicalSHA256": "c51360962fa7a8eacd1f7748d0e088cdc4a1635fdb289df1a5f8340abc892b09",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-home.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-home.png",
+      "freshSHA256": "ad4278b97f4425a3866dbf71f52541139433d036ad19c1aac845c351a280784b",
+      "historicalSHA256": "63dacbf275fc7e627bf42c3c85123d0965382f1d7bed4b20407901011ce9f2bc",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-meditate.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-meditate.png",
+      "freshSHA256": "a2473add34cc6eac866d8639d303be1bea94cad75733f9b865e7e47b1039aa6e",
+      "historicalSHA256": "a2473add34cc6eac866d8639d303be1bea94cad75733f9b865e7e47b1039aa6e",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-progress.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-progress.png",
+      "freshSHA256": "bfa3e583f565d8a58e607c84bfca536bae8a837c685f06927968cb53c42820cf",
+      "historicalSHA256": "f032a1a49de1ec9fd1528d1d765c688568b0c1dc533ee59c28279e68a9db0265",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-rest.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-rest.png",
+      "freshSHA256": "75ec97ab781f5107d2bc4205ed195a98f10d5513b613a36a0c78c42d2fab9652",
+      "historicalSHA256": "406fc5ec3b4ecc57241760285e56c909220191414d230544cd2b0264f190c11c",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-rewards.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-rewards.png",
+      "freshSHA256": "489cdf328b566e18b2f978fad098fd806ded2808778ccd6d94666d1b38b6c9ea",
+      "historicalSHA256": "489cdf328b566e18b2f978fad098fd806ded2808778ccd6d94666d1b38b6c9ea",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-rules.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-rules.png",
+      "freshSHA256": "1ab6c0f2d336eda12756de761a4446a0a0da5aba29dec8f6ed362cc27a78f2ee",
+      "historicalSHA256": "1ab6c0f2d336eda12756de761a4446a0a0da5aba29dec8f6ed362cc27a78f2ee",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-walk.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-walk.png",
+      "freshSHA256": "b9d6e0cf25bcc76a43cd457951786409320d5dd1dbbfc98e22ce89c0b9aaf50c",
+      "historicalSHA256": "511f89ca7580f19cda19085071f04e73747614961e42d92b3b0a73a6b3bd98c4",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-water.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-water.png",
+      "freshSHA256": "c1f66890422cea0aa52defebb9d76d57c18b940a357ad267e2c2518454d9d1bb",
+      "historicalSHA256": "c1f66890422cea0aa52defebb9d76d57c18b940a357ad267e2c2518454d9d1bb",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-workout.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-workout.png",
+      "freshSHA256": "64118d54a09bd79569381be7ee7228b3cff662696e7fbc07a59b10f4da7819de",
+      "historicalSHA256": "35d7d10acb133eed24eeec49ce040de8a730bc5048e0b6928075a93f2a9e0700",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/375-you.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/375-you.png",
+      "freshSHA256": "05518c19130eab08523a211b6311e2d72c12db3b2e39f465573a6ead26eaab41",
+      "historicalSHA256": "05518c19130eab08523a211b6311e2d72c12db3b2e39f465573a6ead26eaab41",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/keyboard-safe-area.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/keyboard-safe-area.json",
+      "freshSHA256": "d4af8293e25553e1171f3ebaaa5548a77331258f1f2917fbf19531c15cb376aa",
+      "historicalSHA256": "d4af8293e25553e1171f3ebaaa5548a77331258f1f2917fbf19531c15cb376aa",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/keyboard-short-viewport.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/keyboard-short-viewport.png",
+      "freshSHA256": "daae85b350418afe0dd1ed837a7c7bad98ffd5ef028c28a2de7c5c82bc153938",
+      "historicalSHA256": "daae85b350418afe0dd1ed837a7c7bad98ffd5ef028c28a2de7c5c82bc153938",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/layout.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/layout.json",
+      "freshSHA256": "073fb058468f0908e00fec12ee4ab56f03c3f3fd7f60ccbfb5e4706f87ceb42b",
+      "historicalSHA256": "7d443b321487f620a000598b0f316049ab5a43d91d225cbabf255d9228fd5e56",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/safe-area-insets.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/safe-area-insets.png",
+      "freshSHA256": "0d9ea7650139553b64819a39ffc4d60b7ea6f77a07e9916b31dce88d4cb6062d",
+      "historicalSHA256": "8e230719e14fe4b6fba0d9c67a4abaf27956752ff4db875276d098b824d686af",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/accessibility-webkit/sheets.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/acceptance/accessibility-webkit/sheets.json",
+      "freshSHA256": "8e11e784cc5376d2aad7be7882bcf0d0800a860c42d7118e2a3f9a7c20ad2386",
+      "historicalSHA256": "8e11e784cc5376d2aad7be7882bcf0d0800a860c42d7118e2a3f9a7c20ad2386",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/offline-chromium-requests.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/offline-chromium-requests.json",
+      "freshSHA256": "c0212ee14e791ec734457633c92a31b91fb047bedcf33a23d79fde316f9bf07c",
+      "historicalSHA256": "610fba937e584a034d2f931b524eaba31eba6d1aeda95ac6fac56fea778ab586",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/offline-integration.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/offline-integration.json",
+      "freshSHA256": "87af408f068bd2204fa7e9f726d0bc3e458898fa3bdf6e1ac0e362e6fa8cf561",
+      "historicalSHA256": "141e2214a7ecaac745031076f3582ab3b2568ef7aad2b1d118818d68fb6a2f6e",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/offline-webkit-requests.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/offline-webkit-requests.json",
+      "freshSHA256": "5300d49aaf15bff9126c04659f3ec4b06037136d8832001c6bd0dec4ed972c21",
+      "historicalSHA256": "77cf378545fad1b71870102b6f217a6eb7b816868b334df8316ce82c77f8815b",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/real-offline-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/real-offline-chromium.png",
+      "freshSHA256": "9975e9730a8a83ff9aac4f59163899032617f8b7b0a75254b564678afabaf01c",
+      "historicalSHA256": "42b952be76e90e0fd95576144312aca0cdc8ad46ecd0b09adcd431cdf94b4960",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/real-offline-rules-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/real-offline-rules-chromium.png",
+      "freshSHA256": "813f29a0af0b673f00738ab587ca5b91b0b3637000c244f3827409dc4a052665",
+      "historicalSHA256": "aff56f4a2b5eeb418c1a1add2ba140e9430003d4423f46e5f6470a7745585a07",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/real-offline-rules-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/real-offline-rules-webkit.png",
+      "freshSHA256": "cf4de65cee04f6281bfa30157e0bd10804be04e0a8b582adafc9a95c828ffd21",
+      "historicalSHA256": "04611e48ebf0ffffcafb4c3402f8f536d1df0cda7b855577289d9fb7dd31ebde",
+      "restored": true
+    },
+    {
+      "path": "evidence/tiannas-place/after/real-offline-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/offline/real-offline-webkit.png",
+      "freshSHA256": "13d39ca33eb44b512cfaa1c2ec38e4815e37e15077a85e369195dc7c5e4df811",
+      "historicalSHA256": "a642fb08ff69d4b565340bd44978266cdc2f76e8574a4f8729e671f246559e60",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/ai-unavailable-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/ai-unavailable-chromium.png",
+      "freshSHA256": "b0b20f7abebcff098bc1d5161a96c81fa5d22dad6733d93ddd08a35636ba164f",
+      "historicalSHA256": "6700ce271c3f64e2a50adb87b70d292e85232d8037e2672a2b0eedd9ac39055e",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/ai-unavailable-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/ai-unavailable-webkit.png",
+      "freshSHA256": "15a52fe97edfd7c2761b19bfe19b15ff48e5a1eeea476b57b46d7090b52676f9",
+      "historicalSHA256": "25df3882476ee153591aba0d4c92975120b94bd51236544802cd0d83dc5695e2",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/brand-served.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/brand-served.json",
+      "freshSHA256": "9d9d10c6c6cee6779c454ff35ede1064bf8d533edf7c1c52054d6ef3f8fe032d",
+      "historicalSHA256": "d0d36890c4d1f875d3b1c566df10034570048b9540706f5d9f4f34f976c2660b",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/celebration-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/celebration-chromium.png",
+      "freshSHA256": "a769d01be53a588c10d4a4c32ca801cf6c34f3468ecc9a24e411cc18f1032f58",
+      "historicalSHA256": "a5b9090e07041f478a7377be5e14443135453593ba7fe7af3b1a4f23c7922f6f",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/celebration-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/celebration-webkit.png",
+      "freshSHA256": "b2432528e398130a7807bfefa7a61ef3a0619a4ac0b1fdb7dc2e6cc98466f7c1",
+      "historicalSHA256": "28f5b5a2b2e352a88a9895373ccf5b2a07f58e0b39710cf3ea37a92f26164067",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/contrast-audit.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/contrast-audit.json",
+      "freshSHA256": "da26d93f63849da72c0add04c9ac6cc4189fc7413cad965d061e39174cdac4c8",
+      "historicalSHA256": "da26d93f63849da72c0add04c9ac6cc4189fc7413cad965d061e39174cdac4c8",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/horizontal-audit-1280x900.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/horizontal-audit-1280x900.json",
+      "freshSHA256": "358b2cd10a3444379e3fb4e397f12c63fa163c530f796b8e2650e92701d56099",
+      "historicalSHA256": "af86ea4bdcc5bd411c6631fa44cb8a2616dcdf7ea62528d98ad5cff71fd5f3a3",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/horizontal-audit-375x640.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/horizontal-audit-375x640.json",
+      "freshSHA256": "59fa5d23bbea36bd4ace914534235528e26a8df928e8c1c8618beea5237fe2e1",
+      "historicalSHA256": "1bb9e49ad24262a35295db73adcf7cec5a61094af9395dbb39a997bfa9c45d9f",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/horizontal-audit-390x844.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/horizontal-audit-390x844.json",
+      "freshSHA256": "90d605f27f427aeefabe14b555a92cb937f413872a5898943c25719cebf73510",
+      "historicalSHA256": "90d605f27f427aeefabe14b555a92cb937f413872a5898943c25719cebf73510",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/live-controls-viewport.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/live-controls-viewport.json",
+      "freshSHA256": "9483b5260c26a43fb7af1954c7deb597bffb0241f73c6811e545787c54efbfa8",
+      "historicalSHA256": "1b945779ac4e83f4ebec0a40101108a0e607d95cfe9d8e729e99dd720c9373b0",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/month-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/month-chromium.png",
+      "freshSHA256": "32aa8e559f8bac473d7a34d4a45b4eeed08502ad22fee5c367c3d908fd70a7f9",
+      "historicalSHA256": "d2b3f926cbac06d32a9d1913c5a1d44583d936f4dc94f14088b93e4819f86e74",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/month-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/month-webkit.png",
+      "freshSHA256": "ee481393cbcd97b47d593692a4702d2dbe6358beab12229412f2eeca90eedfad",
+      "historicalSHA256": "d5c5539a20b625fec5da3379174894028c7e7e7e5ec52d9fd567af1254d3673c",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/nontext-contrast.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/nontext-contrast.json",
+      "freshSHA256": "3dc72db484b170bec539ee6fc3ad5925904b909a19be1ad9d79f3f25f7459246",
+      "historicalSHA256": "3dc72db484b170bec539ee6fc3ad5925904b909a19be1ad9d79f3f25f7459246",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/offline-chromium.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/offline-chromium.png",
+      "freshSHA256": "527ea1981be70fdb8ccf00ec63a5e084899e5618f2f44de300c8cf8977d8d6cb",
+      "historicalSHA256": "4d7b1a3e6c55200e746c4a084eb0abc46c8f1143de70938e6a44a42ce04b2b9b",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/offline-webkit.png",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/offline-webkit.png",
+      "freshSHA256": "f741f6c910e3af7724eb4dbdd885bc2603ef3e6a6d6f424339e9f51105873367",
+      "historicalSHA256": "464a22408ecfe8c091a9c09b8374d6a798c85441a9b135e4430eaaa37bf6dc60",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/tap-latency-chromium.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/tap-latency-chromium.json",
+      "freshSHA256": "90b0cf78ff9b4e6c9e71ecd7824ebbf669063dfa7971941ebdf4bb214fdba01f",
+      "historicalSHA256": "ec540fef75a568af02ce0539caaf6afef0f977b0b9b80f4abdcc193eb397b1fe",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/tap-latency-webkit.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/tap-latency-webkit.json",
+      "freshSHA256": "0180f8e47600f9a46210a37757d6fbeb8e53367adf30af09a3cde6355ddd2568",
+      "historicalSHA256": "4e0a9bc4c068da0220443796f2c67fba41d356c73ee7103fc98bab0ab071b35e",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/transient-check-chromium.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/transient-check-chromium.json",
+      "freshSHA256": "1e01e0dab3dfbd34d2fcab6a13dcec5d730aa7e2e75732b481ef8d2dc62f51d8",
+      "historicalSHA256": "1e01e0dab3dfbd34d2fcab6a13dcec5d730aa7e2e75732b481ef8d2dc62f51d8",
+      "restored": true
+    },
+    {
+      "path": "evidence/my-wellness/transient-check-webkit.json",
+      "freshOutput": "evidence/tiannas-place/review-polish/regressions/transient-check-webkit.json",
+      "freshSHA256": "1e01e0dab3dfbd34d2fcab6a13dcec5d730aa7e2e75732b481ef8d2dc62f51d8",
+      "historicalSHA256": "1e01e0dab3dfbd34d2fcab6a13dcec5d730aa7e2e75732b481ef8d2dc62f51d8",
+      "restored": true
+    }
+  ]
+}

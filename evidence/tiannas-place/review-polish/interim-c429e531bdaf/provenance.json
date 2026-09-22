@@ -1,0 +1,12 @@
+{
+  "baseCommit": "0d67f28",
+  "workerVersion": "c429e531bdaf",
+  "result": "Initial focused run: 36 passed, 2 failed on clipped hero text at 200%; corrected before final proof",
+  "sourceSHA256": {
+    "app/globals.css": "9b40804b606f8739b9d7d9503ef92591edf6d448f1d7fb663143e03def2a6b3b",
+    "components/App.tsx": "fd412fbbadb0b6937a7e32e5f05876af831cad66e39089826f3dffc9ca720a80",
+    "components/Scenes.tsx": "e647ad1862f9475e8e4499dd3bfc530b7f022ce051eabb643857521899929271",
+    "components/shared.tsx": "8f9061f197a2e9eba69d5173811391efbdd4616397411cc67156d80113315e60",
+    "public/sw.js": "b7f5d092b39c61dce7a31ed765c3c6947f3be239e5f3ee2a8308f8094814ee23"
+  }
+}

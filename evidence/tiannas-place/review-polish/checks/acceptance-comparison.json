@@ -1,0 +1,18 @@
+[
+  {
+    "engine": "chromium",
+    "journeys": 29,
+    "recordsMatchOriginalBeforeAndPriorAfter": true,
+    "routeConfigurations": 42,
+    "layoutProblems": 0,
+    "reducedMotionActiveAnimations": 0
+  },
+  {
+    "engine": "webkit",
+    "journeys": 29,
+    "recordsMatchOriginalBeforeAndPriorAfter": true,
+    "routeConfigurations": 42,
+    "layoutProblems": 0,
+    "reducedMotionActiveAnimations": 0
+  }
+]

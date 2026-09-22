@@ -33,3 +33,5 @@ Each independent flow starts where its label says. Counts are button/checkbox ac
 | Treats: create and redeem from home | 5 | 5 | 2 / 2 |
 | Treats: undo redemption | 1 | 1 | 0 / 0 |
 | History: open month from home | 2 | 2 | 0 / 0 |
+
+The review-polish rerun at source `7a13b76` preserves all 29 journey records in both engines, including taps, fields and steps. [Current comparison](review-polish/checks/acceptance-comparison.json). The intentionally removed chevrons do not merge the controls: the row body opens details and its independent checkbox/action logs or completes.

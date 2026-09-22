@@ -1,5 +1,7 @@
 # Cleanup follow-up · t_051720cf
 
+Historical report for source `2701886` and worker `16716bb1cb83`. These receipts are preserved as executed. Later cleanup source `0d67f28` was independently reviewed; the subsequent [F1–F6 fixes and current proof](../review-polish/PROOF.md) supersede this document’s then-current handoff status.
+
 **Coordinator gate: FAILED, awaiting its bounded rerun.** The supervisor reported green pre/post install, unit, lint, build, type and scan checks, but a failed clean-worktree gate because the postcheck build refreshed tracked `public/sw.js`. The baseline build also refreshed generated artifacts. The helper's completed report was not a passed gate. This follow-up corrects the generated output and verifies the retained cleanup; it does not claim a coordinator pass or independent review. [Supervisor handoff record](handoff-input.json).
 
 ## Retained changes and generated output

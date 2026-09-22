@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "mode": "320",
+      "name": "Open walk",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "320",
+      "name": "Open water",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "320",
+      "name": "Open food",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "390",
+      "name": "Open walk",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "390",
+      "name": "Open water",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "390",
+      "name": "Open food",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": false
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "200-percent",
+      "name": "Open walk",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": true
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "200-percent",
+      "name": "Open water",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": true
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    },
+    {
+      "mode": "200-percent",
+      "name": "Open food",
+      "pressed": {
+        "active": true,
+        "background": "rgb(251, 247, 242)",
+        "radius": 24,
+        "rowRadius": 24,
+        "squareHit": false,
+        "wraps": true
+      },
+      "focus": {
+        "visible": true,
+        "outline": "solid",
+        "width": 3,
+        "offset": -4
+      }
+    }
+  ],
+  "negativeControlSquareHit": true,
+  "physicalDevice": false
+}

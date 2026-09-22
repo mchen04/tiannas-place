@@ -1,0 +1,12 @@
+{
+  "baseCommit": "0d67f28",
+  "workerVersion": "dad655dd0db6",
+  "result": "Interim browser run stopped after horizontal/200% hero overflow failures; capture failed. Grid intrinsic width corrected before final proof.",
+  "sourceSHA256": {
+    "app/globals.css": "1456942e73d7c5511e428dda68bf458ef59deccfa6def79b6fed526d310fee4d",
+    "components/App.tsx": "fd412fbbadb0b6937a7e32e5f05876af831cad66e39089826f3dffc9ca720a80",
+    "components/Scenes.tsx": "e647ad1862f9475e8e4499dd3bfc530b7f022ce051eabb643857521899929271",
+    "components/shared.tsx": "8f9061f197a2e9eba69d5173811391efbdd4616397411cc67156d80113315e60",
+    "public/sw.js": "f2d8636ce717b4f706f679008a384e4c1ba0130f8e4e0c6dfa583836132942f0"
+  }
+}

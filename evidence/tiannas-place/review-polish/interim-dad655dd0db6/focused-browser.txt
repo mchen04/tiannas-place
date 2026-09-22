@@ -1,0 +1,265 @@
+
+Running 44 tests using 1 worker
+
+(node:59254) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [chromium] › tests/e2e/app.spec.ts:9:1 › gate rejects wrong passphrase and protects every write path (112ms)
+  ✓   2 [chromium] › tests/e2e/app.spec.ts:10:1 › onboarding in pounds and feet-inches, all seven one-tap habits from the dashboard, celebration, correction and calendar (6.0s)
+  ✓   3 [chromium] › tests/e2e/app.spec.ts:35:1 › offline optimistic writes, reconnect deduplication and manual fallback when the estimate fails (1.9s)
+  ✓   4 [chromium] › tests/e2e/daily-logs.spec.ts:4:1 › multiple walks keep earlier times after reload and allow another timer (663ms)
+  ✓   5 [chromium] › tests/e2e/daily-logs.spec.ts:22:1 › meal descriptions and item details survive creation, individual editing and reload (877ms)
+  ✓   6 [chromium] › tests/e2e/daily-logs.spec.ts:46:1 › completion has a stable checked control in both directions after reload (336ms)
+  ✓   7 [chromium] › tests/e2e/gamify.spec.ts:7:1 › a tap changes state in under 100 ms and shifts no layout, with every habit animated distinctly (224ms)
+  ✓   8 [chromium] › tests/e2e/gamify.spec.ts:22:1 › walking moves the marker along the hero path and eating animates the bowl (2.4s)
+  ✓   9 [chromium] › tests/e2e/gamify.spec.ts:29:1 › reduced motion disables every animation and transition on every page (1.1s)
+  ✘  10 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 390x844; vertical scroll only inside the page (10.7s)
+(node:59486) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  11 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 375x640; vertical scroll only inside the page (17.4s)
+(node:59619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 1280x900; vertical scroll only inside the page (43.7s)
+  ✘  13 [chromium] › tests/e2e/tianna-accessibility.spec.ts:5:1 › Tianna small screens, enlarged text, targets and reduced motion (15.3s)
+(node:60211) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 [chromium] › tests/e2e/tianna-accessibility.spec.ts:50:1 › Tianna keyboard, sheets, short viewport and safe area padding (2.1s)
+  ✓  15 [chromium] › tests/e2e/tianna-accessibility.spec.ts:75:1 › Tianna sheets reflow with enlarged text (2.7s)
+  ✓  16 [chromium] › tests/e2e/tianna-flows.spec.ts:9:1 › Tianna acceptance journeys and measured taps (17.3s)
+  ✓  17 [chromium] › tests/e2e/tianna-polish.spec.ts:27:1 › Tianna hills keep the whole cloud and cat stages fill without cropping at each phone width (4.5s)
+  ✓  18 [chromium] › tests/e2e/tianna-polish.spec.ts:61:1 › Tianna pressed row corners stay rounded and keyboard focus remains visible when rows wrap (7.2s)
+  ✓  19 [chromium] › tests/e2e/tianna-polish.spec.ts:91:1 › Tianna visible greeting follows time and completion while the brand and date remain (2.1s)
+  ✓  20 [chromium] › tests/e2e/v3.spec.ts:7:1 › water goes down by one tap with no dialog, and never below zero (523ms)
+  ✓  21 [chromium] › tests/e2e/v3.spec.ts:15:1 › nothing transient appears and nothing shifts on a habit tap, a pour, a meal or a removal (4.1s)
+  ✓  22 [chromium] › tests/e2e/v3.spec.ts:30:1 › the served manifest, icons and splash carry the Tianna’s Place name and the brand art (183ms)
+(node:60344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 [webkit] › tests/e2e/app.spec.ts:9:1 › gate rejects wrong passphrase and protects every write path (52ms)
+  ✓  24 [webkit] › tests/e2e/app.spec.ts:10:1 › onboarding in pounds and feet-inches, all seven one-tap habits from the dashboard, celebration, correction and calendar (1.4s)
+  ✓  25 [webkit] › tests/e2e/app.spec.ts:35:1 › offline optimistic writes, reconnect deduplication and manual fallback when the estimate fails (975ms)
+  ✓  26 [webkit] › tests/e2e/daily-logs.spec.ts:4:1 › multiple walks keep earlier times after reload and allow another timer (475ms)
+  ✓  27 [webkit] › tests/e2e/daily-logs.spec.ts:22:1 › meal descriptions and item details survive creation, individual editing and reload (562ms)
+  ✓  28 [webkit] › tests/e2e/daily-logs.spec.ts:46:1 › completion has a stable checked control in both directions after reload (352ms)
+  ✓  29 [webkit] › tests/e2e/gamify.spec.ts:7:1 › a tap changes state in under 100 ms and shifts no layout, with every habit animated distinctly (333ms)
+  ✘  30 [webkit] › tests/e2e/gamify.spec.ts:22:1 › walking moves the marker along the hero path and eating animates the bowl (1.2s)
+
+
+  1) [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 390x844; vertical scroll only inside the page
+
+    Error: home
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 9
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "className": "hero   ",
+    +     "clientWidth": 358,
+    +     "overflowX": "hidden",
+    +     "scrollWidth": 360,
+    +     "tag": "button",
+    +   },
+    + ]
+
+      20 |  await page.evaluate(()=>{location.hash='';});await page.getByRole('button',{name:'Log a meal'}).click();await page.getByLabel('What did you eat?').waitFor();reports.push(await audit(page,'meal sheet'));
+      21 |  await writeFile(`evidence/my-wellness/horizontal-audit-${w}x${h}.json`,JSON.stringify(reports,null,2));
+    > 22 |  for(const report of reports){expect(report.documentScrollWidth,report.screen).toBe(w);expect(report.offenders,report.screen).toEqual([]);expect(report.dragDeltaX,report.screen).toBe(0);}
+         |                                                                                                                               ^
+      23 |  expect(await page.evaluate(()=>document.documentElement.scrollHeight)).toBe(h);
+      24 | });
+      25 |
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/horizontal.spec.ts:22:127
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-8.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #8: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/test-failed-7.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/horizontal-no-horizontal-s-8c3ab-scroll-only-inside-the-page-chromium/error-context.md
+
+  2) [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 375x640; vertical scroll only inside the page
+
+    Error: home
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 9
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "className": "hero   ",
+    +     "clientWidth": 343,
+    +     "overflowX": "hidden",
+    +     "scrollWidth": 360,
+    +     "tag": "button",
+    +   },
+    + ]
+
+      20 |  await page.evaluate(()=>{location.hash='';});await page.getByRole('button',{name:'Log a meal'}).click();await page.getByLabel('What did you eat?').waitFor();reports.push(await audit(page,'meal sheet'));
+      21 |  await writeFile(`evidence/my-wellness/horizontal-audit-${w}x${h}.json`,JSON.stringify(reports,null,2));
+    > 22 |  for(const report of reports){expect(report.documentScrollWidth,report.screen).toBe(w);expect(report.offenders,report.screen).toEqual([]);expect(report.dragDeltaX,report.screen).toBe(0);}
+         |                                                                                                                               ^
+      23 |  expect(await page.evaluate(()=>document.documentElement.scrollHeight)).toBe(h);
+      24 | });
+      25 |
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/horizontal.spec.ts:22:127
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/horizontal-no-horizontal-s-2e2dc-scroll-only-inside-the-page-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/horizontal-no-horizontal-s-2e2dc-scroll-only-inside-the-page-chromium/error-context.md
+
+  3) [chromium] › tests/e2e/tianna-accessibility.spec.ts:5:1 › Tianna small screens, enlarged text, targets and reduced motion
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 43
+
+    - Array []
+    + Array [
+    +   Object {
+    +     "documentWidth": 320,
+    +     "mode": "320",
+    +     "pageHeight": 1381,
+    +     "problems": Array [
+    +       "horizontal overflow: BUTTON.hero   ",
+    +       "outside viewport: SPAN.hero-overlay",
+    +       "outside viewport: SPAN.hero-top",
+    +       "outside viewport: SPAN.hero-tag",
+    +     ],
+    +     "route": "home",
+    +     "timerFont": null,
+    +     "viewportHeight": 481,
+    +   },
+    +   Object {
+    +     "documentWidth": 375,
+    +     "mode": "375",
+    +     "pageHeight": 1362,
+    +     "problems": Array [
+    +       "horizontal overflow: BUTTON.hero   ",
+    +     ],
+    +     "route": "home",
+    +     "timerFont": null,
+    +     "viewportHeight": 575,
+    +   },
+    +   Object {
+    +     "documentWidth": 320,
+    +     "mode": "200-percent",
+    +     "pageHeight": 2986,
+    +     "problems": Array [
+    +       "horizontal overflow: BUTTON.hero   ",
+    +       "outside viewport: SPAN.hero-overlay",
+    +       "outside viewport: SPAN.hero-top",
+    +       "outside viewport: SPAN.hero-copy",
+    +       "outside viewport: STRONG.",
+    +       "outside viewport: SPAN.",
+    +     ],
+    +     "route": "home",
+    +     "timerFont": null,
+    +     "viewportHeight": 281,
+    +   },
+    + ]
+
+      45 |  expect(animated).toBe(0);
+      46 |  for(const r of results.filter(r=>r.timerFont!==null))expect(r.timerFont).toBe(r.mode==='200-percent'?64:32);
+    > 47 |  expect(results.filter(r=>r.problems.length)).toEqual([]);
+         |                                               ^
+      48 | });
+      49 |
+      50 | test('Tianna keyboard, sheets, short viewport and safe area padding',async({page},info)=>{
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/tianna-accessibility.spec.ts:47:47
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/tianna-accessibility-Tiann-8f81e--targets-and-reduced-motion-chromium/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/tianna-accessibility-Tiann-8f81e--targets-and-reduced-motion-chromium/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results/tianna-accessibility-Tiann-8f81e--targets-and-reduced-motion-chromium/error-context.md
+
+  4) [webkit] › tests/e2e/gamify.spec.ts:22:1 › walking moves the marker along the hero path and eating animates the bowl
+
+    Test was interrupted.
+
+    Error: page.waitForTimeout: Test ended.
+
+      22 | test('walking moves the marker along the hero path and eating animates the bowl',async({page})=>{
+      23 |  await open(page,seed());
+    > 24 |  const start=await page.locator('.hero .walker').boundingBox();await page.getByRole('checkbox',{name:'Walk complete'}).click();await page.waitForTimeout(1900);const end=await page.locator('.hero .walker').boundingBox();expect(end!.x-start!.x).toBeGreaterThan(20);
+         |                                                                                                                                           ^
+      25 |  await page.route('**/api/estimate',r=>r.fulfill({json:{items:[{name:'banana, raw',grams:120,calories:107,protein:1.3,source:'usda',match:'Bananas, raw',fdcId:173944}],calories:107,protein:1.3,model:'test'}}));
+      26 |  await page.getByRole('button',{name:'Log a meal'}).click();await page.getByLabel('What did you eat?').fill('a banana');await page.getByRole('button',{name:'Look it up'}).click();await page.getByRole('button',{name:'Add to today'}).click();
+      27 |  await expect(page.locator('.row.food')).toHaveClass(/eating/);await expect(page.locator('.row.food .bowl')).toHaveClass(/is-eating/);await expect(page.getByText('107 kcal · 1/105 g')).toBeVisible();
+        at /Users/michaelchen/.hermes/kanban/workspaces/t_051720cf/tiannas-place/tests/e2e/gamify.spec.ts:24:139
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-3.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-4.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #4: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-7.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #5: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-5.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #6: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-2.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #7: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results/gamify-walking-moves-the-m-e4402-nd-eating-animates-the-bowl-webkit/test-failed-6.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 390x844; vertical scroll only inside the page
+    [chromium] › tests/e2e/horizontal.spec.ts:15:53 › no horizontal scroll, drag or overflow on any page at 375x640; vertical scroll only inside the page
+    [chromium] › tests/e2e/tianna-accessibility.spec.ts:5:1 › Tianna small screens, enlarged text, targets and reduced motion
+  1 interrupted
+    [webkit] › tests/e2e/gamify.spec.ts:22:1 › walking moves the marker along the hero path and eating animates the bowl
+  14 did not run
+  26 passed (2.5m)

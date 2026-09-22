@@ -1,12 +1,12 @@
 # Cleanup gate
 
 Run ID: a16f0080a2624c8687f2c9b5c6d301d5
-Status: complete
+Status: historical helper pass complete; F1–F6 follow-up awaiting bounded cleanup and reviewer verification
 Scope: the diff against 58e8e082d01a0b7e555a5b58bce98ab6fbefd0af. No unrelated code touched.
 
 ## Passes
 
-One pass of one planned, completed: deslop, simplification, conservative test pruning and stale-doc repair. It found nothing left to change and made no code edit. This report supersedes the previous run-bound report, not the earlier cleanup commits, which stay in place.
+One pass of one planned, completed: deslop, simplification, conservative test pruning and stale-doc repair. The helper reported finding nothing left to change and made no code edit. The subsequent independent review found the specific inert rules and stale comment listed below; its findings supersede that completeness claim. This report supersedes the previous run-bound report, not the earlier cleanup commits, which stay in place.
 
 Inspected: the source diff (25 files, evidence excluded); every comment added or changed in `components/`, `lib/` and `scripts/`; added lines across `components/`, `app/`, `lib/`, `scripts/` and `tests/` for silencing casts, disabled lint rules, empty catches and leftover markers; the two new e2e specs; every CSS class in `app/globals.css` against the components that render it.
 
@@ -20,7 +20,7 @@ Not needed. The coordinator checked ancestry before this pass.
 
 ## Removed
 
-Nothing in this pass. The branch's dead markup, duplicate declarations, stale comments and orphaned CSS were already removed in `cead42f` and `775d28c`; re-reading the current tree found no further dead code inside the diff.
+Nothing in this pass. The branch's dead markup, duplicate declarations, stale comments and orphaned CSS were already removed in `cead42f` and `775d28c`; the helper reported no further dead code inside the diff, a claim corrected by the later F4 review.
 
 `.spark.s1`–`.s4` and `.star.st1`–`.st3` read as unreferenced under a literal search but are live and kept: `components/Scenes.tsx:158,164` build those class names with template literals.
 
@@ -45,7 +45,7 @@ Coordinator prechecks ran synchronously before this pass; receipts in `cleanup-e
 
 Typecheck, build and scan are not in this run's bounded plan, so this report makes no claim about them, and nothing here claims the wider repository green. Known historical diagnostics stay open and were not treated as permission to edit unrelated code.
 
-Postchecks have not run. The coordinator runs them after this pass exits. This pass started no check job of its own.
+At the time of this historical helper report, postchecks had not run. This helper pass started no check job of its own. The implementer does not infer a coordinator result from this report; the F1–F6 follow-up requires its own bounded verification.
 
 ## Commits
 
@@ -57,3 +57,21 @@ Postchecks have not run. The coordinator runs them after this pass exits. This p
 ## Reverted
 
 none
+
+## Independent review follow-up · F1–F6
+
+The reviewer approved source `0d67f28` with six polish/documentation findings. Its report and original full-suite receipts apply to that source, not to the later fixes. The [preserved review](evidence/tiannas-place/review-polish/independent-review-before-polish.md) and [new proof](evidence/tiannas-place/review-polish/PROOF.md) distinguish the versions. This implementer does not run the next cleanup helper or reviewer; those follow after handoff.
+
+The follow-up restores sufficient responsive hills height without changing Hills or the walking animation; fits the three cats proportionally; restores the visible greeting below the brand; rounds pressed row backgrounds while keeping inset keyboard focus; and removes the orphaned third `zzz` selector, overridden dial dimensions/short-viewport override and unused `Dial.small` option. The Mat comment now says that its completion is conveyed by stage copy/tag; its stretch animation only runs while active.
+
+The token catalogue is intentionally retained rather than broadly pruned. Some size tokens currently have no CSS consumer (`liftRise`, `thumb`, `heroMax`, `tileArt`, `dial`, `ctaMin`); removing catalogue entries was outside this targeted pass. `scene` is used again by the corrected hills layout. The baseline-only `.setup-scene` selector remains outside scope. This is a specific cleanup, not a claim that every unused token or baseline selector was removed.
+
+The row chevrons remain intentionally removed to preserve label/action space, especially with enlarged text. The row body opens the activity; its separate checkbox or labeled action logs/completes directly. Both targets retain distinct accessible names and focus states. The former screen-reader-only greeting now has visible text beneath the Tianna’s Place heading, without duplicating it in the heading's accessible name.
+
+## Command side effects and historical scan evidence
+
+`npm run scan` writes **tracked historical files** `evidence/v3/token-scan.json` and `evidence/v3/mascot-scan.json`. They intentionally retain their original snapshots. A current scan adds `lib/meal.ts` and scans 136 artwork files instead of the historical 108; those expected changes are not application regressions. Store fresh output under the current card evidence directory, then restore just those two historical files byte-for-byte. The scanner itself is unchanged; this task does not introduce a scanner refactor.
+
+`npm run build` regenerates `app/tokens.css`, `public/sw.js`, ignored client assets/manifest and `.next`. A source change may legitimately update the tracked worker version, so build before committing and bind browser evidence to the completed build. Stop the served app before replacing its build, then restart it. Do not build concurrently with browser verification. A matching build should reproduce its worker; it is still a generating command rather than a non-mutating check.
+
+`npm run check` chains scan and build and therefore inherits both side effects. It is **not** a clean-worktree gate. Existing Playwright/capture/DB/offline/secret scripts also write evidence: retain fresh receipts under the card and restore historical snapshots without reverting application code. Suggested bounded non-mutating checks include lint, unit tests, `npx tsc --noEmit --incremental false`, budget/chunk checks against the already built matching source, and `git diff --check`. These are guidance for the coordinator, not a claim that the next gate ran or passed.

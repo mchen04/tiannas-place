@@ -8,7 +8,7 @@ Card t_051720cf runs on mbp-old. The local app is at http://localhost:3075 with 
 The homepage keeps its cream, apricot and sage palette, its walking animation, and every logging flow. Larger relative text and touch controls, shorter activity scenes, consistent spacing, keyboard focus, and original cat artwork make daily use easier on small screens. [Design and sources](evidence/tiannas-place/DESIGN.md) · [Proof report](evidence/tiannas-place/PROOF.md).
 
 The GitHub repository is now [mchen04/tiannas-place](https://github.com/mchen04/tiannas-place), retaining repository ID 1362066274, history, visibility and access. Old repository links redirect, and this checkout’s remote uses the new name. The hosting project, domain, and origin remain unchanged. [Rename verification](evidence/tiannas-place/RENAME.md).
-The supervisor confirmed Vercel’s stable numeric binding after rename; its `link.repo` display string remains `flacid-75`. Future deploy-trigger behavior is untested. The cleanup helper’s report did not pass the coordinator gate; see the [generated-worker correction and focused follow-up](evidence/tiannas-place/post-cleanup/PROOF.md) before the bounded cleanup rerun and independent review.
+The supervisor confirmed Vercel’s stable numeric binding after rename; its `link.repo` display string remains `flacid-75`. Future deploy-trigger behavior is untested. The [review follow-up](evidence/tiannas-place/review-polish/PROOF.md) records six polish fixes, source-specific receipts and the pending bounded cleanup/final reviewer verification. Earlier generated-worker and gate records remain historical evidence.
 The passphrase stays in the owner's private installation note, outside this repository.
 
 ## Version 4 · My Wellness

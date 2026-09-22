@@ -1,0 +1,804 @@
+{
+  "results": [
+    {
+      "mode": "320",
+      "route": "home",
+      "width": 288,
+      "height": 220,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 220,
+        "scrollHeight": 220
+      },
+      "cloud": {
+        "top": 51.600006103515625,
+        "bottom": 149.36000061035156,
+        "left": 150,
+        "right": 102.63999938964844
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -100,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "320",
+      "route": "walk",
+      "width": 288,
+      "height": 220,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 298,
+        "scrollHeight": 298
+      },
+      "cloud": {
+        "top": 51.600006103515625,
+        "bottom": 149.36000061035156,
+        "left": 150,
+        "right": 102.63999938964844
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -100,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "320",
+      "route": "workout",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 206,
+        "scrollHeight": 206
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "320",
+      "route": "abs",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 206,
+        "scrollHeight": 206
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "320",
+      "route": "rest",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 260,
+        "scrollHeight": 260
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "375",
+      "route": "home",
+      "width": 343,
+      "height": 220,
+      "container": {
+        "width": 343,
+        "scrollWidth": 343,
+        "height": 220,
+        "scrollHeight": 220
+      },
+      "cloud": {
+        "top": 19.440277099609375,
+        "bottom": 177.88360595703125,
+        "left": 178.6458282470703,
+        "right": 122.24139404296875
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -161.11111068725586,
+        "bottom": -0.000003814697265625
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "375",
+      "route": "walk",
+      "width": 343,
+      "height": 220,
+      "container": {
+        "width": 343,
+        "scrollWidth": 343,
+        "height": 298,
+        "scrollHeight": 298
+      },
+      "cloud": {
+        "top": 19.440277099609375,
+        "bottom": 177.88361358642578,
+        "left": 178.6458282470703,
+        "right": 122.24139404296875
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -161.11111450195312,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "375",
+      "route": "workout",
+      "width": 343,
+      "height": 152.4375,
+      "container": {
+        "width": 343,
+        "scrollWidth": 343,
+        "height": 230,
+        "scrollHeight": 230
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.0078125,
+        "right": 0.0078125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "375",
+      "route": "abs",
+      "width": 343,
+      "height": 152.4375,
+      "container": {
+        "width": 343,
+        "scrollWidth": 343,
+        "height": 230,
+        "scrollHeight": 230
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.0078125,
+        "right": 0.0078125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "375",
+      "route": "rest",
+      "width": 343,
+      "height": 152.4375,
+      "container": {
+        "width": 343,
+        "scrollWidth": 343,
+        "height": 230,
+        "scrollHeight": 230
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.0078125,
+        "right": 0.0078125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "390",
+      "route": "home",
+      "width": 358,
+      "height": 220,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 220,
+        "scrollHeight": 220
+      },
+      "cloud": {
+        "top": 10.669441223144531,
+        "bottom": 185.66278076171875,
+        "left": 186.4583282470703,
+        "right": 127.58721923828125
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -177.77777862548828,
+        "bottom": 0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "390",
+      "route": "walk",
+      "width": 358,
+      "height": 220,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 298,
+        "scrollHeight": 298
+      },
+      "cloud": {
+        "top": 10.669441223144531,
+        "bottom": 185.66278076171875,
+        "left": 186.4583282470703,
+        "right": 127.58721923828125
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -177.77777862548828,
+        "bottom": 0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "390",
+      "route": "workout",
+      "width": 358,
+      "height": 159.109375,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 237,
+        "scrollHeight": 237
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.001953125,
+        "right": 0.001953125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "390",
+      "route": "abs",
+      "width": 358,
+      "height": 159.109375,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 237,
+        "scrollHeight": 237
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.001953125,
+        "right": 0.001953125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "390",
+      "route": "rest",
+      "width": 358,
+      "height": 159.109375,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 237,
+        "scrollHeight": 237
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.001953125,
+        "right": 0.001953125,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "430",
+      "route": "home",
+      "width": 398,
+      "height": 243.21875,
+      "container": {
+        "width": 398,
+        "scrollWidth": 398,
+        "height": 243,
+        "scrollHeight": 243
+      },
+      "cloud": {
+        "top": 10.499305725097656,
+        "bottom": 206.4072265625,
+        "left": 207.2916717529297,
+        "right": 141.8427734375
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -199.00347137451172,
+        "bottom": -0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "430",
+      "route": "walk",
+      "width": 398,
+      "height": 243.21875,
+      "container": {
+        "width": 398,
+        "scrollWidth": 398,
+        "height": 321,
+        "scrollHeight": 321
+      },
+      "cloud": {
+        "top": 10.499305725097656,
+        "bottom": 206.40721893310547,
+        "left": 207.2916717529297,
+        "right": 141.8427734375
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -199.00347137451172,
+        "bottom": -0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "430",
+      "route": "workout",
+      "width": 398,
+      "height": 176.875,
+      "container": {
+        "width": 398,
+        "scrollWidth": 398,
+        "height": 255,
+        "scrollHeight": 255
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.015625,
+        "right": 0.015625,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "430",
+      "route": "abs",
+      "width": 398,
+      "height": 176.875,
+      "container": {
+        "width": 398,
+        "scrollWidth": 398,
+        "height": 255,
+        "scrollHeight": 255
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.015625,
+        "right": 0.015625,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "430",
+      "route": "rest",
+      "width": 398,
+      "height": 176.875,
+      "container": {
+        "width": 398,
+        "scrollWidth": 398,
+        "height": 255,
+        "scrollHeight": 255
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.015625,
+        "right": 0.015625,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "desktop",
+      "route": "home",
+      "width": 408,
+      "height": 249.328125,
+      "container": {
+        "width": 408,
+        "scrollWidth": 408,
+        "height": 249,
+        "scrollHeight": 249
+      },
+      "cloud": {
+        "top": 10.761459350585938,
+        "bottom": 211.5933380126953,
+        "left": 212.5,
+        "right": 145.40667724609375
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -204.00521087646484,
+        "bottom": -0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "desktop",
+      "route": "walk",
+      "width": 408,
+      "height": 249.328125,
+      "container": {
+        "width": 408,
+        "scrollWidth": 408,
+        "height": 327,
+        "scrollHeight": 327
+      },
+      "cloud": {
+        "top": 10.761459350585938,
+        "bottom": 211.5933380126953,
+        "left": 212.5,
+        "right": 145.40667724609375
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -204.00521087646484,
+        "bottom": -0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "desktop",
+      "route": "workout",
+      "width": 408,
+      "height": 181.328125,
+      "container": {
+        "width": 408,
+        "scrollWidth": 408,
+        "height": 259,
+        "scrollHeight": 259
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.005859375,
+        "right": 0.005859375,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "desktop",
+      "route": "abs",
+      "width": 408,
+      "height": 181.328125,
+      "container": {
+        "width": 408,
+        "scrollWidth": 408,
+        "height": 259,
+        "scrollHeight": 259
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.005859375,
+        "right": 0.005859375,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "desktop",
+      "route": "rest",
+      "width": 408,
+      "height": 181.328125,
+      "container": {
+        "width": 408,
+        "scrollWidth": 408,
+        "height": 259,
+        "scrollHeight": 259
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0.005859375,
+        "right": 0.005859375,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "200-percent",
+      "route": "home",
+      "width": 288,
+      "height": 292,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 292,
+        "scrollHeight": 292
+      },
+      "cloud": {
+        "top": 123.60000610351562,
+        "bottom": 149.3599853515625,
+        "left": 150,
+        "right": 102.63999938964844
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -28,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "200-percent",
+      "route": "walk",
+      "width": 288,
+      "height": 220,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 418,
+        "scrollHeight": 418
+      },
+      "cloud": {
+        "top": 51.600006103515625,
+        "bottom": 149.3599853515625,
+        "left": 150,
+        "right": 102.63999938964844
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -100,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    {
+      "mode": "200-percent",
+      "route": "workout",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 368,
+        "scrollHeight": 368
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "200-percent",
+      "route": "abs",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 260,
+        "scrollHeight": 260
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    },
+    {
+      "mode": "200-percent",
+      "route": "rest",
+      "width": 288,
+      "height": 128,
+      "container": {
+        "width": 288,
+        "scrollWidth": 288,
+        "height": 476,
+        "scrollHeight": 476
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    }
+  ],
+  "negativeControls": {
+    "clipped": {
+      "width": 358,
+      "height": 200,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 278,
+        "scrollHeight": 278
+      },
+      "cloud": {
+        "top": -9.330558776855469,
+        "bottom": 185.66278076171875,
+        "left": 186.4583282470703,
+        "right": 127.58721923828125
+      },
+      "gutters": {
+        "left": 0,
+        "right": 0,
+        "top": -197.77777862548828,
+        "bottom": 0.00000762939453125
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 400
+      }
+    },
+    "letterboxed": {
+      "width": 358,
+      "height": 150,
+      "container": {
+        "width": 358,
+        "scrollWidth": 358,
+        "height": 228,
+        "scrollHeight": 228
+      },
+      "cloud": null,
+      "gutters": {
+        "left": 10.25,
+        "right": 10.25,
+        "top": 0,
+        "bottom": 0
+      },
+      "viewBox": {
+        "width": 360,
+        "height": 160
+      }
+    }
+  },
+  "physicalDevice": false
+}
