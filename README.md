@@ -5,7 +5,7 @@ Open the [existing live app](https://flaccid75.vercel.app) in Safari. This revam
 
 Card t_051720cf runs on mbp-old. The local app is at http://localhost:3075 with an isolated synthetic PostgreSQL database. Start it with `npm run start -- --hostname 127.0.0.1 --port 3075` after `npm run build`. This card authorizes local commits only: no push, PR, merge, deployment, or production writes. Historical release permissions below do not apply to this card.
 
-The current changes retain the cream/apricot/sage homepage, the unchanged walking animation, and all logging flows. Larger relative text and touch controls, shorter activity scenes, consistent spacing, keyboard focus, and original cat artwork make daily use easier on small screens. [Design and sources](evidence/tiannas-place/DESIGN.md) · [Proof report](evidence/tiannas-place/PROOF.md).
+The homepage keeps its cream, apricot and sage palette, its walking animation, and every logging flow. Larger relative text and touch controls, shorter activity scenes, consistent spacing, keyboard focus, and original cat artwork make daily use easier on small screens. [Design and sources](evidence/tiannas-place/DESIGN.md) · [Proof report](evidence/tiannas-place/PROOF.md).
 
 The GitHub repository is now [mchen04/tiannas-place](https://github.com/mchen04/tiannas-place), retaining repository ID 1362066274, history, visibility and access. Old repository links redirect, and this checkout’s remote uses the new name. The hosting project, domain, and origin remain unchanged. [Rename verification](evidence/tiannas-place/RENAME.md).
 The passphrase stays in the owner's private installation note, outside this repository.

@@ -46,7 +46,7 @@ export function CompletionToggle({label, labelledBy, id, checked, onChange, disa
 // The row every dashboard card shares: art, name, one line of status, then two separate targets: open the page, or log in one tap.
 export function Row({mark, title, status, done, onOpen, action, actionLabel, onAction, pulse = '', tone = '', pressed}: {mark: Parameters<typeof Mark>[0]['name']; title: string; status: string; done?: boolean; onOpen: () => void; action?: ReactNode; actionLabel?: string; onAction?: () => void; pulse?: string; tone?: string; pressed?: boolean}) {
  return <div className={`row ${done ? 'is-done' : ''} ${pulse} ${tone}`}>
-  <button className="row-open" onClick={onOpen} aria-label={`Open ${title.toLowerCase()}`}><span className="row-art"><Mark name={mark}/><span className="row-check"><Icon name="check" size={12}/></span></span><span className="row-copy"><span className="row-title">{title}</span><span className="row-status">{status}</span></span><span className="row-chevron"><Icon name="arrow" size={18}/></span></button>
+  <button className="row-open" onClick={onOpen} aria-label={`Open ${title.toLowerCase()}`}><span className="row-art"><Mark name={mark}/><span className="row-check"><Icon name="check" size={12}/></span></span><span className="row-copy"><span className="row-title">{title}</span><span className="row-status">{status}</span></span></button>
   {action ?? (onAction && <CompletionToggle label={actionLabel ?? `${title} complete`} checked={!!pressed} onChange={onAction}/>)}
  </div>;
 }

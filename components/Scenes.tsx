@@ -100,7 +100,9 @@ export function Brand({size=512,padded=true}:{size?:number;padded?:boolean}){
  </svg>;
 }
 
-// Compact original SVG companions use the same palette as the hills. The walk art above is unchanged.
+// One scene per activity page, in the hills palette. Gym, Mat and NightRest are drawn on a 360×160 band that fills the
+// stage's full width; Tooth keeps the taller 360×640 canvas and is shown through the band y=200…640, fitted so nothing crops.
+// `active` runs the tap animation; `done` holds the finished pose after it ends.
 export function Gym({done=false,active=false}:{done?:boolean;active?:boolean}){
  return <svg className={`scene gym ${done?'is-done':''} ${active?'is-active':''}`} viewBox="0 0 360 160" aria-hidden="true">
   <rect width="360" height="160" fill={c.butterSoft}/>

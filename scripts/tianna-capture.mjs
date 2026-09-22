@@ -1,7 +1,7 @@
 // Captures every page at phone, small-phone and desktop sizes and measures the layout rules in the browser:
 // the page may scroll vertically inside `.page` when its content needs it, but nothing may scroll or overflow sideways,
 // and no content may be cut off by hidden overflow. A full-page capture of the scrolling page is saved next to the viewport capture.
-// Usage: [VIRTUAL_SERVER=1] node --import tsx scripts/ui-shots.mjs <outDir> [baseUrl]
+// Usage: [VIRTUAL_SERVER=1] node --import tsx scripts/tianna-capture.mjs <outDir> [baseUrl]
 import {chromium} from 'playwright';
 import {mkdir, writeFile} from 'node:fs/promises';
 import {emptyState, computeTargets, localDate, addDays, apply, weekStart} from '../lib/domain.ts';
