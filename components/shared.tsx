@@ -36,9 +36,9 @@ export function Sheet({title, onClose, children}: {title: string; onClose: () =>
  return <dialog ref={ref} className="sheet" aria-labelledby="sheet-title" onCancel={e => {e.preventDefault(); onClose();}} onClick={e => {if (e.target === e.currentTarget) onClose();}}><div className="sheet-inner"><div className="sheet-handle"/><header><h2 id="sheet-title">{title}</h2><button aria-label="Close" className="icon-button" onClick={onClose}><Icon name="close"/></button></header>{children}</div></dialog>;
 }
 // A progress ring for timers. Geometry is SVG user units; the stroke colours are tokens through CSS.
-export function Dial({share, children, small = false, tone = ''}: {share: number; children: ReactNode; small?: boolean; tone?: string}) {
+export function Dial({share, children, tone = ''}: {share: number; children: ReactNode; tone?: string}) {
  const r = 54; const c = 2 * Math.PI * r; const s = Math.max(0, Math.min(1, share));
- return <div className={`dial ${small ? 'is-small' : ''} ${tone}`}><svg viewBox="0 0 120 120" aria-hidden="true"><circle className="dial-track" cx="60" cy="60" r={r}/><circle className="dial-fill" cx="60" cy="60" r={r} strokeDasharray={c} strokeDashoffset={c * (1 - s)} transform="rotate(-90 60 60)"/></svg><div className="dial-copy">{children}</div></div>;
+ return <div className={`dial ${tone}`}><svg viewBox="0 0 120 120" aria-hidden="true"><circle className="dial-track" cx="60" cy="60" r={r}/><circle className="dial-fill" cx="60" cy="60" r={r} strokeDasharray={c} strokeDashoffset={c * (1 - s)} transform="rotate(-90 60 60)"/></svg><div className="dial-copy">{children}</div></div>;
 }
 export function CompletionToggle({label, labelledBy, id, checked, onChange, disabled = false}: {label: string; labelledBy?: string; id?: string; checked: boolean; onChange: () => void; disabled?: boolean}) {
  return <button type="button" id={id} role="checkbox" aria-checked={checked} aria-labelledby={labelledBy} aria-label={labelledBy ? undefined : label} disabled={disabled} className={`row-action completion-toggle ${checked ? 'is-done' : ''}`} onClick={onChange}><span className="completion-box" aria-hidden="true">{checked && <Icon name="check" size={16}/>}</span></button>;

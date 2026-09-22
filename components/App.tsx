@@ -53,7 +53,7 @@ export default function App() {
  return <AppContext.Provider value={ctx}><main className="app-shell">
   <header className="topbar">
    {page && <button className="icon-button home" aria-label="Home" onClick={() => navigate('')}><Icon name="home"/></button>}
-   <div className="topbar-copy"><h1 aria-label={!page && !selected ? `${title}. ${headline}` : undefined}>{title}</h1><p className="date">{page === 'progress' ? `Since ${new Intl.DateTimeFormat('en', {month: 'long', day: 'numeric', timeZone: 'UTC'}).format(new Date(profile.startDay + 'T12:00:00Z'))}` : page === 'rules' || page === 'you' || page === 'rewards' ? 'Tianna’s Place' : longDate(dayKey)}</p></div>
+   <div className="topbar-copy"><h1>{title}</h1><p className="date">{!page && !selected && <><span className="greeting">{headline}</span>{' '}</>}{page === 'progress' ? `Since ${new Intl.DateTimeFormat('en', {month: 'long', day: 'numeric', timeZone: 'UTC'}).format(new Date(profile.startDay + 'T12:00:00Z'))}` : page === 'rules' || page === 'you' || page === 'rewards' ? 'Tianna’s Place' : longDate(dayKey)}</p></div>
    <button className={`streak-badge ${page === 'progress' ? 'active' : ''}`} onClick={() => {navigate('progress'); setSelected(null);}} aria-label={`${streak.current} day streak. Open progress`} aria-current={page === 'progress' ? 'page' : undefined}><strong>{streak.current}</strong><span>day{streak.current === 1 ? '' : 's'}</span></button>
    <button className={`icon-button gear ${page === 'you' ? 'active' : ''}`} aria-label="Settings" aria-current={page === 'you' ? 'page' : undefined} onClick={() => {navigate('you'); setSelected(null);}}><Icon name="settings"/></button>
   </header>
